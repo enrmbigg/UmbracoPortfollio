@@ -39,10 +39,4 @@ Assets/uploaded*
 [Ww]eb.config
 [Dd]ashboard.config
 [Cc]onnectionStrings.config
-Static/App_Data/
-www/App_Data/
-MesmSite.Uniform/App_Data/
-MesmSite.Uniform/Media/
-MesmSite.Uniform/Models/
-MesmSite.Uniform/uSync.Archive/
-MesmSite.Uniform/uSync/
+
