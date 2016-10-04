@@ -1,0 +1,31 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IPublishedContent>
+@{
+    var homePage = Model.AncestorOrSelf(1);
+}
+@if (homePage != null && (homePage.Children.Any()))
+{
+    <url>
+        <loc>@homePage.UrlWithDomain()</loc>
+        <priority>1.000</priority>
+    </url>
+    @Traverse(homePage, false)
+}
+
+@helper Traverse(IPublishedContent parent, bool newList)
+{
+    var subPages = parent.Children
+        .Where(x => x.IsVisible() &&
+            !x.GetPropertyValue<bool>(DataNodePropertyAlias))
+        .OrderBy(x => x.SortOrder);
+    foreach (var page in subPages)
+    {
+    <url>
+        <loc>@page.UrlWithDomain()</loc>
+        <priority>0.5000</priority>
+    </url>
+    @Traverse(page, true);
+    }
+}
+@functions{
+    private const string DataNodePropertyAlias = "hideFromSitemap";
+}

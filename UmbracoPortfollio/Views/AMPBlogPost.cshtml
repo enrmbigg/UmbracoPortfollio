@@ -1,0 +1,278 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using System.Web
+@using ClientDependency.Core.Mvc
+@using Umbraco.Web;
+@using Umbraco.Core.Models;
+@using UmbracoPortfollio.App_Code;
+@{
+	Layout = null;
+    var body = Model.Content.GetPropertyValue("bodyContent");
+    var recentPosts = Model.Content.Parent.Children.Where(x => x.IsVisible() && x.IsNotEqual(Model.Content)).OrderByDescending(x => x.UpdateDate).Take(5);
+    var title = Model.Content.GetPropertyValue("pageTitle");
+    var date = Model.Content.UpdateDate;
+    var description = Model.Content.GetPropertyValue("pageIntro");
+    var markdown = Model.Content.GetPropertyValue("markdown");
+    var link = Model.Content.Url;
+    var home = Model.Content.AncestorOrSelf(1);
+    var contact = home.Children.FirstOrDefault(x => x.DocumentTypeAlias == "contact");
+    var blog = home.Children.FirstOrDefault(x => x.DocumentTypeAlias == "blogHome"); ;
+}
+<!DOCTYPE html>
+<html lang="en" amp>
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]> <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'> <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+    @Html.Partial("Icons")
+    @Html.Partial("SEO")
+    <script type="application/ld+json">
+        {
+        "@@context": "http://schema.org",
+        "@@type": "NewsArticle",
+        "mainEntityOfPage": "@link",
+        "headline": "@title",
+        "datePublished": "@Model.Content.CreateDate",
+        "dateModified": "@Model.Content.UpdateDate",
+        "description": "@description",
+        "author": {
+            "@@type": "Person",
+            "name": "Michael Biggs"
+            },
+        }
+    </script>
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">    
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <style amp-boilerplate>
+        body {
+    -webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+    <noscript>
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: none;
+            -moz-animation: none;
+            -ms-animation: none;
+            animation: none;
+        }
+    </style></noscript>
+    <style amp-custom>
+        h1, h2, h3{
+            font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-weight: 700;
+            font-size: 39px;
+            margin-top: 21px;
+            margin-bottom: 10.5px;
+            line-height: 1.1;
+            color: inherit;
+        }
+        body{
+            background: #EEE6D9;
+            font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+      
+        .related {
+            background-color: #f5f5f5;
+            margin: 16px 16px;
+            display: block;
+            color: #111;
+            height: 75px;
+            padding: 0;
+        }
+
+            .related > span {
+                font-size: 16px;
+                line-height: 75px;
+                font-weight: 400;
+                vertical-align: top;
+                margin: 8px;
+            }
+
+            .related:hover {
+                background-color: #ccc;
+            }
+        pre {
+            font-family: "Courier 10 Pitch", Courier, monospace;
+            font-size: 70%;
+            line-height: 125%;
+            white-space: pre;
+            white-space: pre-wrap;
+            display: block;
+            padding: 10px;
+            margin: 0 0 10px;
+            word-break: break-all;
+            word-wrap: break-word;
+            color: #7b8a8b;
+            background-color: #ecf0f1;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            overflow: auto;
+        }
+        .container{
+            position: relative;
+            min-height: 1px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        amp-sidebar {
+            width: 250px;
+            padding-right: 10px;
+            background-color:#583A52;
+            text-transform: uppercase;
+            font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-weight: 700;
+        }
+        .amp-sidebar-image {
+          line-height: 100px;
+          vertical-align:middle;
+        }
+        .amp-close-image {
+           top: 15px;
+           left: 225px;
+           cursor: pointer;
+        }
+        li {
+          margin-bottom: 20px;
+          list-style: none;
+        }
+        li > a{
+            color: #ffffff;
+            position: relative;
+            display: block;
+            padding: 10px 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            line-height: 21px;
+        }
+        button {
+          margin-left: 20px;
+        }
+        .text-center {
+    text-align: center;
+}
+footer {
+    color: #fff;
+}
+footer .footer-below {
+    padding: 10px 0;
+    background-color: #233140;
+}
+footer .footer-col {
+    margin-bottom: 50px;
+    text-align: left;
+}
+    </style>
+
+</head>
+<body class="-amp-layout-responsive">
+    <nav id="nav" role="navigation">
+        <button class="hamburger" on='tap:sidebar.toggle'></button>        
+    </nav>
+    <amp-sidebar id='sidebar'
+                 layout="nodisplay"
+                 side="left">
+        <ul>
+    <li class="@Umbraco.If(Model.Content == blog, "active")">
+        <a href="@home.Url">Home</a>
+    </li>
+    @if (Model.Content == home)
+    {
+        <li class="page-scroll">
+            <a href="#about">Me</a>
+        </li>
+    }
+    else
+    {
+        <li class="">
+            <a href="@home.Url#about">Me</a>
+        </li>
+    }
+
+    @if (blog != null)
+    {
+        <li class="@Umbraco.If(Model.Content == blog, "active")">
+            <a href="@blog.Url">Blog</a>
+        </li>
+    }
+    @if (contact != null)
+    {
+        <li class="@Umbraco.If(Model.Content == blog, "active")">
+            <a href="@contact.Url">Contact Me</a>
+        </li>
+    }
+</ul>
+    </amp-sidebar>
+    <div class="heading container">
+        <h1>@title</h1>
+        <p id="summary">@description</p>
+    </div>
+    <div class="container">
+        @markdown
+        @body
+    </div>
+
+    <p class="heading">
+        <amp-social-share type="twitter"
+                          width="45"
+                          height="33"></amp-social-share>  
+        <amp-social-share type="facebook"
+                          width="45"
+                          height="33"
+                          data-attribution="271845273204192">                          </amp-social-share>      
+        <amp-social-share type="gplus"
+                          width="45"
+                          height="33"></amp-social-share>
+        <amp-social-share type="email"
+                          width="45"
+                          height="33"></amp-social-share>
+        <amp-social-share type="pinterest"
+                          width="45"
+                          height="33"></amp-social-share>
+    </p>
+    <footer class="text-center">
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-12">
+                        <h2 class="title">Contact</h2>
+                        <div class="icon-boxes">
+                            <div class="icon-box">
+                                <div class="icon icon-wrap">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="content">
+                                    <a href="tel:+44 7971 235 265">+44 7971 235 265</a>
+                                </div>
+                            </div>
+                            <div class="icon-box">
+                                <div class="icon icon-wrap">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="content">
+                                    <a href="skype:michael.biggs60?call">michael.biggs60</a>
+                                </div>
+                            </div>
+                            <div class="icon-box">
+                                <div class="icon icon-wrap">
+                                    <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="content"><a href="mailto:michael.biggs150@yahoo.co.uk">michael.biggs150@yahoo.co.uk</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="bottomFooter">
+                        Copyright © <a href="mailto:michael.biggs150@yahoo.co.uk"> Michael Biggs  </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Google Analytics -->
+    <amp-analytics type="googleanalytics">
+        @Umbraco.Field("analyticsCode", recursive: true)
+    </amp-analytics>
+</body>
+</html>

@@ -1,0 +1,66 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "Root.cshtml";
+    var summersDOB = new DateTime(2015, 12, 10);
+    var summersAge = HtmlHelpers.CalculateAge(summersDOB);
+}
+	 
+<div class="content">
+    <h2 class="content-head is-center">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        About Me
+        <i class="fa fa-star" aria-hidden="true"></i>
+    </h2>
+    <div class="pure-g">
+        <!-- Me Section -->
+        <div class="l-box pure-u-1">
+            <div class="center">
+                @Umbraco.Field("bodyContent")
+            </div>
+        </div>
+    </div>
+    <div class="pure-g">
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+                <i class="fa fa-paw" aria-hidden="true"></i>
+                Animal Lover
+            </h3>
+            <p>I have about 9 pets all together, which include; 2 Dogs called Millie and Rosie,
+             2 Rabbits called Floppsy and Zoey, 2 Terrapins called Little and Big,
+             2 Degus called Joan and Jill and finally
+             1 Gerbill called Grey </p>
+            <br />
+            <br />
+        </div>
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+                <i class="fa fa-music" aria-hidden="true"></i>
+                Interesting Hobbies
+            </h3>
+            <p>
+                Some of my favourite things to do include
+                Reading, Listening to music, Movies &amp; films and Sports
+            </p>
+        </div>
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+                <i class="fa fa-child" aria-hidden="true"></i>
+                Father
+            </h3>
+            <p>
+                Am a fairly new dad to my lovely daughter Summer Amelia Biggs. She is @summersAge . <br> and you know.. Her nappy needs to be changed alot.
+            </p>
+        </div>
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+                <i class="fa fa-check-square-o"></i>
+                Plays Nice
+            </h3>
+            <p>
+                Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+            </p>
+        </div>
+    </div>
+</div>
+    @Html.CachedPartial("SocialMediaStream", Model, 21600)
+    @*@Html.CachedPartial("Modals", Model, 21600)*@

@@ -1,0 +1,120 @@
+﻿@using System.Diagnostics
+@using UmbracoPortfollio.App_Code
+@using Umbraco.Core.Models
+    @*
+        shared helpers
+    *@
+
+    @helper RenderPagination(int page, int postCount, int itemsPerPage)
+    {
+    var totalPages = (int)Math.Ceiling((double)postCount / itemsPerPage);
+    var url = Request.Url.AbsolutePath + Request.Url.Query;
+
+    var pagesPerGroup = 6;
+    int totalGroups;
+    int currentGroup;
+    var pagesCount = 0;
+    var startPage = 1;
+
+    if (page > totalPages)
+    {
+        page = totalPages;
+    }
+    else if (page < 1)
+    {
+        page = 1;
+    }
+    if (totalPages % pagesPerGroup == 0)
+    {
+        totalGroups = totalPages / pagesPerGroup;
+    }
+    else
+    {
+        totalGroups = totalPages / pagesPerGroup + 1;
+    }
+
+    if (page % pagesPerGroup == 0)
+    {
+        currentGroup = page / pagesPerGroup;
+    }
+    else
+    {
+        currentGroup = page / pagesPerGroup + 1;
+    }
+
+    if (totalPages > 1)
+    {
+        <div class="pagination" role="navigation">
+            
+            
+
+            @* render page links *@
+            @{
+                if (page <= pagesPerGroup)
+                {
+                    startPage = 1;
+                }
+                else if (page % pagesPerGroup > 0)
+                {
+                    startPage = page - page % pagesPerGroup + 1;
+                }
+                else if (page % pagesPerGroup == 0)
+                {
+                    startPage = page - pagesPerGroup + 1;
+                }
+
+                for (var i = startPage; i < totalPages + 1; i++)
+                {
+                    if (pagesCount == pagesPerGroup)
+                    {
+                        break;
+                    }
+                    url = url.ReplaceQueryStringItem("page", i.ToString());
+                    var pageClass = i == page ? "active" : string.Empty;
+
+                        if (page == i)
+                        {
+                            <span class="page-numbers current">@i</span>
+                        }
+                        else
+                        {
+                            <a class="page-numbers" href="@url">@i</a>
+                        }
+
+                    pagesCount += 1;
+                }
+
+                if (totalGroups != currentGroup)
+                {
+                    if (page % pagesPerGroup == 0)
+                    {
+                        url = url.ReplaceQueryStringItem("page", (page + 1).ToString());
+                    }
+                    else
+                    {
+                        var liPageNumber = (page / pagesPerGroup + 1) * pagesPerGroup + 1;
+                        url = url.ReplaceQueryStringItem("page", liPageNumber.ToString());
+                    }
+
+                    <a href="@url">...</a>
+                }
+            }
+                @* render prev link *@
+    @if (page > 1)
+    {
+        url = url.ReplaceQueryStringItem("page", (page - 1).ToString());
+        <a class="prev page-numbers" href="@url">‹</a>
+
+        if (page > pagesPerGroup)
+        {
+            url = url.ReplaceQueryStringItem("page", page % pagesPerGroup == 0 ? (page - pagesPerGroup).ToString() : (page / pagesPerGroup * pagesPerGroup).ToString());
+            <a href="@url">...</a>
+        }
+    }@* render next link *@@if (page < Math.Ceiling((double)postCount / itemsPerPage))
+    {
+        url = url.ReplaceQueryStringItem("page", (page + 1).ToString());
+                <a class="next page-numbers" href="@url">›</a>
+    }
+    </div>
+                }
+}

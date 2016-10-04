@@ -1,0 +1,11 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using UmbracoPortfollio.App_Code
+@{
+	Layout = "Root.cshtml";
+}
+    <div class="content">
+        <h1 class="is-center">Contact Me</h1>
+        <div class="centred">
+            @Html.Action("RenderContactForm", "Contact")
+        </div>
+    </div>

@@ -1,0 +1,34 @@
+﻿@model CommentModel
+@using UmbracoPortfollio.App_Code
+@using (Html.BeginUmbracoForm<UmbracoPortfollio.App_Code.CommentController>("SendCommentForm"))
+{    
+        @Html.HiddenFor(x => x.NodeId)
+    <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+            @Html.LabelFor(x => x.Comment)
+            @Html.TextAreaFor(x => x.Comment, new { @class = "form-control" })
+            <p class="help-block text-danger">@Html.ValidationMessageFor(x => x.Comment)</p>
+        </div>
+    </div>
+    <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+            @Html.LabelFor(x => x.Name)
+            @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })                               
+            <p class="help-block text-danger">@Html.ValidationMessageFor(x => x.Name) </p>
+        </div>
+    </div>
+    <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+            @Html.LabelFor(x => x.Email)
+            @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })                    
+            <p class="help-block text-danger">@Html.ValidationMessageFor(x => x.Email)</p>
+        </div>
+    </div>                
+    <br>
+    <div id="success"></div>
+    <div class="row">
+        <div class="form-group col-xs-12">
+            <button type="submit" class="btn btn-success btn-lg">Send</button>
+        </div>
+    </div>
+}

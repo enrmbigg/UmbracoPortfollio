@@ -1,0 +1,56 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    var facebook = Umbraco.Field("facebook", recursive: true);
+    var google = Umbraco.Field("google", recursive: true);
+    var twitter = Umbraco.Field("twitter", recursive: true);
+    var github = Umbraco.Field("github", recursive: true);
+    var linkedin = Umbraco.Field("linkedin", recursive: true);
+    var instagram = Umbraco.Field("instagram", recursive: true);
+    var email = Umbraco.Field("email", recursive: true);
+}
+@*<div class="container footer">
+    <div class="socialbuttons">
+        <h2>Around the Web</h2>
+        <ul class="share-buttons">
+            <li>
+                <a href="@facebook" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="@github" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+            </li>
+            <li>
+                <a href="@twitter" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="@linkedin" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="@google" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+            </li>
+            <li>
+                <a href="@instagram" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+            </li>
+        </ul>
+    </div>
+    Copyright &copy; <a href="mailto:@email"> Michael Biggs</a>
+</div>*@
+
+<footer class="footer">
+    <div class="footer-logo">        
+        <img class="footer-logo__image" src="~/Images/logo.png" alt="Biggsy150">
+    </div>	
+    <div class="footer__content">        
+        <div class="social footer-social">
+            <ul class="social__list">
+                <li class="social__item">
+                    <a href="https://www.facebook.com/Biggsy150" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link --twitter" href="https://twitter.com/edgethreesixty" target="_blank" rel="nofollow">
+                        <span class="social__text">Twitter</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>

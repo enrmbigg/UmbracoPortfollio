@@ -1,0 +1,254 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using UmbracoPortfollio.App_Code
+@{
+    var summersDOB = new DateTime(2015, 12, 10);
+    var summersAge = HtmlHelpers.CalculateAge(summersDOB);
+}
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="Skills" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="modal-body">
+                    <h5>Skills</h5>
+                    <hr class="star-work">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active"><a href="#core" role="tab" data-toggle="tab">Skills</a></li>
+                        <li><a href="#disciplines" role="tab" data-toggle="tab">Disciplines</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="core">
+                            <div class="list-group">
+                                <div class="list-group-item">
+                                    <h4 class="list-group-item-heading">Core/Back-End</h4>
+                                    <p class="list-group-item-text">
+                                        <b> C# - .NET </b>
+                                    </p>
+                                </div>
+                                <div class="list-group-item">
+                                    <h4 class="list-group-item-heading">Front-End</h4>
+                                    <p class="list-group-item-text">
+                                        HTML5 - CSS - JavaScript
+                                        <br>Frameworks: Angular.js - Bootstrap
+                                    </p>
+                                </div>
+                                <div class="list-group-item">
+                                    <h4 class="list-group-item-heading">Frameworks/Tools</h4>
+                                    <p class="list-group-item-text">Umbraco - ASP.NET MVC - WebApi - LINQ</p>
+                                </div>
+                                <div class="list-group-item">
+                                    <h4 class="list-group-item-heading">Data</h4>
+                                    <p class="list-group-item-text">SQL - Azure - JSON - XML</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="disciplines">
+                            <div class="list-group">
+                                <div class="list-group-item">
+                                    <h4 class="list-group-item-heading">Excellent Understanding of</h4>
+                                    <p class="list-group-item-text">
+                                        OOP & Design Patterns <br>
+                                    </p>
+                                </div>
+                                <div class="list-group-item">
+                                    <h4 class="list-group-item-heading">Architectural</h4>
+                                    <p class="list-group-item-text">
+                                        MVC<br>
+                                    </p>
+                                </div>
+                                <div class="list-group-item">
+                                    <h4 class="list-group-item-heading">Version Control</h4>
+                                    <p class="list-group-item-text">
+                                        Git<br>
+                                        SVN<br>
+                                    </p>
+                                </div>
+                                <div class="list-group-item">
+                                    <h4 class="list-group-item-heading">Some Tools</h4>
+                                    <p class="list-group-item-text">
+                                        ReSharper<br>
+                                        SourceTree<br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md-6 col-md-offset-3">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="portfolio-modal modal fade" id="Work" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content" id="WorkContent">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="modal-body">
+                    <div class="col-lg-12 text-center">
+                        <h5>Work/Education History</h5>
+                        <hr class="star-work">
+                        <section id="timeline">
+                            <div class="timeline-block">
+                                <div class="timeline-img">
+                                </div> <!-- timeline-img -->
+                                <div class="timeline-content">
+                                    <h2 class="timeline-job">Umbraco Developer</h2>
+                                    <h4>Uniform</h4>
+                                    <p>My duties include working across a variety of projects at Uniform contributing to Umbraco and other web projects.</p>
+                                    <span class="date">September 2015 – Present </span>
+                                </div> <!-- timeline-content -->
+                            </div> <!-- timeline-block -->
+
+                            <div class="timeline-block">
+                                <div class="timeline-img">
+                                </div> <!-- timeline-img -->
+                                <div class="timeline-content">
+                                    <h2 class="timeline-job">IT Systems Developer</h2>
+                                    <h4>Yodel (Home Delivery Network Ltd)</h4>
+                                    <p>
+                                        My duties were to support the development of both the handheld devices and web systems that were in place within the company
+                                        while also developing an training my own abilities as a graduate programmer.
+                                    </p>
+                                    <span class="date">August 2013 – September 2015</span>
+                                </div> <!-- timeline-content -->
+                            </div>
+                            <div class="timeline-block">
+                                <div class="timeline-img">
+                                </div> <!-- timeline-img -->
+                                <div class="timeline-content">
+                                    <h2 class="timeline-job">Web Editor</h2>
+                                    <h4>Wray Brothers Limited</h4>
+                                    <p>
+                                        To help manage and edit there current website to meet the growing demand on the web, which included updating the site and promoting there abilities within the SEO world
+                                    </p>
+                                    <span class="date">March 2013 – May 2013</span>
+                                </div> <!-- timeline-content -->
+                            </div>
+                            <div class="timeline-block">
+                                <div class="timeline-img">
+                                </div> <!-- timeline-img -->
+                                <div class="timeline-content">
+                                    <h2 class="timeline-job">Floor Supervisor</h2>
+                                    <h4>Primark Stores Ltd</h4>
+                                    <p>
+                                        My duties where to help support an supplement the managers within the store an to ensure that staff were properly motivated to meet targets and goals
+                                    </p>
+                                    <span class="date">September 2007 – August 2013 </span>
+                                </div> <!-- timeline-content -->
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="Summer" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="modal-body">
+                    <div class="col-lg-12">
+                        <div class="col-lg-12">
+                            <img style="margin: 0 auto;" class="img-responsive" src="~/Images/summerandme.jpg" alt="">
+                            <br>
+                            <p>
+                                Meet my daughter <b> Summer Amelia Biggs </b>. She is @summersAge . <br> and you know.. Her nappy needs to be changed alot. <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                <br />
+                                <br />
+                        </div>
+                        <div class="col-lg-12">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="Pets" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="modal-body">
+                    <div class="col-lg-12">
+                        <div class="col-lg-12">
+                            <img style="margin: 0 auto;" class="img-responsive" src="~/Images/dogs.jpg" alt="">
+                            <br>
+                            <p>I have about 9 pets all together, which include,</p>
+                            <p> 2 Dogs, called Millie and Rosie</p>
+                            <p> 2 Rabbits, <span>called </span> Floppsy and Zoey </p>
+                            <p> 2 Terrapins, <span>called </span>Little and Big</p>
+                            <p> 2 Degus, <span>called Joan and Jill</span></p>
+                            <p> 1 Gerbill, <span>called Grey</span></p>
+                            <br />
+                            <br />
+                        </div>
+                        <div class="col-lg-12">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="Hobbies" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="modal-body">
+                    <div class="col-lg-12">
+                        <div class="col-lg-12">
+                            <img style="margin: 0 auto;" class="img-responsive" src="~/Images/movies.jpg" alt="">
+                            <br>
+                            <p>Some of my favourite things to do include
+                            Reading, Listening to music, Movies &amp; films and Sports </p>
+                            <br />
+                            <br />
+                        </div>
+                        <div class="col-lg-12">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

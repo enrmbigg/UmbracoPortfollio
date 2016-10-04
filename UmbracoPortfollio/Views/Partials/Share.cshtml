@@ -1,0 +1,15 @@
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+<!--- SHARING SECTION --->
+<div class="post-share">  
+    <h3 class="share">Share</h3>  
+    <a title="Share on Facebook" target="_blank" class="btn-social btn-inline" href="http://www.facebook.com/sharer.php?u=@Model.Content.UrlWithDomain()">
+        <div class="share-button"><i class="fa fa-fw fa-facebook"></i></div>
+    </a>    
+    <a title="Share on Twitter" target="_blank" class="btn-social btn-inline" href="http://twitter.com/share?text=@Model.Content.Name&url=@Model.Content.UrlWithDomain()">
+        <div class="share-button"><i class="fa fa-fw fa-twitter"></i></div>
+    </a>
+    <a title="Share on Google Plus" target="_blank" class="btn-social btn-inline" href="https://plus.google.com/share?url=@Model.Content.UrlWithDomain()">
+        <div class="share-button"><i class="fa fa-fw fa-google-plus"></i></div>
+    </a>
+</div>

@@ -1,0 +1,114 @@
+﻿ 2016-08-30 00:00:01,804 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running Import Report
+ 2016-08-30 00:00:08,068 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = Default Folder = ~/uSync/data/ Force = False
+ 2016-08-30 00:00:08,068 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2016-08-30 00:00:08,164 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 35 Items 2 changes 0 failures
+ 2016-08-30 00:00:08,164 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2016-08-30 00:00:08,165 [P19152/D2/T8] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-08-30 00:00:08,165 [P19152/D2/T8] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-08-30 00:00:08,165 [P19152/D2/T8] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-08-30 00:00:08,165 [P19152/D2/T8] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-08-30 00:00:08,170 [P19152/D2/T8] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-08-30 00:00:08,170 [P19152/D2/T8] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-08-30 00:00:08,170 [P19152/D2/T8] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-08-30 00:00:08,170 [P19152/D2/T8] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-08-30 00:00:08,170 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 13 Items 4 changes 0 failures
+ 2016-08-30 00:00:08,170 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2016-08-30 00:00:08,434 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 10 Items 2 changes 0 failures
+ 2016-08-30 00:00:08,434 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2016-08-30 00:00:08,453 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2016-08-30 00:00:08,453 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2016-08-30 00:00:08,454 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-08-30 00:00:08,454 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2016-08-30 00:00:08,454 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-08-30 00:00:08,454 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2016-08-30 00:00:08,454 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-08-30 00:00:08,529 [P19152/D2/T8] ERROR SEOChecker.Events.UrlHistoryEventHandler - SEOChecker: Error getting media history
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMedia )
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMediaService , SaveEventArgs`1 )
+ 2016-08-30 00:00:08,625 [P19152/D2/T8] ERROR SEOChecker.Events.UrlHistoryEventHandler - SEOChecker: Error getting media history
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMedia )
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMediaService , SaveEventArgs`1 )
+ 2016-08-30 00:00:08,680 [P19152/D2/T8] ERROR SEOChecker.Events.UrlHistoryEventHandler - SEOChecker: Error getting media history
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMedia )
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMediaService , SaveEventArgs`1 )
+ 2016-08-30 00:00:08,778 [P19152/D2/T8] ERROR SEOChecker.Events.UrlHistoryEventHandler - SEOChecker: Error getting media history
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMedia )
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMediaService , SaveEventArgs`1 )
+ 2016-08-30 00:00:08,864 [P19152/D2/T8] ERROR SEOChecker.Events.UrlHistoryEventHandler - SEOChecker: Error getting media history
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMedia )
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMediaService , SaveEventArgs`1 )
+ 2016-08-30 00:00:08,963 [P19152/D2/T8] ERROR SEOChecker.Events.UrlHistoryEventHandler - SEOChecker: Error getting media history
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMedia )
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMediaService , SaveEventArgs`1 )
+ 2016-08-30 00:00:09,034 [P19152/D2/T8] ERROR SEOChecker.Events.UrlHistoryEventHandler - SEOChecker: Error getting media history
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMedia )
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMediaService , SaveEventArgs`1 )
+ 2016-08-30 00:00:09,085 [P19152/D2/T8] WARN  Umbraco.Core.IO.UmbracoMediaFile - The media file doesn't exist: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\media\1001\2011-10-14-151207.jpg
+ 2016-08-30 00:00:09,159 [P19152/D2/T8] WARN  Umbraco.Core.IO.UmbracoMediaFile - The media file doesn't exist: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\media\1006\favicon.ico
+ 2016-08-30 00:00:09,213 [P19152/D2/T8] WARN  Umbraco.Core.IO.UmbracoMediaFile - The media file doesn't exist: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\media\1009\img_2413.jpg
+ 2016-08-30 00:00:09,271 [P19152/D2/T8] WARN  Umbraco.Core.IO.UmbracoMediaFile - The media file doesn't exist: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\media\1010\img_2500-1.png
+ 2016-08-30 00:00:09,332 [P19152/D2/T8] WARN  Umbraco.Core.IO.UmbracoMediaFile - The media file doesn't exist: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\media\1005\logo.ico
+ 2016-08-30 00:00:09,393 [P19152/D2/T8] WARN  Umbraco.Core.IO.UmbracoMediaFile - The media file doesn't exist: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\media\1003\logo.png
+ 2016-08-30 00:00:09,427 [P19152/D2/T8] WARN  Umbraco.Core.IO.UmbracoMediaFile - The media file doesn't exist: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\media\1004\logo.png
+ 2016-08-30 00:00:09,619 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Config Folder' with Id '0' has been published.
+ 2016-08-30 00:00:09,758 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Email Templates' with Id '0' has been published.
+ 2016-08-30 00:00:09,848 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact Form' with Id '0' has been published.
+ 2016-08-30 00:00:09,960 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '0' has been published.
+ 2016-08-30 00:00:10,095 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '404' with Id '0' has been published.
+ 2016-08-30 00:00:10,278 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blog' with Id '0' has been published.
+ 2016-08-30 00:00:10,386 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# Generic Session Helper' with Id '0' has been published.
+ 2016-08-30 00:00:10,520 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Get Umbraco content by tag' with Id '0' has been published.
+ 2016-08-30 00:00:10,721 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How To Display Umbraco Tags On Razor Templates' with Id '0' has been published.
+ 2016-08-30 00:00:10,854 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How To Log Errors In Umbraco' with Id '0' has been published.
+ 2016-08-30 00:00:10,982 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HTML Sitemap with Umbraco' with Id '0' has been published.
+ 2016-08-30 00:00:11,136 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Intercepting content and member save events in Umbraco' with Id '0' has been published.
+ 2016-08-30 00:00:11,501 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '0' has been published.
+ 2016-08-30 00:00:11,630 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sitemap' with Id '0' has been published.
+ 2016-08-30 00:00:11,785 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Config Folder' with Id '1089' has been published.
+ 2016-08-30 00:00:11,807 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:11,897 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Email Templates' with Id '1090' has been published.
+ 2016-08-30 00:00:11,914 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:11,975 [P19152/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-08-30 00:00:12,034 [P19152/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 59ms)
+ 2016-08-30 00:00:12,071 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact Form' with Id '1091' has been published.
+ 2016-08-30 00:00:12,098 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:12,229 [P19152/D2/T8] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-30 00:00:12,230 [P19152/D2/T8] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-30 00:00:12,230 [P19152/D2/T8] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-30 00:00:12,230 [P19152/D2/T8] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-30 00:00:12,231 [P19152/D2/T8] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-30 00:00:12,249 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1092' has been published.
+ 2016-08-30 00:00:12,322 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:12,405 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '404' with Id '1093' has been published.
+ 2016-08-30 00:00:12,448 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:12,521 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blog' with Id '1094' has been published.
+ 2016-08-30 00:00:12,553 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:12,661 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# Generic Session Helper' with Id '1095' has been published.
+ 2016-08-30 00:00:12,702 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:12,787 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Get Umbraco content by tag' with Id '1096' has been published.
+ 2016-08-30 00:00:12,834 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:12,945 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How To Display Umbraco Tags On Razor Templates' with Id '1097' has been published.
+ 2016-08-30 00:00:12,987 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:13,055 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How To Log Errors In Umbraco' with Id '1098' has been published.
+ 2016-08-30 00:00:13,119 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:13,201 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HTML Sitemap with Umbraco' with Id '1099' has been published.
+ 2016-08-30 00:00:13,252 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:13,323 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Intercepting content and member save events in Umbraco' with Id '1100' has been published.
+ 2016-08-30 00:00:13,435 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:13,609 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1103' has been published.
+ 2016-08-30 00:00:13,646 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:13,713 [P19152/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sitemap' with Id '1104' has been published.
+ 2016-08-30 00:00:13,749 [P19152/D2/T8] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-08-30 00:00:13,913 [P19152/D2/T8] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Data\temp\uSync\20160830_000013_Import.config
+ 2016-08-30 00:00:13,922 [P19152/D2/T8] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generate models now.
+ 2016-08-30 00:00:14,147 [P19152/D2/T8] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generated.
+ 2016-08-30 00:00:17,791 [P19152/D2/T13] INFO  umbraco.content - Save Xml to file...
+ 2016-08-30 00:00:17,802 [P19152/D2/T13] INFO  umbraco.content - Saved Xml to file.
+ 2016-08-30 00:03:27,039 [P19152/D2/T8] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.

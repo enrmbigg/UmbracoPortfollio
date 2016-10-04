@@ -1,0 +1,44 @@
+﻿ul.robotsMetaOptions {
+    width: 66.6%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 0 15px;
+        padding: 10px;
+        list-style: none;
+        border: 1px solid #ccc;
+
+        &.active {
+            background-color: #ccc;
+            border: 1px solid #000;
+        }
+
+        &:hover {
+            border: 1px solid #000;
+            background-color: #ccc;
+        }
+
+        label {
+            input {
+                display: none;
+            }
+
+            .title {
+                font-weight: bold;
+                font-size: large;
+            }
+
+            .description {
+                font-style: italic;
+            }
+
+            .value {
+            }
+        }
+    }
+}

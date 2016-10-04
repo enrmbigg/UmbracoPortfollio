@@ -1,0 +1,15 @@
+﻿<div ng-controller="robots.robotsMetaEditorController">
+    <ul ng-repeat="item in listValues" class="robotsMetaOptions">
+        <li ng-class="{'active':model.value==item.value}">
+            <label>
+                <input type="radio" name="robotsvalue" ng-model="model.value" ng-change="model.value = item.value" ng-value="item.value" />
+                <div class="title">{{item.name}}</div>
+                <div class="description">{{item.description}}</div>
+                <div class="value">Value: {{item.value}}</div>
+            </label>
+        </li>
+    </ul>
+    <div>
+        Selected value: {{model.value}}
+    </div>
+</div>

@@ -1,0 +1,78 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Root.cshtml";
+    var q = Request.QueryString["tag"];
+    var posts = q == null ?
+        Model.Content.Children.OrderByDescending(x => x.GetPropertyValue<DateTime>("createTime")).ToList()
+        : Umbraco.TagQuery.GetContentByTag(q).OrderByDescending(x => x.GetPropertyValue<DateTime>("createTime")).ToList();
+    var pageTitle = Model.Content.GetPropertyValue<string>("pageTitle");
+    var tags = Umbraco.TagQuery.GetAllContentTags().OrderByDescending(x => x.NodeCount);
+    var page = 0; // The page we are viewing
+    var pageSize = 6; // How many items per page
+    var postCount = 0;
+    if (posts.Any())
+    {
+        if (!int.TryParse(Request.QueryString["page"], out page))
+        {
+            page = 1;
+        }
+        postCount = posts.Count();
+        posts = posts.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+
+    }
+}
+
+<div class="sections" style="margin-top: 520px;">
+    <div>
+        <section class="section category">
+            <div class="section__container category__container">
+                <ul class="category__list">
+                    @foreach (var tag in tags.Take(6))
+                    {
+                        <li class="category__item">
+                            <a class="category__item__link " href="@Model.Content.Url?q=@tag.Text">@tag.Text</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </section>
+        <section class="section archive-post">
+            <div class="section__container archive-post__container">
+                <div class="archive-post__list">
+                    @foreach (var post in posts)
+            {
+                var image = post.GetHeaderImage();
+                var date = post.GetPropertyValue<DateTime>("createTime");
+                var blogTags = post.GetPropertyValue<string>("tag").Split(',');
+                var desc = post.GetPropertyValue<string>("pageIntro");
+                        <div class="archive-post__item">
+                            @if (image != null)
+                            {
+                                <img src="@Url.GetCropUrl(image,"Thumbnail")" class="archive-post__item__image" alt="" itemprop="image">
+                            }
+                            <time class="archive-post__item__date" datetime="@date.ToString()" itemprop="datePublished">
+                                <span class="archive-post__item__date__day">@date.Day</span>
+                                <span class="archive-post__item__date__month">@date.ToString("MMM")</span>
+                            </time>
+                            <h2 class="archive-post__item__title" itemprop="name headline">
+                                <a class="archive-post__item__title__link" href="@post.UrlWithDomain()" itemprop="url">@post.Name</a>
+                            </h2>
+                            <div class="archive-post__item__excerpt">
+                                <p>@Umbraco.Truncate(desc, 150, true)</p>
+                            </div>
+                            <div class="archive-post__item__tags">
+                                @foreach (var tag in blogTags)
+                                {
+                                    <a class="archive-post__item__tag" href="@Model.Content.Url?q=@tag">@tag</a>
+                                }
+
+                            </div>
+                        </div>
+                    }
+                </div>
+                @RazorHelpers.RenderPagination(page, postCount, pageSize)
+            </div>
+        </section>
+    </div>
+    <br/>
+</div>

@@ -1,0 +1,403 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 29 August 2016 23:31:06
+   Source : C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\
+     Dest : C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\
+
+    Files : *.*
+	    
+Exc Files : UI.xml
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /IS /IT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                  12	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\
+	  *EXTRA File 		      92	webService.asmx
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Actions\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\assets\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\assets\css\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\assets\fonts\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\assets\fonts\helveticons\
+	                   9	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\assets\fonts\opensans\
+	                   7	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\assets\img\
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\assets\img\application\
+	                  11	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\assets\img\applicationIcons\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\assets\img\forms\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\assets\img\uploader\
+	                  11	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\assets\less\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Channels\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Config\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Config\Create\
+	                  18	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Config\Lang\
+	  *EXTRA File 		   56700	no.xml
+	    Older     		   67062	cs.xml  0%  100%  
+	    Older     		   74986	da.xml  0%  100%  
+	    Older     		   72018	de.xml  0%  100%  
+	    Older     		   87655	en.xml  0%  100%  
+	    Older     		   88209	en_us.xml  0%  100%  
+	    Older     		   67752	es.xml  0%  100%  
+	    Older     		   70522	fr.xml  0%  100%  
+	    Older     		   63876	he.xml  0%  100%  
+	    Older     		   63950	it.xml  0%  100%  
+	    Older     		   88670	ja.xml  0%  100%  
+	    Older     		   60337	ko.xml  0%  100%  
+	    Older     		   66074	nb.xml  0%  100%  
+	    Older     		   68158	nl.xml  0%  100%  
+	    Older     		   59665	pl.xml  0%  100%  
+	    Older     		   58945	pt.xml  0%  100%  
+	    Older     		  129529	ru.xml  0%  100%  
+	    Older     		   67837	sv.xml  0%  100%  
+	    Older     		   54852	zh.xml  0%  100%  
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Controls\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\Controls\GenericProperties\
+	  *EXTRA File 		   12434	ContentTypeControlNew.ascx
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Controls\Images\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Controls\Tree\
+	                   8	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Create\
+	  *EXTRA File 		    1680	content.ascx
+	  *EXTRA File 		    1185	media.ascx
+	  *EXTRA File 		    3095	member.ascx
+	  *EXTRA File 		    2126	nodeType.ascx
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Css\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Dashboard\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Developer\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Developer\Macros\
+	                   9	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Developer\Packages\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Developer\Python\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Developer\RelationTypes\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Developer\RelationTypes\Images\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Developer\RelationTypes\TreeMenu\
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Developer\Xslt\
+	                  33	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Dialogs\
+	                  98	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Images\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Images\Actions\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Images\Developer\
+	                 138	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Images\Editor\
+	                   8	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Images\PinnedIcons\
+	                  18	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Images\SpeechBubble\
+	                  12	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Images\Thumbnails\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Images\Tray\
+	                  54	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Images\Umbraco\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Install\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Install\Legacy\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Install\Views\
+	                  29	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Js\
+	  *EXTRA File 		     421	app.dev.js
+	  *EXTRA File 		    1595	loader.js
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\lib\blueimp-load-image\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\lib\jquery-file-upload\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\lib\typeahead-js\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\angular\
+	                  14	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\angular\1.1.5\
+	                 287	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\angular\1.1.5\i18n\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\angular-bootstrap\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\angular-dynamic-locale\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\angular-local-storage\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\bootstrap\
+	                   7	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\bootstrap\css\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\bootstrap\img\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\bootstrap\js\
+	                  41	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\bootstrap\less\
+	                   8	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\bootstrap\less\tests\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\bootstrap-social\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\bootstrap-tabdrop\
+	  *EXTRA File 		    1518	bootstrap-tabdrop.min.js
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\addon\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\addon\dialog\
+	                   6	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\addon\edit\
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\addon\search\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\addon\selection\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\lib\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\mode\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\mode\css\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\mode\htmlmixed\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\mode\javascript\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\mode\razor\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\codemirror\mode\xml\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\cssparser\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\datetimepicker\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\font-awesome\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\font-awesome\css\
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\font-awesome\fonts\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\jquery\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\jquery-migrate\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\jquery-ui\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\jquery-ui-touch-punch\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\less\
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\markdown\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\moment\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\ng-file-upload\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\rgrove-lazyload\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\slider\
+	  *EXTRA File 		    4302	slider.css
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\slider\js\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\spectrum\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\lib\tinymce\langs\
+	  *EXTRA File 		   26931	license.txt
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\lib\tinymce\plugins\compat3x\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\lib\tinymce\plugins\example\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\lib\tinymce\plugins\example_dependency\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\advlist\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\anchor\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\autolink\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\autoresize\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\autosave\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\bbcode\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\charmap\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\code\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\codemirror\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\codemirror\langs\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\colorpicker\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\contextmenu\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\directionality\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\emoticons\
+	                  16	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\emoticons\img\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\fullpage\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\fullscreen\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\hr\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\image\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\importcss\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\insertdatetime\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\layer\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\legacyoutput\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\link\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\lists\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\media\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\nonbreaking\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\noneditable\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\pagebreak\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\paste\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\preview\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\print\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\save\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\searchreplace\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\spellchecker\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\tabfocus\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\table\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\template\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\textcolor\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\textpattern\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracocontextmenu\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracocss\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracocss\img\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracocss\js\
+	                  14	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracocss\langs\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoembed\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoembed\img\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoembed\js\
+	                  18	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoembed\langs\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoimg\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoimg\js\
+	                   8	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoimg\langs\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracolink\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracomacro\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracomacro\img\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracomacro\js\
+	                  14	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracomacro\langs\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracopaste\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\umbracoshortcut\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualblocks\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualblocks\css\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\visualchars\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\plugins\wordcount\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\skins\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\lib\tinymce\skins\lightgray\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\fonts\
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\skins\umbraco\img\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\themes\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\themes\modern\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\tinymce\themes\umbraco\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\typeahead.js\
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\umbraco\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\lib\underscore\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Masterpages\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Members\
+	  *EXTRA File 		    1770	EditMemberType.aspx
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\PartialViewMacros\
+	                  20	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\PartialViewMacros\Templates\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Plugins\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\Plugins\SEOChecker\
+	                   6	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Plugins\Tinymce3\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\preview\
+	                  11	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\preview\editors\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Scripting\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Scripting\templates\
+	                  15	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Scripting\templates\cshtml\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Search\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Settings\
+	  *EXTRA File 		     783	EditMediaType.aspx
+	  *EXTRA File 		    2823	EditNodeTypeNew.aspx
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Settings\Modals\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Settings\Scripts\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Settings\Stylesheet\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Settings\Stylesheet\Property\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Settings\Views\
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Translation\
+	                   6	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Users\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\Views\contenttype\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\Views\datatype\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\
+	                  15	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\dialogs\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\dialogs\content\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\dialogs\template\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\notifications\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\contentpicker\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\compositions\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\editorpicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\editorsettings\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\contenttypeeditor\propertysettings\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\copy\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\embed\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\help\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\iconpicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\itempicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\linkpicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\macropicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\mediaPicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\membergrouppicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\memberpicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\move\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\treepicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\user\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\common\overlays\ysod\
+	                  22	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\application\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\buttons\
+	                  10	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\editor\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\editor\subheader\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\html\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\imaging\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\notifications\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\overlays\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\property\
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\tabs\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\tree\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\components\upload\
+	                   9	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\content\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\dashboard\
+	                   6	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\dashboard\default\
+	                   6	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\dashboard\developer\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\dashboard\forms\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\dashboard\media\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\dashboard\members\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\dashboard\settings\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\datatypes\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\directives\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\Views\directives\html\
+	*EXTRA Dir        -1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Umbraco\Views\directives\imaging\
+	  *EXTRA File 		     859	button-group.html
+	  *EXTRA File 		      70	umb-avatar.html
+	  *EXTRA File 		     433	umb-confirm.html
+	  *EXTRA File 		     738	umb-content-name.html
+	  *EXTRA File 		     579	umb-contextmenu.html
+	  *EXTRA File 		      51	umb-editor.html
+	  *EXTRA File 		     434	umb-header.html
+	  *EXTRA File 		    1472	umb-item-sorter.html
+	  *EXTRA File 		     572	umb-login.html
+	  *EXTRA File 		    4575	umb-navigation.html
+	  *EXTRA File 		     738	umb-notifications.html
+	  *EXTRA File 		     873	umb-optionsmenu.html
+	  *EXTRA File 		     692	umb-property.html
+	  *EXTRA File 		    2108	umb-sections.html
+	  *EXTRA File 		     146	umb-tab-view.html
+	  *EXTRA File 		     130	umb-tab.html
+	  *EXTRA File 		     581	umb-tree-search-box.html
+	  *EXTRA File 		     738	umb-tree-search-results.html
+	                   8	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\directives\_obsolete\
+	                   7	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\documenttypes\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\documenttypes\views\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\documenttypes\views\design\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\documenttypes\views\listview\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\documenttypes\views\permissions\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\documenttypes\views\templates\
+	                   8	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\install\
+	                   6	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\media\
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\mediatypes\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\mediatypes\views\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\mediatypes\views\design\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\mediatypes\views\listview\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\mediatypes\views\permissions\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\member\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\membertypes\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\membertypes\views\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\membertypes\views\design\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\packager\
+	  *EXTRA File 		    4336	category.html
+	  *EXTRA File 		    7601	details.html
+	                   3	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\packager\views\
+	                  16	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\prevalueeditors\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\boolean\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\changepassword\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\checkboxlist\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\colorpicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\contentpicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\datepicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\decimal\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\dropdown\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\email\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\entitypicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\fileupload\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\folderbrowser\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\googlemaps\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\grid\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\grid\config\
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\grid\dialogs\
+	  *EXTRA File 		     509	additem.html
+	                   6	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\grid\editors\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\imagecropper\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\integer\
+	                   6	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\listview\
+	                   0	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\listview\layouts\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\listview\layouts\grid\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\listview\layouts\list\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\macrocontainer\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\markdowneditor\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\mediapicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\membergrouppicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\membergroups\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\memberpicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\multipletextbox\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\radiobuttons\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\readonlyvalue\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\relatedlinks\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\rte\
+	                   4	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\slider\
+	                   2	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\tags\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\templatepicker\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\test\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\textarea\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\textbox\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\ultrasimple\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\urllist\
+	                   1	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Views\propertyeditors\validationtest\
+	                  20	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Webservices\
+	                   5	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Xslt\
+	                  15	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Xslt\Templates\
+	                  15	C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\packages\UmbracoCms.7.5.2\UmbracoFiles\Umbraco\Xslt\Templates\Schema2\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :       304         0       304         0         0        14
+   Files :      1579        18      1561         0         0        36
+   Bytes :   15.38 m    1.24 m   14.13 m         0         0   142.2 k
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             6453679 Bytes/sec.
+   Speed :             369.282 MegaBytes/min.
+   Ended : 29 August 2016 23:31:07
+

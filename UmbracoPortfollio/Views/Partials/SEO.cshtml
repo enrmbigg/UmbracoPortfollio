@@ -1,0 +1,78 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage	
+@{    
+    var page = Model.Content as Umbraco.Web.PublishedContentModels.Page;
+    var siteName = "Michael Biggs: Umbraco Developer";
+    var home = Model.Content.AncestorOrSelf(1);
+    var keywords = Umbraco.Field("metaKeywords", recursive: true);
+    string title = "";
+    if(Model.Content.HasValue("metaTitle"))
+    {
+        title = Model.Content.GetPropertyValue<string>("metaTitle") + " | " + siteName; 
+    }
+    else if (Model.Content.HasValue("pageTitle"))
+    {
+        title = Model.Content.GetPropertyValue<string>("pageTitle") + " | " + siteName;
+    }
+    else
+    {
+        title = Model.Content.Name + " | " + siteName;
+    }
+    var description = !string.IsNullOrWhiteSpace(Model.Content.GetPropertyValue<string>("metaDescription", true)) ? Model.Content.GetPropertyValue<string>("metaDescription", true) : Model.Content.GetPropertyValue<string>("pageIntro", true);
+    var imageid = Model.Content.GetPropertyValue("pageImage",true) ?? 0;
+    var image = Umbraco.TypedMedia(imageid);
+    var imageUrl = image != null ? image.Url : "";
+    var canonical = Model.Content.UrlWithDomain();
+    //Open Graph stuff
+    string openTitle = Model.Content.HasValue("openGraphTitle") ? Model.Content.GetPropertyValue<string>("openGraphTitle") + " | " + siteName : Model.Content.Name + " | " + siteName;
+    var openImage = Umbraco.TypedMedia(Model.Content.GetPropertyValue<int>("openGraphImage"));
+    string openImageUrl = openImage != null ? openImage.Url : imageUrl; ;
+    string openDescription = Model.Content.HasValue("openGraphDescription") ? Model.Content.GetPropertyValue<string>("openGraphDescription") : description;
+    var icoid = Model.Content.GetPropertyValue("faviconAndTouchIcons", true) ?? 0;
+    var ico = Umbraco.TypedMedia(icoid);
+    var icoUrl = ico != null ? ico.Url : "";
+    var robots = Model.Content.HasValue("metaRobots", true) ? Model.Content.GetPropertyValue("metaRobots", true) : "index, follow";
+}
+        <!-- Update your html tag to include the itemscope and itemtype attributes. -->
+        <title>@title</title>        
+        <meta name="title" content="@title"/>
+        <meta name="description" content="@description" />
+        <meta name="keywords" content="@keywords" />
+        <meta name='author' content='Michael Biggs'>
+        <meta name="copyright" content="Michael Biggs">
+        <meta name="revisit-after" content="1 days">
+        <meta name="MobileOptimized" content="width" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="robots" content="@robots"/>
+
+        <!-- Schema.org markup for Google+ -->
+        <meta itemprop="name" content="@title">
+        <meta itemprop="description" content="@description">
+        <meta itemprop="image" content="@string.Format("{0}{1}", home.UrlWithDomain().TrimEnd('/'), imageUrl)">
+        <meta property="article:modified_time" content="@Model.Content.UpdateDate" />
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@canonical">
+        <meta name="twitter:title" content="@title">
+        <meta name="twitter:description" content="@description">
+        <!-- Twitter summary card with large image must be at least 280x150px -->
+        <meta name="twitter:image:src" content="@string.Format("{0}{1}", home.UrlWithDomain().TrimEnd('/'), imageUrl)">
+
+        <!-- Open Graph data -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="@openTitle" />
+        <meta property="og:image" content="@string.Format("{0}{1}", home.UrlWithDomain().TrimEnd('/'), openImageUrl)" />
+        <meta property="og:url" content="@canonical" />
+        <meta property="og:description" content="@openDescription" />
+        <meta property="og:site_name" content="@siteName" />
+        <meta property="og:locale" content="en_GB">
+        <meta property="og:type" content="website">
+    
+        <link rel="canonical" href="@canonical" />
+        <link rel="amphtml" href="@Model.Content.AmpUrl()">
+        @*TODO finish this before live*@
+        <script type="application/ld+json">
+            {"@@context":"http:\/\/schema.org","@@type":"WebSite","url":"https:\/\/edgethreesixty.co.uk\/","name":"EdgeThreeSixty.co.uk","potentialAction":{"@@type":"SearchAction","target":"https:\/\/edgethreesixty.co.uk\/search\/{search_term_string}","query-input":"required name=search_term_string"}}
+        </script>
+        <script type="application/ld+json">
+            {"@@context":"http:\/\/schema.org","@@type":"Organization","url":"https:\/\/edgethreesixty.co.uk\/","sameAs":[],"name":"EdgeThreeSixty Ltd","logo":"http:\/\/edgethreesixty.co.uk\/app\/uploads\/2014\/06\/edge-three-sixty-logo-51.png"}
+        </script>

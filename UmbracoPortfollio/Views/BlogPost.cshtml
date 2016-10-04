@@ -1,0 +1,47 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "Root.cshtml";
+    var body = Model.Content.GetPropertyValue("bodyContent");
+    var recentPosts = Model.Content.Parent.Children.Where(x => x.IsVisible() && x.IsNotEqual(Model.Content)).OrderByDescending(x => x.UpdateDate).Take(5);
+    var title = Model.Content.GetPropertyValue("pageTitle");
+    var date = Model.Content.UpdateDate;
+    var description = Model.Content.GetPropertyValue("pageIntro");
+    var markdown = Model.Content.GetPropertyValue("markdown");
+    var link = Model.Content.Url;
+    var tags = Model.Content.GetPropertyValue("tag");
+}
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-push-12 text-center">
+                <h1>@title</h1>
+                <hr>
+            </div>
+            <div class="col-md-8">
+                <div class="post text">
+                    <p>
+                        @date
+                    </p>
+                    <article>
+                        <p>@description</p>
+                        @markdown
+                        @body
+                    </article>
+                    @Html.Partial("Share")
+                </div>
+                @*@Html.Action("RenderCommentForm", "Comment")*@
+                @Html.Partial("CommentsFacebook")
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <h4>Recent Posts:</h4>
+                    @foreach(var post in recentPosts)
+                    {
+                        <a href="@post.Url">@post.Name</a>
+                    }                    
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</section>

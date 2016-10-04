@@ -1,0 +1,224 @@
+﻿ 2016-07-21 22:32:14,039 [P33496/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.0-beta application starting on MICHAEL
+ 2016-07-21 22:32:14,094 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-07-21 22:32:14,110 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 16ms)
+ 2016-07-21 22:32:14,161 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-07-21 22:32:14,612 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 451ms)
+ 2016-07-21 22:32:14,629 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-07-21 22:32:14,638 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2016-07-21 22:32:14,638 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-07-21 22:32:14,656 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 17ms)
+ 2016-07-21 22:32:14,673 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-07-21 22:32:14,682 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+ 2016-07-21 22:32:14,683 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-07-21 22:32:14,708 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 24ms)
+ 2016-07-21 22:32:14,755 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-07-21 22:32:14,764 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 9ms)
+ 2016-07-21 22:32:14,764 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-07-21 22:32:14,775 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 10ms)
+ 2016-07-21 22:32:17,487 [P33496/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-21 22:32:18,344 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-07-21 22:32:18,361 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 17ms)
+ 2016-07-21 22:32:18,420 [P33496/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-21 22:32:19,673 [P33496/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-21 22:32:20,274 [P33496/D3/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will build its caches and indexes, and then adjust its last synced Id to the latest found in the database and maintain cache updates based on that Id.
+ 2016-07-21 22:32:20,974 [P33496/D3/T1] INFO  umbraco.content - Load Xml from file...
+ 2016-07-21 22:32:20,989 [P33496/D3/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2016-07-21 22:32:20,995 [P33496/D3/T1] INFO  umbraco.content - Loading content from database...
+ 2016-07-21 22:32:29,441 [P33496/D3/T11] INFO  umbraco.content - Save Xml to file...
+ 2016-07-21 22:32:29,453 [P33496/D3/T11] INFO  umbraco.content - Saved Xml to file.
+ 2016-07-21 22:32:31,476 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-07-21 22:32:31,514 [P33496/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 38ms)
+ 2016-07-21 22:32:35,905 [P33496/D3/T10] ERROR UmbracoExamine.DataServices.UmbracoLogService - Provider=InternalIndexer, NodeId=-1
+System.Exception: Error indexing queue items,System.IO.IOException: There is not enough space on the disk.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.SetLengthCore(Int64 value)
+   at System.IO.FileStream.SetLength(Int64 value)
+   at Lucene.Net.Store.SimpleFSDirectory.SimpleFSIndexOutput.SetLength(Int64 length)
+   at Lucene.Net.Index.CompoundFileWriter.Close()
+   at Lucene.Net.Index.DocumentsWriter.CreateCompoundFile(String segment)
+   at Lucene.Net.Index.IndexWriter.DoFlushInternal(Boolean flushDocStores, Boolean flushDeletes)
+   at Lucene.Net.Index.IndexWriter.DoFlush(Boolean flushDocStores, Boolean flushDeletes)
+   at Lucene.Net.Index.IndexWriter.Flush(Boolean triggerMerge, Boolean flushDocStores, Boolean flushDeletes)
+   at Lucene.Net.Index.IndexWriter.PrepareCommit(IDictionary`2 commitUserData, Boolean internal_Renamed)
+   at Lucene.Net.Index.IndexWriter.Commit(IDictionary`2 commitUserData)
+   at Lucene.Net.Index.IndexWriter.Commit()
+   at Examine.LuceneEngine.Providers.LuceneIndexer.ForceProcessQueueItems(Boolean block) in X:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 1496, IndexSet: InternalIndexSet
+ 2016-07-21 22:32:40,843 [P33496/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-07-21 22:32:40,855 [P33496/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-07-21 22:32:40,855 [P33496/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-07-21 22:32:41,450 [P33496/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 27487ms)
+ 2016-07-21 22:32:42,720 [P33496/D3/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-07-21 22:32:50,579 [P33496/D3/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-07-21 22:32:50,641 [P33496/D3/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 60ms)
+ 2016-07-21 22:32:50,646 [P33496/D3/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-21 22:32:50,661 [P33496/D3/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 15ms)
+ 2016-07-21 22:32:50,671 [P33496/D3/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-07-21 22:32:50,686 [P33496/D3/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 14ms)
+ 2016-07-21 22:32:50,686 [P33496/D3/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-07-21 22:32:50,701 [P33496/D3/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 15ms)
+ 2016-07-21 22:32:50,731 [P33496/D3/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-07-21 22:32:50,741 [P33496/D3/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 12ms)
+ 2016-07-21 22:33:00,830 [P33496/D3/T20] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-07-21 22:33:02,001 [P33496/D3/T20] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-07-21 22:33:43,688 [P33496/D3/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-07-20 22:33:43
+ 2016-07-21 22:58:07,495 [P27828/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.0-beta2 application starting on MICHAEL
+ 2016-07-21 22:58:07,528 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-07-21 22:58:07,540 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 12ms)
+ 2016-07-21 22:58:07,604 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-07-21 22:58:07,948 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 343ms)
+ 2016-07-21 22:58:07,962 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-07-21 22:58:07,971 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 9ms)
+ 2016-07-21 22:58:07,972 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-07-21 22:58:07,989 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 17ms)
+ 2016-07-21 22:58:08,004 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-07-21 22:58:08,015 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 10ms)
+ 2016-07-21 22:58:08,015 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-07-21 22:58:08,038 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 22ms)
+ 2016-07-21 22:58:08,082 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-07-21 22:58:08,087 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 5ms)
+ 2016-07-21 22:58:08,087 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-07-21 22:58:08,095 [P27828/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 7ms)
+ 2016-07-21 22:58:11,244 [P27828/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3820ms)
+ 2016-07-21 22:58:16,817 [P27828/D3/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-07-21 22:58:23,617 [P27828/D3/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-07-21 22:58:23,659 [P27828/D3/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 41ms)
+ 2016-07-21 23:09:46,234 [P27828/D3/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-07-21 23:09:46,249 [P27828/D3/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 14ms)
+ 2016-07-21 23:09:48,509 [P27828/D3/T31] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username mikeylfc007@blueyonder.co.uk from IP address ::1
+ 2016-07-21 23:09:48,511 [P27828/D3/T31] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: mikeylfc007@blueyonder.co.uk logged in from IP address ::1
+ 2016-07-21 23:09:55,562 [P27828/D3/T32] INFO  umbraco.content - Load Xml from file...
+ 2016-07-21 23:09:55,572 [P27828/D3/T32] INFO  umbraco.content - Loaded Xml from file.
+ 2016-07-21 23:09:55,934 [P27828/D3/T34] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-07-21 23:12:20,930 [P27828/D3/T32] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: Permissions
+ 2016-07-21 23:12:20,946 [P27828/D3/T32] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 16ms)
+ 2016-07-21 23:12:20,974 [P27828/D3/T46] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: Upgrade
+ 2016-07-21 23:12:20,974 [P27828/D3/T46] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 0ms)
+ 2016-07-21 23:12:21,000 [P27828/D3/T46] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: DatabaseInstall
+ 2016-07-21 23:12:21,001 [P27828/D3/T46] INFO  Umbraco.Core.DatabaseContext - Database configuration status: Started
+ 2016-07-21 23:12:21,002 [P27828/D3/T46] INFO  Umbraco.Core.DatabaseContext - Database requires upgrade
+ 2016-07-21 23:12:21,003 [P27828/D3/T46] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 3ms)
+ 2016-07-21 23:12:21,023 [P27828/D3/T46] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: DatabaseUpgrade
+ 2016-07-21 23:12:21,023 [P27828/D3/T46] INFO  Umbraco.Web.Install.InstallSteps.DatabaseUpgradeStep - Running 'Upgrade' service
+ 2016-07-21 23:12:21,024 [P27828/D3/T46] INFO  Umbraco.Core.DatabaseContext - Database upgrade started
+ 2016-07-21 23:12:21,751 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Initializing database migrations
+ 2016-07-21 23:12:21,752 [P27828/D3/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Migrations.IMigration
+ 2016-07-21 23:12:21,758 [P27828/D3/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Migrations.IMigration, found 0 (took 5ms)
+ 2016-07-21 23:12:22,539 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'RemoveStylesheetDataAndTablesAgain' to context
+ 2016-07-21 23:12:23,339 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'UpdateUniqueIndexOnCmsPropertyData' to context
+ 2016-07-21 23:12:24,088 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'EnsureServersLockObject' to context
+ 2016-07-21 23:12:24,089 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddRedirectUrlTable' to context
+ 2016-07-21 23:12:24,089 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddRedirectUrlTable2' to context
+ 2016-07-21 23:12:24,089 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddRedirectUrlTable3' to context
+ 2016-07-21 23:12:24,089 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddRedirectUrlTable4' to context
+ 2016-07-21 23:12:25,397 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 2: DELETE FROM umbracoRedirectUrl
+
+ 2016-07-21 23:12:25,633 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 2: ALTER TABLE [umbracoRedirectUrl] DROP COLUMN [contentId]
+
+ 2016-07-21 23:12:25,889 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 2: ALTER TABLE [umbracoRedirectUrl] ADD [contentKey] UniqueIdentifier NULL
+
+ 2016-07-21 23:12:26,126 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 2: ALTER TABLE [umbracoRedirectUrl] ALTER COLUMN [contentKey] UniqueIdentifier NOT NULL
+
+ 2016-07-21 23:12:26,370 [P27828/D3/T46] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 2: ALTER TABLE [umbracoRedirectUrl] ADD CONSTRAINT [FK_umbracoRedirectUrl] FOREIGN KEY ([contentKey]) REFERENCES [umbracoNode] ([uniqueID])
+
+ 2016-07-21 23:15:21,632 [P27828/D3/T46] ERROR Umbraco.Core.Persistence.UmbracoDatabase - Database exception occurred
+System.Data.SqlClient.SqlException (0x80131904): There are no primary or candidate keys in the referenced table 'umbracoNode' that match the referencing column list in the foreign key 'FK_umbracoRedirectUrl'.
+Could not create constraint or index. See previous errors.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 279
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.Execute(String sql, Object[] args)
+ClientConnectionId:8ef49fb2-db72-455d-a1ba-4a620fa666b7
+Error Number:1776,State:0,Class:16
+ 2016-07-21 23:15:21,662 [P27828/D3/T46] ERROR Umbraco.Core.DatabaseContext - Database configuration failed
+System.Data.SqlClient.SqlException (0x80131904): There are no primary or candidate keys in the referenced table 'umbracoNode' that match the referencing column list in the foreign key 'FK_umbracoRedirectUrl'.
+Could not create constraint or index. See previous errors.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StackExchange.Profiling.Data.ProfiledDbCommand.ExecuteNonQuery() in c:\Code\github\SamSaffron\MiniProfiler\StackExchange.Profiling\Data\ProfiledDbCommand.cs:line 279
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.<>c__DisplayClass1.<ExecuteNonQueryWithRetry>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy cmdRetryPolicy, RetryPolicy conRetryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoCommandExtensions.ExecuteNonQueryWithRetry(IDbCommand command)
+   at Umbraco.Core.Persistence.Database.Execute(String sql, Object[] args)
+   at Umbraco.Core.Persistence.Migrations.MigrationRunner.ExecuteMigrations(IMigrationContext context, Database database)
+   at Umbraco.Core.Persistence.Migrations.MigrationRunner.Execute(Database database, DatabaseProviders databaseProvider, Boolean isUpgrade)
+   at Umbraco.Core.Persistence.Migrations.MigrationRunner.Execute(Database database, Boolean isUpgrade)
+   at Umbraco.Core.DatabaseContext.UpgradeSchemaAndData(IMigrationEntryService migrationEntryService)
+ClientConnectionId:8ef49fb2-db72-455d-a1ba-4a620fa666b7
+Error Number:1776,State:0,Class:16
+ 2016-07-21 23:15:21,665 [P27828/D3/T46] INFO  Umbraco.Core.DatabaseContext - The database schema validation produced the following summary: 
+The following tables were found in the database, but are not in the current schema:
+icUrlTracker,SEOChecker_ValidationIssues,SEOChecker_ConfigurationIssues,SEOChecker_Queue,SEOChecker_PageNotFound,SEOChecker_Robots,SEOChecker_URLHistory,SEOChecker_ScheduledValidation,SEOChecker_Notifications,Comments,database_firewall_rules,ContactFormLogs
+ 
+The following columns were found in the database, but are not in the current schema:
+icUrlTracker,Id,icUrlTracker,OldUrl,icUrlTracker,OldUrlQueryString,icUrlTracker,OldRegex,icUrlTracker,RedirectRootNodeId,icUrlTracker,RedirectNodeId,icUrlTracker,RedirectUrl,icUrlTracker,RedirectHttpCode,icUrlTracker,RedirectPassThroughQueryString,icUrlTracker,ForceRedirect,icUrlTracker,Notes,icUrlTracker,Is404,icUrlTracker,Referrer,icUrlTracker,Inserted,SEOChecker_ValidationIssues,IssueId,SEOChecker_ValidationIssues,DocumentID,SEOChecker_ValidationIssues,ErrorCode,SEOChecker_ValidationIssues,ValidatorAlias,SEOChecker_ValidationIssues,ErrorDescription,SEOChecker_ValidationIssues,Error,SEOChecker_ValidationIssues,Template,SEOChecker_ValidationIssues,Category,SEOChecker_ValidationIssues,ValidationType,SEOChecker_ValidationIssues,ErrorType,SEOChecker_ValidationIssues,PropertyAlias,SEOChecker_ValidationIssues,DataTypeId,SEOChecker_ValidationIssues,CrawlDate,SEOChecker_ValidationIssues,ResolvedDate,SEOChecker_ValidationIssues,Ignore,SEOChecker_ConfigurationIssues,IssueId,SEOChecker_ConfigurationIssues,ErrorCode,SEOChecker_ConfigurationIssues,ValidatorAlias,SEOChecker_ConfigurationIssues,ErrorDescription,SEOChecker_ConfigurationIssues,Error,SEOChecker_ConfigurationIssues,ErrorType,SEOChecker_ConfigurationIssues,Category,SEOChecker_ConfigurationIssues,CrawlDate,SEOChecker_ConfigurationIssues,ResolvedDate,SEOChecker_ConfigurationIssues,Ignore,SEOChecker_Queue,DocumentID,SEOChecker_Queue,QueuedDateTime,SEOChecker_Queue,Priority,SEOChecker_PageNotFound,NotFoundId,SEOChecker_PageNotFound,Url,SEOChecker_PageNotFound,DocumentID,SEOChecker_PageNotFound,Ignore,SEOChecker_PageNotFound,TimesAccessed,SEOChecker_PageNotFound,LastTimeAccessed,SEOChecker_PageNotFound,RedirectUrl,SEOChecker_PageNotFound,Referer,SEOChecker_PageNotFound,ContentType,SEOChecker_PageNotFound,Domain,SEOChecker_PageNotFound,QueryString,SEOChecker_PageNotFound,WildCard,SEOChecker_Robots,NodeId,SEOChecker_Robots,UserAgent,SEOChecker_Robots,RequestDateTime,SEOChecker_URLHistory,UrlHistoryId,SEOChecker_URLHistory,NodeId,SEOChecker_URLHistory,ParentId,SEOChecker_URLHistory,UrlPart,SEOChecker_ScheduledValidation,Id,SEOChecker_ScheduledValidation,TaskName,SEOChecker_ScheduledValidation,NotificationEmailAddress,SEOChecker_ScheduledValidation,ExecuteEvery,SEOChecker_ScheduledValidation,ExecuteDays,SEOChecker_ScheduledValidation,ExecuteHour,SEOChecker_ScheduledValidation,ExecuteMinute,SEOChecker_ScheduledValidation,ValidationRoot,SEOChecker_ScheduledValidation,IncludeChildren,SEOChecker_ScheduledValidation,NextRun,SEOChecker_ScheduledValidation,LastTimeExecuted,SEOChecker_Notifications,Id,SEOChecker_Notifications,NotificationUser,SEOChecker_Notifications,ExecuteEvery,SEOChecker_Notifications,ExecuteDays,SEOChecker_Notifications,ExecuteHour,SEOChecker_Notifications,ExecuteMinute,SEOChecker_Notifications,NextRun,Comments,id,Comments,Date,Comments,NodeId,Comments,Name,Comments,Email,Comments,Comment,database_firewall_rules,id,database_firewall_rules,name,database_firewall_rules,start_ip_address,database_firewall_rules,end_ip_address,database_firewall_rules,create_date,database_firewall_rules,modify_date,umbracoRedirectUrl,contentId,ContactFormLogs,id,ContactFormLogs,Date,ContactFormLogs,Name,ContactFormLogs,Email,ContactFormLogs,Message,umbracoRedirectUrl,contentKey,umbracoRedirectUrl,urlHash
+ 
+The following constraints (Primary Keys, Foreign Keys and Indexes) were found in the database, but are not in the current schema:
+FK_umbracoExternalLogin_umbracoUser_id,FK_cmsContent_cmsContentType_nodeId,FK_cmsContentVersion_cmsContent_nodeId,FK_cmsDocument_cmsContent_nodeId,FK_cmsDocument_cmsTemplate_nodeId,FK_cmsDocumentType_cmsContentType_nodeId,FK_cmsDocumentType_cmsTemplate_nodeId,FK_cmsDataTypePreValues_cmsDataType_nodeId,FK_cmsDictionary_cmsDictionary_id,FK_cmsLanguageText_cmsDictionary_id,FK_cmsMemberType_cmsContentType_nodeId,FK_cmsMember_cmsContent_nodeId,FK_cmsContentXml_cmsContent_nodeId,FK_cmsPreviewXml_cmsContent_nodeId,FK_cmsPreviewXml_cmsContentVersion_VersionId,FK_cmsPropertyTypeGroup_cmsContentType_nodeId,FK_cmsPropertyType_cmsDataType_nodeId,FK_cmsPropertyType_cmsContentType_nodeId,FK_cmsTagRelationship_cmsContent,FK_cmsContentTypeAllowedContentType_cmsContentType,FK_cmsContentTypeAllowedContentType_cmsContentType1,FK_umbracoRedirectUrl_umbracoNode_uniqueID,PK_[SEOChecker_ConfigurationIssues,PK_Comments,PK_ContactFormLogs,PK_icUrlTracker,PK_SEOChecker_Notifications,PK_SEOChecker_PageNotFound,PK_SEOChecker_Queue,PK_SEOChecker_ScheduledValidation,PK_SEOChecker_URLHistory,PK_SEOChecker_ValidationIssues,PK_umbracoMigrations,PK_umbracoMigration,IX_umbracoNodeTrashed,IX_umbracoNodeParentId,IX_umbracoNodeUniqueID,IX_umbracoNodeObjectType,IX_cmsContentType,IX_cmsContentType_icon,IX_cmsTemplate_nodeId,IX_cmsContent,IX_cmsContentVersion_ContentId,IX_cmsContentVersion_VersionId,IX_cmsDocument,IX_cmsDocument_published,IX_cmsDocument_newest,IX_cmsDataType_nodeId,IX_cmsDictionary_id,IX_umbracoLanguage_languageISOCode,IX_umbracoLog,IX_cmsMacroPropertyAlias,IX_cmsMacroProperty_Alias,IX_cmsPropertyTypeGroupUniqueID,IX_cmsPropertyTypeUniqueID,IX_cmsPropertyData,IX_cmsPropertyData_1,IX_cmsPropertyData_2,IX_cmsPropertyData_3,IX_cmsTags,IX_umbracoUser_userLogin,IX_cmsTaskType_alias,IX_computerName,IX_umbracoServer_isActive,IX_umbracoAccess_nodeId,IX_umbracoAccessRule,IX_umbracoMigration,IX_umbracoDeployChecksum,IX_umbracoRedirectUrl
+ 
+The following indexes were found in the database, but are not in the current schema:
+IX_icUrlTracker,IX_umbracoNodeTrashed,IX_umbracoNodeParentId,IX_umbracoNodeUniqueID,IX_umbracoNodeObjectType,IX_cmsContentType,IX_cmsContentType_icon,IX_cmsTemplate_nodeId,IX_cmsContent,IX_cmsContentVersion_ContentId,IX_cmsContentVersion_VersionId,IX_cmsDocument,IX_cmsDocument_published,IX_cmsDocument_newest,IX_cmsDataType_nodeId,IX_cmsDictionary_id,IX_umbracoLanguage_languageISOCode,IX_umbracoLog,IX_cmsMacroPropertyAlias,IX_cmsMacroProperty_Alias,IX_cmsPropertyTypeGroupUniqueID,IX_cmsPropertyTypeUniqueID,IX_cmsPropertyData,IX_cmsPropertyData_1,IX_cmsPropertyData_2,IX_cmsPropertyData_3,IX_cmsTags,IX_umbracoUser_userLogin,IX_cmsTaskType_alias,IX_computerName,IX_umbracoServer_isActive,IX_umbracoAccess_nodeId,IX_umbracoAccessRule,IX_umbracoMigration,IX_umbracoDeployChecksum
+ 
+
+ 2016-07-21 23:15:21,690 [P27828/D3/T46] ERROR Umbraco.Web.Install.Controllers.InstallApiController - Installation step DatabaseUpgrade failed.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> Umbraco.Web.Install.InstallException: The database failed to upgrade. ERROR: The database configuration failed with the following message: There are no primary or candidate keys in the referenced table 'umbracoNode' that match the referencing column list in the foreign key 'FK_umbracoRedirectUrl'.
+Could not create constraint or index. See previous errors.
+ Please check log file for additional information (can be found in '/App_Data/Logs/UmbracoTraceLog.txt')
+   at Umbraco.Web.Install.InstallSteps.DatabaseUpgradeStep.Execute(Object model)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Umbraco.Web.Install.Controllers.InstallApiController.ExecuteStep(InstallSetupStep step, JToken instruction)
+ 2016-07-21 23:15:21,701 [P27828/D3/T46] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Step completed (took 180678ms)
+ 2016-07-21 23:15:21,701 [P27828/D3/T46] ERROR Umbraco.Web.Install.Controllers.InstallApiController - An error occurred during installation step DatabaseUpgrade
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> Umbraco.Web.Install.InstallException: The database failed to upgrade. ERROR: The database configuration failed with the following message: There are no primary or candidate keys in the referenced table 'umbracoNode' that match the referencing column list in the foreign key 'FK_umbracoRedirectUrl'.
+Could not create constraint or index. See previous errors.
+ Please check log file for additional information (can be found in '/App_Data/Logs/UmbracoTraceLog.txt')
+   at Umbraco.Web.Install.InstallSteps.DatabaseUpgradeStep.Execute(Object model)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Umbraco.Web.Install.Controllers.InstallApiController.ExecuteStep(InstallSetupStep step, JToken instruction)
+   at Umbraco.Web.Install.Controllers.InstallApiController.PostPerformInstall(InstallInstructions installModel)
+ 2016-07-21 23:15:35,903 [P27828/D3/T32] INFO  Umbraco.Web.Install.Controllers.InstallApiController - Executing installation step: DatabaseUpgrade
+ 2016-07-21 23:15:35,904 [P27828/D3/T32] INFO  Umbraco.Web.Install.InstallSteps.DatabaseUpgradeStep - Running 'Upgrade' service
+ 2016-07-21 23:15:35,904 [P27828/D3/T32] INFO  Umbraco.Core.DatabaseContext - Database upgrade started
+ 2016-07-21 23:15:36,675 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Initializing database migrations
+ 2016-07-21 23:15:37,435 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'RemoveStylesheetDataAndTablesAgain' to context
+ 2016-07-21 23:15:38,146 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'UpdateUniqueIndexOnCmsPropertyData' to context
+ 2016-07-21 23:15:38,815 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'EnsureServersLockObject' to context
+ 2016-07-21 23:15:38,815 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddRedirectUrlTable' to context
+ 2016-07-21 23:15:38,815 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddRedirectUrlTable2' to context
+ 2016-07-21 23:15:38,815 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddRedirectUrlTable3' to context
+ 2016-07-21 23:15:38,815 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Added UPGRADE migration 'AddRedirectUrlTable4' to context
+ 2016-07-21 23:15:40,215 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 2: DELETE FROM umbracoRedirectUrl
+
+ 2016-07-21 23:15:40,594 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 2: ALTER TABLE [umbracoRedirectUrl] DROP COLUMN [contentId]
+
+ 2016-07-21 23:15:40,789 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 2: ALTER TABLE [umbracoRedirectUrl] ADD [contentKey] UniqueIdentifier NULL
+
+ 2016-07-21 23:15:41,063 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 2: ALTER TABLE [umbracoRedirectUrl] ALTER COLUMN [contentKey] UniqueIdentifier NOT NULL
+
+ 2016-07-21 23:15:41,310 [P27828/D3/T32] INFO  Umbraco.Core.Persistence.Migrations.MigrationRunner - Executing sql statement 2: ALTER TABLE [umbracoRedirectUrl] ADD CONSTRAINT [FK_umbracoRedirectUrl] FOREIGN KEY ([contentKey]) REFERENCES [umbracoNode] ([uniqueID])
+

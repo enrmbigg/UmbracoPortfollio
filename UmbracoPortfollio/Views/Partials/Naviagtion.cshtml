@@ -1,0 +1,42 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    var home = Model.Content.AncestorOrSelf(1);
+    var contact = home.Children.FirstOrDefault(x => x.DocumentTypeAlias == "contact");
+    var blog = home.Children.FirstOrDefault(x => x.DocumentTypeAlias == "blogHome");
+    var aboutus = "";
+    var search = "/search";
+}
+
+<!-- Navigation -->
+<header class="header">
+    <div class="header-logo">
+        <a class="header-logo__link" href="@home.Url" rel="home">
+            <img class="" src="~/Images/logo.png" alt="Biggsy150">
+        </a>
+    </div>	<button class="navigation-open">
+        <i class="navigation-open__icon"></i>
+        <span class="navigation-open__text">Menu</span>
+    </button>
+    <form class="header-search" method="get" action="@search" role="search">
+        <div class="header-search__group">
+            <input id="header-search-field" class="header-search__field" type="search" name="q" value="" required="">
+            <label class="header-search__label" for="header-search-field">Search</label>
+        </div>
+        <button class="header-search__button" type="submit">
+            <span class="header-search__button__text">Toggle search</span>
+        </button>
+    </form>
+</header>
+<nav class="navigation">
+    <p class="navigation__title">Menu</p>
+    <button class="navigation__close">Close menu</button>
+    <form class="navigation__search" method="get" action="@search" role="search">
+        <input id="navigation-search-field" class="navigation__search__field" type="search" name="q" value="" placeholder="Search …" required="">
+    </form>
+    <ul class="navigation__list --depth-0">
+        <li class="navigation__item --depth-0"><a class="navigation__link --depth-0" href="@aboutus">About Me</a></li>
+        <li class="navigation__item --depth-0"><a class="navigation__link --depth-0" href="@blog.Url">Blog</a></li>       
+        <li class="navigation__item --depth-0"><a class="navigation__link --depth-0" href="@contact.Url">Contact Me</a></li>
+    </ul>
+</nav>
+<!-- //Navigation -->

@@ -1,0 +1,10 @@
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using UmbracoPortfollio.App_Code.Helpers
+
+<div class="widget tagcloud">
+    <h4>Popular tags:</h4>
+
+    <div class="content">
+        @Html.TagCloud(5, 50)
+    </div>
+</div>

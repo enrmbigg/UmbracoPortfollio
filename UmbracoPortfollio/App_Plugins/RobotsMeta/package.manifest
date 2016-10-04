@@ -1,0 +1,19 @@
+﻿{
+    "propertyEditors": [
+        {
+            "alias": "robotsMetaEditor",
+            "name": "Robots meta tag editor",
+            "hideLabel": false,
+            "valueType": "JSON",
+            "editor": {
+                "view": "~/App_Plugins/RobotsMeta/propertyeditors/robotsmetaeditor.html"
+            }
+        }
+    ],
+    "javascript": [ 
+        "~/App_Plugins/RobotsMeta/propertyeditors/robotsmetaeditor.controller.js"
+    ],
+    "css":[
+        "~/App_Plugins/RobotsMeta/propertyeditors/robotsmetaeditor.css"
+    ]
+}

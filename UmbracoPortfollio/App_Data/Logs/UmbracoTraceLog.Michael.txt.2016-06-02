@@ -1,0 +1,301 @@
+﻿ 2016-06-02 23:29:08,648 [P40100/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.3 application starting on MICHAEL
+ 2016-06-02 23:29:08,683 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-06-02 23:29:08,701 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 17ms)
+ 2016-06-02 23:29:08,749 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-06-02 23:29:09,180 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 430ms)
+ 2016-06-02 23:29:09,191 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-06-02 23:29:09,199 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2016-06-02 23:29:09,200 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-06-02 23:29:09,215 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 15ms)
+ 2016-06-02 23:29:09,228 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-06-02 23:29:09,236 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2016-06-02 23:29:09,237 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-06-02 23:29:09,254 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 17ms)
+ 2016-06-02 23:29:09,297 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-06-02 23:29:09,307 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 9ms)
+ 2016-06-02 23:29:09,307 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-06-02 23:29:09,313 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 5ms)
+ 2016-06-02 23:29:12,348 [P40100/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-02 23:29:14,591 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-06-02 23:29:14,602 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 10ms)
+ 2016-06-02 23:29:14,655 [P40100/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-02 23:29:15,235 [P40100/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-02 23:29:17,418 [P40100/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-06-02 23:29:17,430 [P40100/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-06-02 23:29:18,490 [P40100/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-06-02 23:29:19,851 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IPackageAction
+ 2016-06-02 23:29:19,889 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IPackageAction, found 0 (took 38ms)
+ 2016-06-02 23:29:19,897 [P40100/D2/T6] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ConditionalFileCopyAction with Params  Source:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\app_data\temp\SEOChecker\SEOChecker.MVC.dll target:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\bin\SEOChecker.MVC.dll minversion:4.11.0 maxversion0.0.0 currentVersion7.4.3
+ 2016-06-02 23:29:19,907 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ConditionalFileCopyAction with Params  Source:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\app_data\temp\SEOChecker\SEOChecker.LegacyPropertyEditorConverters.dll target:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\bin\SEOChecker.LegacyPropertyEditorConverters.dll minversion:4.11.0 maxversion6.99999.0 currentVersion7.4.3
+ 2016-06-02 23:29:19,908 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ConditionalFileCopyAction with Params  Source:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\app_data\temp\SEOChecker\SEOChecker.PropertyEditorConverters.dll target:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\bin\SEOChecker.PropertyEditorConverters.dll minversion:7.0.0 maxversion0.0.0 currentVersion7.4.3
+ 2016-06-02 23:29:19,908 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ConditionalFileCopyAction with Params  Source:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\app_data\temp\SEOChecker\SEOChecker.LegacyDataTypes.dll target:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\bin\SEOChecker.LegacyDataTypes.dll minversion:4.0.0 maxversion6.99999.0 currentVersion7.4.3
+ 2016-06-02 23:29:19,908 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ConditionalFileCopyAction with Params  Source:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\app_data\temp\SEOChecker\SEOChecker.DataTypes.dll target:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\bin\SEOChecker.DataTypes.dll minversion:7.0.0 maxversion0.0.0 currentVersion7.4.3
+ 2016-06-02 23:29:19,908 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ConditionalFileCopyAction with Params  Source:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\app_data\temp\SEOChecker\SEOChecker.LegacyEvents.dll target:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\bin\SEOChecker.LegacyEvents.dll minversion:4.0.0 maxversion6.99999.0 currentVersion7.4.3
+ 2016-06-02 23:29:19,908 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ConditionalFileCopyAction with Params  Source:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\app_data\temp\SEOChecker\SEOChecker.Events.dll target:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\bin\SEOChecker.Events.dll minversion:7.0.0 maxversion0.0.0 currentVersion7.4.3
+ 2016-06-02 23:29:19,908 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ConditionalFileCopyAction with Params  Source:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\app_data\temp\SEOChecker\SEOChecker.LegacyLogging.dll target:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\bin\SEOChecker.LegacyLogging.dll minversion:4.0.0 maxversion4.99999.0 currentVersion7.4.3
+ 2016-06-02 23:29:19,908 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ConditionalFileCopyAction with Params  Source:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\app_data\temp\SEOChecker\SEOChecker.Logging.dll target:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\bin\SEOChecker.Logging.dll minversion:6.0.0 maxversion0.0.0 currentVersion7.4.3
+ 2016-06-02 23:29:19,908 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ConditionalFileCopyAction with Params  Source:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\app_data\temp\SEOChecker\SEOChecker.config target:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\umbraco\plugins\SEOChecker\Config\SEOChecker.config minversion:0.0.0 maxversion0.0.0 currentVersion7.4.3
+ 2016-06-02 23:29:19,910 [P40100/D2/T6] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ConditionalFileCopyAction with Params  Source:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\app_data\temp\SEOChecker\seochecker-notification.xslt target:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\xslt\seochecker-notification.xslt minversion:0.0.0 maxversion0.0.0 currentVersion7.4.3
+ 2016-06-02 23:29:19,924 [P40100/D2/T7] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ConditionalFileCopyAction with Params  Source:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\app_data\temp\SEOChecker\seochecker-scheduledtask.xslt target:c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\xslt\seochecker-scheduledtask.xslt minversion:0.0.0 maxversion0.0.0 currentVersion7.4.3
+ 2016-06-02 23:29:20,701 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-06-02 23:29:20,717 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 16ms)
+ 2016-06-02 23:29:20,748 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-06-02 23:29:20,770 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 21ms)
+ 2016-06-02 23:29:20,782 [P40100/D2/T1] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type
+ 2016-06-02 23:29:20,786 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-02 23:29:20,794 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 8ms)
+ 2016-06-02 23:29:20,796 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-06-02 23:29:20,809 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 13ms)
+ 2016-06-02 23:29:20,819 [P40100/D2/T1] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type
+ 2016-06-02 23:29:20,825 [P40100/D2/T1] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type
+ 2016-06-02 23:29:20,830 [P40100/D2/T1] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type
+ 2016-06-02 23:29:20,836 [P40100/D2/T1] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type
+ 2016-06-02 23:29:20,870 [P40100/D2/T6] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:20,870 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:20,870 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:20,870 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:20,870 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:20,870 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:20,870 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:20,870 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:20,870 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:20,870 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:20,870 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:20,870 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:20,870 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:21,210 [P40100/D2/T14] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:21,560 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,025 [P40100/D2/T6] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,358 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,358 [P40100/D2/T6] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,358 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,358 [P40100/D2/T6] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,358 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,358 [P40100/D2/T6] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,358 [P40100/D2/T14] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,704 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T14] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T14] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T14] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T14] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T14] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T14] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:22,973 [P40100/D2/T6] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:23,132 [P40100/D2/T8] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:23,282 [P40100/D2/T6] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:23,282 [P40100/D2/T14] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:23,282 [P40100/D2/T6] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:23,282 [P40100/D2/T14] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_ExecuteSql
+ 2016-06-02 23:29:23,282 [P40100/D2/T6] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_AddTreeNodeType
+ 2016-06-02 23:29:23,289 [P40100/D2/T14] INFO  umbraco.BusinessLogic.Log - Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Debug | User: 0 | NodeId: -1 | Comment: Executing Package Action SEOChecker_EnsureDataType
+ 2016-06-02 23:29:23,453 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-06-02 23:29:23,459 [P40100/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 6ms)
+ 2016-06-02 23:29:33,410 [P40100/D2/T1] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - Error executing query INSERT INTO cmsDataTypePreValues (datatypenodeid,[value],sortorder,alias) VALUES (@dtdefid,@value,0,'@alias')
+System.Data.SqlClient.SqlException (0x80131904): The parameterized query '(@value nvarchar(97),@dtdefid int,@alias nvarchar(4000))INSERT I' expects the parameter '@alias', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteNonQuery(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:66fb4e41-1157-482a-90b1-01045e35922d
+Error Number:8178,State:1,Class:16
+ 2016-06-02 23:29:41,467 [P40100/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 32891ms)
+ 2016-06-02 23:29:42,703 [P40100/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-06-02 23:29:42,723 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2016-06-02 23:29:42,723 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2016-06-02 23:29:42,724 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2016-06-02 23:29:42,724 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-06-02 23:29:42,724 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-06-02 23:29:42,724 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-06-02 23:29:42,790 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-06-02 23:29:42,790 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-06-02 23:29:42,790 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-06-02 23:29:42,793 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-06-02 23:29:42,793 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-06-02 23:29:42,793 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-06-02 23:29:42,793 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-06-02 23:29:42,793 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-06-02 23:29:42,793 [P40100/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-06-02 23:29:42,898 [P40100/D2/T6] INFO  umbraco.content - Loading content from database...
+ 2016-06-02 23:29:50,308 [P40100/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-06-02 23:29:50,347 [P40100/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 39ms)
+ 2016-06-02 23:29:50,360 [P40100/D2/T11] INFO  Umbraco.Core.Manifest.ManifestWatcher - manifest has changed, app pool is restarting (c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Plugins\Analytics\package.manifest)
+ 2016-06-02 23:30:16,537 [P40100/D2/T6] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generate models now.
+ 2016-06-02 23:30:18,466 [P40100/D2/T6] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generated.
+ 2016-06-02 23:30:18,580 [P40100/D2/T14] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+Change Notification for critical directories.
+bin dir change or directory rename
+CONFIG change
+CONFIG change
+CONFIG change
+CONFIG change
+CONFIG change
+CONFIG change
+CONFIG change
+User code called UnloadAppDomain
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2016-06-02 23:30:28,418 [P40100/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.4.3 application starting on MICHAEL
+ 2016-06-02 23:30:28,445 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-06-02 23:30:28,459 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2016-06-02 23:30:28,504 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-06-02 23:30:28,810 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 306ms)
+ 2016-06-02 23:30:28,820 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-06-02 23:30:28,829 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 9ms)
+ 2016-06-02 23:30:28,830 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-06-02 23:30:28,842 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 12ms)
+ 2016-06-02 23:30:28,852 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-06-02 23:30:28,859 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+ 2016-06-02 23:30:28,860 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-06-02 23:30:28,887 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 27ms)
+ 2016-06-02 23:30:28,920 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-06-02 23:30:28,937 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 16ms)
+ 2016-06-02 23:30:28,937 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-06-02 23:30:28,953 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 15ms)
+ 2016-06-02 23:30:31,567 [P40100/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-02 23:30:33,823 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-06-02 23:30:33,834 [P40100/D3/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 11ms)
+ 2016-06-02 23:30:33,885 [P40100/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-02 23:30:35,667 [P40100/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-06-02 23:30:37,723 [P40100/D3/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-06-02 23:30:37,733 [P40100/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-06-02 23:30:38,666 [P40100/D3/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-06-02 23:30:38,845 [P40100/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 10484ms)
+ 2016-06-02 23:30:39,865 [P40100/D3/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-06-02 23:30:44,896 [P40100/D3/T6] INFO  umbraco.content - Load Xml from file...
+ 2016-06-02 23:30:44,903 [P40100/D3/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2016-06-02 23:30:58,832 [P40100/D3/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-06-02 23:30:58,873 [P40100/D3/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 41ms)
+ 2016-06-02 23:31:01,715 [P40100/D3/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-06-02 23:31:01,764 [P40100/D3/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 48ms)
+ 2016-06-02 23:31:01,768 [P40100/D3/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-06-02 23:31:01,788 [P40100/D3/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 20ms)
+ 2016-06-02 23:31:01,863 [P40100/D3/T14] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type
+ 2016-06-02 23:31:01,872 [P40100/D3/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-02 23:31:01,887 [P40100/D3/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 14ms)
+ 2016-06-02 23:31:01,890 [P40100/D3/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-06-02 23:31:01,915 [P40100/D3/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 25ms)
+ 2016-06-02 23:31:01,970 [P40100/D3/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-06-02 23:31:02,004 [P40100/D3/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 34ms)
+ 2016-06-02 23:31:04,367 [P40100/D3/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-06-02 23:31:04,377 [P40100/D3/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 10ms)
+ 2016-06-02 23:31:05,498 [P40100/D3/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username mikeylfc007@blueyonder.co.uk from IP address ::1
+ 2016-06-02 23:31:05,504 [P40100/D3/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: mikeylfc007@blueyonder.co.uk logged in from IP address ::1
+ 2016-06-02 23:31:07,823 [P40100/D3/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-02 23:31:07,823 [P40100/D3/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-06-02 23:31:07,833 [P40100/D3/T14] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-06-02 23:31:09,187 [P40100/D3/T14] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-06-02 23:31:11,509 [P40100/D3/T14] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-06-02 23:31:16,988 [P40100/D3/T14] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-06-02 23:31:29,097 [P40100/D3/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-02 23:31:50,560 [P40100/D3/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-01 23:31:50
+ 2016-06-02 23:32:33,803 [P40100/D3/T18] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-02 23:32:39,046 [P40100/D3/T12] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-06-02 23:32:42,881 [P40100/D3/T12] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-06-02 23:32:43,532 [P40100/D3/T12] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-06-02 23:32:43,988 [P40100/D3/T12] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-06-02 23:32:49,836 [P40100/D3/T17] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-02 23:32:59,075 [P40100/D3/T24] ERROR SEOChecker.Core.Validation.SEOValidator - SEOChecker: Error during validating tag for document: 1143 using validator 'BrokenLinks'
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at SEOChecker.Validators.ContentValidators.Links.BrokenLinkValidator.(String , String , String )
+   at SEOChecker.Validators.ContentValidators.Links.BrokenLinkValidator.Parse(ValidationResult result, IUmbracoDocument document, HtmlDocument htmlDocument, IContextInfo contextInfo)
+   at SEOChecker.Core.Validation.SEOValidator.Validate(ValidationResult validationResult, IUmbracoDocument document, HtmlDocument htmlDocument, IContextInfo context)
+ 2016-06-02 23:33:22,874 [P40100/D3/T7] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-06-02 23:33:23,385 [P40100/D3/T22] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-06-02 23:33:23,685 [P40100/D3/T7] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-06-02 23:33:24,415 [P40100/D3/T7] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-06-02 23:33:25,195 [P40100/D3/T7] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-06-02 23:33:29,407 [P40100/D3/T24] ERROR SEOChecker.Core.Validation.SEOValidator - SEOChecker: Error during validating tag for document: 1145 using validator 'BrokenLinks'
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at SEOChecker.Validators.ContentValidators.Links.BrokenLinkValidator.(String , String , String )
+   at SEOChecker.Validators.ContentValidators.Links.BrokenLinkValidator.Parse(ValidationResult result, IUmbracoDocument document, HtmlDocument htmlDocument, IContextInfo contextInfo)
+   at SEOChecker.Core.Validation.SEOValidator.Validate(ValidationResult validationResult, IUmbracoDocument document, HtmlDocument htmlDocument, IContextInfo context)
+ 2016-06-02 23:33:39,246 [P40100/D3/T24] ERROR SEOChecker.Core.Validation.SEOValidator - SEOChecker: Error during validating tag for document: 1156 using validator 'BrokenLinks'
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at SEOChecker.Validators.ContentValidators.Links.BrokenLinkValidator.(String , String , String )
+   at SEOChecker.Validators.ContentValidators.Links.BrokenLinkValidator.Parse(ValidationResult result, IUmbracoDocument document, HtmlDocument htmlDocument, IContextInfo contextInfo)
+   at SEOChecker.Core.Validation.SEOValidator.Validate(ValidationResult validationResult, IUmbracoDocument document, HtmlDocument htmlDocument, IContextInfo context)
+ 2016-06-02 23:33:47,688 [P40100/D3/T24] ERROR SEOChecker.Core.Validation.SEOValidator - SEOChecker: Error during validating tag for document: 2185 using validator 'BrokenLinks'
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0, Object arg1)
+   at SEOChecker.Validators.ContentValidators.Links.BrokenLinkValidator.(String , String , String )
+   at SEOChecker.Validators.ContentValidators.Links.BrokenLinkValidator.Parse(ValidationResult result, IUmbracoDocument document, HtmlDocument htmlDocument, IContextInfo contextInfo)
+   at SEOChecker.Core.Validation.SEOValidator.Validate(ValidationResult validationResult, IUmbracoDocument document, HtmlDocument htmlDocument, IContextInfo context)
+ 2016-06-02 23:34:03,940 [P40100/D3/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-02 23:34:03,940 [P40100/D3/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-06-02 23:38:40,800 [P40100/D3/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-02 23:38:40,800 [P40100/D3/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-06-02 23:38:54,260 [P40100/D3/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-06-02 23:38:54,294 [P40100/D3/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 34ms)
+ 2016-06-02 23:41:34,023 [P40100/D3/T16] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How To Log Errors In Umbraco' with Id '2185' has been published.
+ 2016-06-02 23:42:19,122 [P40100/D3/T27] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-06-02 23:42:21,196 [P40100/D3/T27] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-06-02 23:42:22,003 [P40100/D3/T27] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-06-02 23:42:22,510 [P40100/D3/T27] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-06-02 23:42:22,534 [P40100/D3/T11] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-06-02 23:42:23,133 [P40100/D3/T11] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-06-02 23:42:23,807 [P40100/D3/T11] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-06-02 23:42:24,592 [P40100/D3/T11] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-06-02 23:42:35,445 [P40100/D3/T39] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-02 23:42:35,445 [P40100/D3/T39] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-06-02 23:42:35,663 [P40100/D3/T20] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type
+ 2016-06-02 23:42:42,587 [P40100/D3/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-02 23:42:42,587 [P40100/D3/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-06-02 23:49:27,110 [P40100/D3/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-02 23:49:27,110 [P40100/D3/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-06-02 23:53:39,955 [P40100/D3/T57] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-06-02 23:53:39,955 [P40100/D3/T57] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-06-02 23:53:40,520 [P40100/D3/T51] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type

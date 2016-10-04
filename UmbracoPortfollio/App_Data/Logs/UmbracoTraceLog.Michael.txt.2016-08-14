@@ -1,0 +1,505 @@
+﻿ 2016-08-14 22:34:02,108 [P13596/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.0-beta application starting on MICHAEL
+ 2016-08-14 22:34:02,220 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-08-14 22:34:02,237 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 17ms)
+ 2016-08-14 22:34:02,271 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-08-14 22:34:03,215 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 942ms)
+ 2016-08-14 22:34:03,367 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-08-14 22:34:03,368 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-08-14 22:34:03,368 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-08-14 22:34:03,416 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 48ms)
+ 2016-08-14 22:34:03,430 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-08-14 22:34:03,431 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-08-14 22:34:03,432 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-08-14 22:34:03,781 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 350ms)
+ 2016-08-14 22:34:03,951 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-08-14 22:34:03,952 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-08-14 22:34:03,952 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-08-14 22:34:03,953 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-08-14 22:34:06,052 [P13596/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 22:34:06,581 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-08-14 22:34:06,652 [P13596/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 71ms)
+ 2016-08-14 22:34:07,247 [P13596/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 22:34:08,607 [P13596/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 22:34:09,391 [P13596/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-08-14 22:34:10,023 [P13596/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-08-14 22:34:10,023 [P13596/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-08-14 22:34:10,279 [P13596/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 8231ms)
+ 2016-08-14 22:34:21,017 [P13596/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-08-14 22:34:21,117 [P13596/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-08-14 22:34:21,906 [P13596/D2/T8] INFO  umbraco.content - Load Xml from file...
+ 2016-08-14 22:34:21,918 [P13596/D2/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2016-08-14 22:34:25,754 [P13596/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-08-14 22:34:25,755 [P13596/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-08-14 22:34:25,767 [P13596/D2/T12] INFO  Umbraco.Core.Manifest.ManifestWatcher - manifest has changed, app pool is restarting (c:\users\michael.biggs\documents\visual studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Plugins\Analytics\package.manifest)
+ 2016-08-14 22:34:26,928 [P13596/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-08-14 22:34:26,928 [P13596/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-08-14 22:34:26,928 [P13596/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2016-08-14 22:34:26,928 [P13596/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2016-08-14 22:34:26,929 [P13596/D2/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-08-14 22:34:26,929 [P13596/D2/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2016-08-14 22:34:26,983 [P13596/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-08-14 22:34:26,983 [P13596/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-08-14 22:34:26,983 [P13596/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-08-14 22:34:26,983 [P13596/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-08-14 22:34:26,984 [P13596/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-08-14 22:34:26,984 [P13596/D2/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-08-14 22:34:26,984 [P13596/D2/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-08-14 22:34:26,984 [P13596/D2/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-08-14 22:34:26,984 [P13596/D2/T14] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-08-14 22:34:35,024 [P13596/D3/T5] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.0-beta application starting on MICHAEL
+ 2016-08-14 22:34:35,077 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-08-14 22:34:35,089 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2016-08-14 22:34:35,118 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-08-14 22:34:35,495 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 377ms)
+ 2016-08-14 22:34:35,586 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-08-14 22:34:35,587 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-08-14 22:34:35,587 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-08-14 22:34:35,609 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 22ms)
+ 2016-08-14 22:34:35,619 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-08-14 22:34:35,620 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-08-14 22:34:35,620 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-08-14 22:34:35,793 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 172ms)
+ 2016-08-14 22:34:35,860 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-08-14 22:34:35,860 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-08-14 22:34:35,861 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-08-14 22:34:35,861 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-08-14 22:34:37,845 [P13596/D3/T5] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 22:34:38,331 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-08-14 22:34:38,361 [P13596/D3/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 30ms)
+ 2016-08-14 22:34:38,836 [P13596/D3/T5] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 22:34:39,996 [P13596/D3/T5] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 22:34:40,840 [P13596/D3/T5] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-08-14 22:34:41,388 [P13596/D3/T5] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-08-14 22:34:41,388 [P13596/D3/T5] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-08-14 22:34:41,569 [P13596/D3/T5] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6600ms)
+ 2016-08-14 22:34:44,154 [P13596/D3/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-08-14 22:34:44,154 [P13596/D3/T9] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-08-14 22:34:45,794 [P13596/D3/T8] INFO  umbraco.content - Load Xml from file...
+ 2016-08-14 22:34:45,795 [P13596/D3/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2016-08-14 22:34:54,093 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-08-14 22:34:54,095 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-08-14 22:34:55,649 [P13596/D3/T15] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 22:34:55,651 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-08-14 22:34:55,652 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 1ms)
+ 2016-08-14 22:34:55,657 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-08-14 22:34:55,658 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-08-14 22:34:55,664 [P13596/D3/T15] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type
+ 2016-08-14 22:34:55,668 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-08-14 22:34:55,669 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-08-14 22:34:55,673 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-08-14 22:34:55,673 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-08-14 22:34:55,705 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-08-14 22:34:55,706 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-08-14 22:34:57,036 [P13596/D2/T25] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: UnloadAppDomainCalled
+
+_shutDownMessage=User code called UnloadAppDomain
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.UnloadAppDomain()
+   at Umbraco.Core.Manifest.ManifestWatcher.FswChanged(Object sender, FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.OnChanged(FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.NotifyFileSystemEventArgs(Int32 action, String name)
+   at System.IO.FileSystemWatcher.CompletionStatusChanged(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* overlappedPointer)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+ 2016-08-14 22:34:59,677 [P13596/D3/T15] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 22:35:00,453 [P13596/D3/T15] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 22:35:01,363 [P13596/D3/T15] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 22:35:02,131 [P13596/D3/T15] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 22:35:06,926 [P13596/D3/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-08-14 22:35:07,419 [P13596/D3/T14] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-08-14 22:35:11,938 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-08-14 22:35:11,939 [P13596/D3/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2016-08-14 22:35:12,955 [P13596/D3/T14] ERROR SEOChecker.HttpModules.UrlModule - SEOChecker: Error in PageNotFound Module
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Collections.Generic.List`1.Enumerator.MoveNext()
+   at SEOChecker.Core.Repository.UrlHistory.UrlHistoryRepository.GetNodeIdByUrl(Uri uri)
+   at SEOChecker.Core.Providers.NotFoundProviders.SEOCheckerContentNotFoundurlHistoryProvider.GetResultByUrl(Uri uri)
+   at SEOChecker.Core.Providers.NotFoundProviders.SEONotFoundProviders.GetResultByUri(Uri uri)
+   at SEOChecker.HttpModules.UrlModule.(Object , EventArgs )
+ 2016-08-14 22:35:49,464 [P13596/D3/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-08-13 22:35:49
+ 2016-08-14 22:44:26,806 [P13596/D3/T45] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-08-14 22:53:05,714 [P12928/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.0-beta application starting on MICHAEL
+ 2016-08-14 22:53:05,737 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-08-14 22:53:05,752 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 15ms)
+ 2016-08-14 22:53:05,798 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-08-14 22:53:06,124 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 326ms)
+ 2016-08-14 22:53:06,134 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-08-14 22:53:06,143 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2016-08-14 22:53:06,143 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-08-14 22:53:06,155 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 12ms)
+ 2016-08-14 22:53:06,170 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-08-14 22:53:06,182 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 12ms)
+ 2016-08-14 22:53:06,183 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-08-14 22:53:06,200 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 17ms)
+ 2016-08-14 22:53:06,237 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-08-14 22:53:06,248 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 11ms)
+ 2016-08-14 22:53:06,249 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-08-14 22:53:06,258 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 9ms)
+ 2016-08-14 22:53:08,254 [P12928/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 22:53:08,738 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-08-14 22:53:08,754 [P12928/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 15ms)
+ 2016-08-14 22:53:09,170 [P12928/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 22:53:10,252 [P12928/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 22:53:11,052 [P12928/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-08-14 22:53:11,489 [P12928/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-08-14 22:53:11,489 [P12928/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-08-14 22:53:11,638 [P12928/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5975ms)
+ 2016-08-14 22:53:11,789 [P12928/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-08-14 22:53:12,277 [P12928/D2/T8] INFO  umbraco.content - Load Xml from file...
+ 2016-08-14 22:53:12,279 [P12928/D2/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2016-08-14 22:53:17,176 [P12928/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-08-14 22:53:17,212 [P12928/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 36ms)
+ 2016-08-14 22:53:18,564 [P12928/D2/T8] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 22:53:22,479 [P12928/D2/T8] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 22:53:22,871 [P12928/D2/T8] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 22:53:23,255 [P12928/D2/T8] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 22:54:14,144 [P12928/D2/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-08-13 22:54:14
+ 2016-08-14 22:54:14,864 [P12928/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-08-14 22:54:14,871 [P12928/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 6ms)
+ 2016-08-14 22:58:35,990 [P12928/D2/T29] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 22:58:36,384 [P12928/D2/T29] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 22:58:36,769 [P12928/D2/T29] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 22:58:37,141 [P12928/D2/T29] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 22:58:40,854 [P12928/D2/T20] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 22:58:40,855 [P12928/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-08-14 22:58:40,900 [P12928/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 44ms)
+ 2016-08-14 22:58:40,904 [P12928/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-08-14 22:58:40,914 [P12928/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 10ms)
+ 2016-08-14 22:58:40,922 [P12928/D2/T20] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type
+ 2016-08-14 22:58:40,930 [P12928/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-08-14 22:58:40,951 [P12928/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 21ms)
+ 2016-08-14 22:58:40,955 [P12928/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-08-14 22:58:40,978 [P12928/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 23ms)
+ 2016-08-14 22:58:41,015 [P12928/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-08-14 22:58:41,038 [P12928/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 23ms)
+ 2016-08-14 22:58:44,919 [P12928/D2/T20] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 22:58:45,709 [P12928/D2/T20] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 22:58:46,635 [P12928/D2/T20] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 22:58:47,416 [P12928/D2/T20] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 22:58:49,952 [P12928/D2/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-08-14 23:07:01,880 [P12928/D2/T45] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:07:03,589 [P12928/D2/T45] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:07:03,995 [P12928/D2/T45] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:07:04,385 [P12928/D2/T45] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:08:18,816 [P12928/D2/T32] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:08:20,606 [P12928/D2/T32] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:08:21,004 [P12928/D2/T32] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:08:21,402 [P12928/D2/T32] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:10:55,629 [P12928/D2/T60] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:10:57,385 [P12928/D2/T60] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:10:57,820 [P12928/D2/T60] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:10:58,202 [P12928/D2/T60] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:11:23,438 [P12928/D2/T58] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:11:25,200 [P12928/D2/T58] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:11:25,580 [P12928/D2/T58] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:11:25,965 [P12928/D2/T58] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:12:37,290 [P12928/D2/T66] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:12:38,967 [P12928/D2/T66] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:12:39,360 [P12928/D2/T66] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:12:39,738 [P12928/D2/T66] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:16:12,211 [P12928/D2/T38] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:16:13,951 [P12928/D2/T38] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:16:14,402 [P12928/D2/T38] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:16:14,841 [P12928/D2/T38] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:17:15,584 [P12928/D2/T34] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:17:16,180 [P12928/D2/T34] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:17:16,697 [P12928/D2/T34] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:17:17,172 [P12928/D2/T34] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:18:08,728 [P12928/D2/T66] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:18:09,324 [P12928/D2/T66] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:18:09,711 [P12928/D2/T66] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:18:10,111 [P12928/D2/T66] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:18:31,050 [P12928/D2/T66] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:18:32,738 [P12928/D2/T66] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:18:33,131 [P12928/D2/T66] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:18:33,517 [P12928/D2/T66] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:19:35,760 [P12928/D2/T39] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:19:36,181 [P12928/D2/T39] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:19:36,562 [P12928/D2/T39] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:19:36,941 [P12928/D2/T39] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:20:15,953 [P12928/D2/T36] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:20:17,637 [P12928/D2/T36] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:20:18,040 [P12928/D2/T36] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:20:18,444 [P12928/D2/T36] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:22:32,054 [P12928/D2/T62] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:22:33,774 [P12928/D2/T62] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:22:34,162 [P12928/D2/T62] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:22:34,553 [P12928/D2/T62] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:23:06,221 [P12928/D2/T46] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:23:07,938 [P12928/D2/T46] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:23:08,331 [P12928/D2/T46] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:23:08,718 [P12928/D2/T46] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:24:58,696 [P12928/D2/T61] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:25:00,370 [P12928/D2/T61] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:25:00,754 [P12928/D2/T61] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:25:01,139 [P12928/D2/T61] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:26:31,884 [P12928/D2/T37] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:26:32,282 [P12928/D2/T37] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:26:32,663 [P12928/D2/T37] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:26:32,720 [P12928/D2/T62] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:26:33,050 [P12928/D2/T37] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:26:33,135 [P12928/D2/T62] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:26:33,519 [P12928/D2/T62] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:26:33,900 [P12928/D2/T62] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:26:42,819 [P12928/D2/T50] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:26:43,211 [P12928/D2/T50] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:26:43,590 [P12928/D2/T50] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:26:43,972 [P12928/D2/T50] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:27:05,266 [P12928/D2/T57] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:27:06,983 [P12928/D2/T57] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:27:07,370 [P12928/D2/T57] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:27:07,764 [P12928/D2/T57] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:27:35,408 [P12928/D2/T59] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:27:37,213 [P12928/D2/T59] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:27:37,672 [P12928/D2/T59] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:27:38,076 [P12928/D2/T59] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:27:49,102 [P12928/D2/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-08-14 23:27:49,102 [P12928/D2/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-08-14 23:27:49,103 [P12928/D2/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-08-14 23:27:49,139 [P12928/D2/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-08-14 23:27:49,139 [P12928/D2/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-08-14 23:27:49,139 [P12928/D2/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2016-08-14 23:27:49,139 [P12928/D2/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2016-08-14 23:27:49,140 [P12928/D2/T58] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-08-14 23:27:49,140 [P12928/D2/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-08-14 23:27:49,140 [P12928/D2/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-08-14 23:27:49,140 [P12928/D2/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-08-14 23:27:49,140 [P12928/D2/T59] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-08-14 23:27:49,140 [P12928/D2/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2016-08-14 23:27:49,140 [P12928/D2/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-08-14 23:27:49,140 [P12928/D2/T9] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-08-14 23:27:52,294 [P12928/D3/T35] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.0-beta application starting on MICHAEL
+ 2016-08-14 23:27:52,348 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-08-14 23:27:52,358 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Hash determined (took 10ms)
+ 2016-08-14 23:27:52,386 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-08-14 23:27:52,796 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 409ms)
+ 2016-08-14 23:27:52,884 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-08-14 23:27:52,885 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-08-14 23:27:52,885 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-08-14 23:27:52,908 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 23ms)
+ 2016-08-14 23:27:52,917 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-08-14 23:27:52,919 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2016-08-14 23:27:52,919 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-08-14 23:27:53,086 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 166ms)
+ 2016-08-14 23:27:53,152 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-08-14 23:27:53,153 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-08-14 23:27:53,153 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-08-14 23:27:53,154 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-08-14 23:27:55,154 [P12928/D3/T35] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 23:27:55,646 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-08-14 23:27:55,676 [P12928/D3/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 29ms)
+ 2016-08-14 23:27:56,291 [P12928/D3/T35] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 23:27:57,554 [P12928/D3/T35] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 23:27:58,593 [P12928/D3/T35] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-08-14 23:27:59,109 [P12928/D3/T35] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-08-14 23:27:59,109 [P12928/D3/T35] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-08-14 23:27:59,295 [P12928/D3/T35] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 7058ms)
+ 2016-08-14 23:28:01,996 [P12928/D3/T24] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-08-14 23:28:02,658 [P12928/D3/T24] INFO  umbraco.content - Load Xml from file...
+ 2016-08-14 23:28:02,659 [P12928/D3/T24] INFO  umbraco.content - Loaded Xml from file.
+ 2016-08-14 23:28:06,399 [P12928/D3/T24] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-08-14 23:28:06,401 [P12928/D3/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2016-08-14 23:28:07,042 [P12928/D3/T24] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:28:17,054 [P12928/D3/T53] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 23:28:17,056 [P12928/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-08-14 23:28:17,057 [P12928/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 1ms)
+ 2016-08-14 23:28:17,061 [P12928/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-08-14 23:28:17,062 [P12928/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-08-14 23:28:17,069 [P12928/D3/T53] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type
+ 2016-08-14 23:28:17,073 [P12928/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-08-14 23:28:17,074 [P12928/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-08-14 23:28:17,077 [P12928/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-08-14 23:28:17,077 [P12928/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-08-14 23:28:17,105 [P12928/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-08-14 23:28:17,106 [P12928/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-08-14 23:28:19,171 [P12928/D2/T24] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2016-08-14 23:28:21,515 [P12928/D3/T53] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 23:28:22,302 [P12928/D3/T53] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 23:28:23,223 [P12928/D3/T53] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 23:28:24,033 [P12928/D3/T53] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 23:28:26,560 [P12928/D3/T53] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-08-14 23:28:27,809 [P12928/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-08-14 23:28:27,810 [P12928/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-08-14 23:29:03,147 [P12928/D3/T53] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:29:03,235 [P12928/D3/T46] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-08-13 23:29:03
+ 2016-08-14 23:29:04,905 [P12928/D3/T53] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:31:23,090 [P12928/D3/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2016-08-14 23:31:23,090 [P12928/D3/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2016-08-14 23:31:23,091 [P12928/D3/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2016-08-14 23:31:23,093 [P12928/D3/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-08-14 23:31:23,093 [P12928/D3/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-08-14 23:31:23,093 [P12928/D3/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-08-14 23:31:23,130 [P12928/D3/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-08-14 23:31:23,130 [P12928/D3/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-08-14 23:31:23,130 [P12928/D3/T40] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-08-14 23:31:23,130 [P12928/D3/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-08-14 23:31:23,130 [P12928/D3/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-08-14 23:31:23,130 [P12928/D3/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-08-14 23:31:23,130 [P12928/D3/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-08-14 23:31:23,130 [P12928/D3/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-08-14 23:31:23,130 [P12928/D3/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-08-14 23:31:34,749 [P12928/D4/T35] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.0-beta application starting on MICHAEL
+ 2016-08-14 23:31:34,774 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-08-14 23:31:34,785 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Hash determined (took 11ms)
+ 2016-08-14 23:31:34,822 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-08-14 23:31:35,135 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 313ms)
+ 2016-08-14 23:31:35,146 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-08-14 23:31:35,155 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2016-08-14 23:31:35,155 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-08-14 23:31:35,168 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 12ms)
+ 2016-08-14 23:31:35,177 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-08-14 23:31:35,182 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+ 2016-08-14 23:31:35,183 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-08-14 23:31:35,200 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 16ms)
+ 2016-08-14 23:31:35,228 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-08-14 23:31:35,237 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 8ms)
+ 2016-08-14 23:31:35,237 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-08-14 23:31:35,247 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 9ms)
+ 2016-08-14 23:31:36,545 [P12928/D4/T35] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 23:31:37,046 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-08-14 23:31:37,063 [P12928/D4/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 16ms)
+ 2016-08-14 23:31:37,488 [P12928/D4/T35] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 23:31:38,545 [P12928/D4/T35] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-08-14 23:31:39,320 [P12928/D4/T35] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-08-14 23:31:39,750 [P12928/D4/T35] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-08-14 23:31:39,751 [P12928/D4/T35] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-08-14 23:31:39,915 [P12928/D4/T35] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5222ms)
+ 2016-08-14 23:31:40,022 [P12928/D4/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-08-14 23:31:40,511 [P12928/D4/T10] INFO  umbraco.content - Load Xml from file...
+ 2016-08-14 23:31:40,512 [P12928/D4/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2016-08-14 23:31:44,087 [P12928/D4/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-08-14 23:31:44,131 [P12928/D4/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 44ms)
+ 2016-08-14 23:31:45,293 [P12928/D4/T50] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:31:45,293 [P12928/D4/T10] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:31:49,798 [P12928/D4/T50] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:31:49,812 [P12928/D4/T10] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:31:53,198 [P12928/D3/T20] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: CodeDirChangeOrDirectoryRename
+
+_shutDownMessage=Change Notification for critical directories.
+App_Code dir change or directory rename
+HostingEnvironment initiated shutdown
+Change Notification for critical directories.
+App_Code dir change or directory rename
+Change Notification for critical directories.
+App_Code dir change or directory rename
+Change Notification for critical directories.
+App_Code dir change or directory rename
+Change Notification for critical directories.
+App_Code dir change or directory rename
+Change Notification for critical directories.
+App_Code dir change or directory rename
+Change Notification for critical directories.
+App_Code dir change or directory rename
+Change Notification for critical directories.
+App_Code dir change or directory rename
+Change Notification for critical directories.
+App_Code dir change or directory rename
+Change Notification for critical directories.
+App_Code dir change or directory rename
+Change in C:\Users\Michael.Biggs\AppData\Local\Temp\Temporary ASP.NET Files\root\026c372b\1d82c090\hash\hash.web
+Change in C:\Users\Michael.Biggs\AppData\Local\Temp\Temporary ASP.NET Files\root\026c372b\1d82c090\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   at System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   at System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2016-08-14 23:32:06,416 [P12928/D4/T20] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 23:32:06,417 [P12928/D4/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-08-14 23:32:06,452 [P12928/D4/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 34ms)
+ 2016-08-14 23:32:06,456 [P12928/D4/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-08-14 23:32:06,465 [P12928/D4/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 8ms)
+ 2016-08-14 23:32:06,470 [P12928/D4/T20] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type
+ 2016-08-14 23:32:06,474 [P12928/D4/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-08-14 23:32:06,487 [P12928/D4/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 12ms)
+ 2016-08-14 23:32:06,489 [P12928/D4/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-08-14 23:32:06,502 [P12928/D4/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 13ms)
+ 2016-08-14 23:32:06,528 [P12928/D4/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-08-14 23:32:06,544 [P12928/D4/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 16ms)
+ 2016-08-14 23:32:10,463 [P12928/D4/T20] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 23:32:11,226 [P12928/D4/T20] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 23:32:12,125 [P12928/D4/T20] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 23:32:12,893 [P12928/D4/T20] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-08-14 23:32:15,386 [P12928/D4/T20] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-08-14 23:32:17,787 [P12928/D4/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-08-14 23:32:17,798 [P12928/D4/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 10ms)
+ 2016-08-14 23:32:41,050 [P12928/D4/T25] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-08-13 23:32:40
+ 2016-08-14 23:34:23,380 [P12928/D4/T58] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:34:23,798 [P12928/D4/T58] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:35:01,161 [P12928/D4/T8] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:35:02,985 [P12928/D4/T8] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:35:52,476 [P12928/D4/T58] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:35:54,178 [P12928/D4/T58] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:35:54,574 [P12928/D4/T58] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:36:20,133 [P12928/D4/T57] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:36:22,040 [P12928/D4/T57] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:36:22,453 [P12928/D4/T57] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:37:04,807 [P12928/D4/T9] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:37:05,213 [P12928/D4/T9] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:37:05,614 [P12928/D4/T9] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:37:51,208 [P12928/D4/T50] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:37:51,615 [P12928/D4/T50] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:37:52,001 [P12928/D4/T50] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:38:16,481 [P12928/D4/T46] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:38:16,895 [P12928/D4/T46] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:38:17,282 [P12928/D4/T46] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:40:52,720 [P12928/D4/T9] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:40:54,441 [P12928/D4/T9] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:40:54,839 [P12928/D4/T9] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:42:02,371 [P12928/D4/T9] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:42:05,384 [P12928/D4/T9] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:42:05,819 [P12928/D4/T9] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:42:06,240 [P12928/D4/T9] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:42:53,339 [P12928/D4/T31] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:42:55,025 [P12928/D4/T31] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:42:55,468 [P12928/D4/T31] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:42:55,867 [P12928/D4/T31] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:43:07,064 [P12928/D4/T31] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:43:08,748 [P12928/D4/T31] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:43:09,154 [P12928/D4/T31] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:43:09,566 [P12928/D4/T31] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:44:10,603 [P12928/D4/T9] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:44:11,142 [P12928/D4/T9] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:44:11,735 [P12928/D4/T9] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:44:12,380 [P12928/D4/T9] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-08-14 23:44:13,824 [P12928/D4/T31] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-08-14 23:44:15,540 [P12928/D4/T31] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-08-14 23:44:15,945 [P12928/D4/T31] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-08-14 23:44:16,346 [P12928/D4/T31] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist

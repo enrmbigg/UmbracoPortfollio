@@ -1,0 +1,26 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Root.cshtml";
+    var body = Model.Content.GetPropertyValue("bodyContent");
+    var title = Model.Content.GetPropertyValue("pageTitle");
+    var description = Model.Content.GetPropertyValue("pageIntro");
+}
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-push-12 text-center">
+                <h2>@title</h2>
+                <hr>
+            </div>
+            <div class="col-md-12">
+                <div class="post text">
+                    <article>
+                        <p>@description</p>
+                        @body
+                    </article>
+                </div>
+            </div>            
+        </div>
+        <hr>
+    </div>
+</section>

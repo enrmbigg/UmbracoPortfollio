@@ -1,0 +1,28 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    var icoid = Model.Content.GetPropertyValue("faviconAndTouchIcons", true) ?? 0;
+    var ico = Umbraco.TypedMedia(icoid);
+    var icoUrl = ico != null ? ico.Url : "";
+    var home = Model.Content.AncestorOrSelf(1);
+}    
+    <link rel="apple-touch-icon" sizes="57x57" href="@string.Format("{0}{1}?width=57&height=57", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl">
+    <link rel="apple-touch-icon" sizes="60x60" href="@string.Format("{0}{1}?width=60&height=60", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl">
+    <link rel="apple-touch-icon" sizes="72x72" href="@string.Format("{0}{1}?width=72&height=72", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl">
+    <link rel="apple-touch-icon" sizes="76x76" href="@string.Format("{0}{1}?width=76&height=76", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl">
+    <link rel="apple-touch-icon" sizes="114x114" href="@string.Format("{0}{1}?width=114&height=114", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl">
+    <link rel="apple-touch-icon" sizes="120x120" href="@string.Format("{0}{1}?width=120&height=120", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl">
+    <link rel="apple-touch-icon" sizes="144x144" href="@string.Format("{0}{1}?width=144&height=144", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl">
+    <link rel="apple-touch-icon" sizes="152x152" href="@string.Format("{0}{1}?width=152&height=152", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl">
+    <link rel="apple-touch-icon" sizes="180x180" href="@string.Format("{0}{1}?width=180&height=180", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl">
+    <link rel="icon" type="image/png" href="@string.Format("{0}{1}?width=16&height=16", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl" sizes="16x16">
+    <link rel="icon" type="image/png" href="@string.Format("{0}{1}?width=32&height=32", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl" sizes="32x32">
+    <link rel="icon" type="image/png" href="@string.Format("{0}{1}?width=596height=96", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl" sizes="96x96">
+    <link rel="icon" type="image/png" href="@string.Format("{0}{1}?width=192&height=192", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl" sizes="192x192">
+    <meta name="msapplication-square70x70logo" content="@string.Format("{0}{1}?width=70&height=70", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl" />
+    <meta name="msapplication-square150x150logo" content="@string.Format("{0}{1}?width=150&height=150", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl" />
+    <meta name="msapplication-square310x310logo" content="@string.Format("{0}{1}?width=310&height=310", home.UrlWithDomain().TrimEnd('/'), icoUrl)@icoUrl" />
+    <link rel="shortcut icon" type="image/x-icon" href="@home.UrlWithDomain().TrimEnd('/')/favicon1.ico" />
+    <link rel="manifest" href="@home.UrlWithDomain().TrimEnd('/')/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="@home.UrlWithDomain().TrimEnd('/')/images/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">

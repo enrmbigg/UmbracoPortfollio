@@ -1,0 +1,53 @@
+﻿@model ContactModel
+@using UmbracoPortfollio.App_Code
+@*@using (Html.BeginUmbracoForm<ContactController>("SendContactForm", null, new { @class = "pure-form centre pure-form-aligned" }))
+    {
+            <fieldset>
+                <div class="pure-control-group">
+                    @Html.LabelFor(x => x.Name)
+                    @Html.TextBoxFor(x => x.Name)
+                    @Html.ValidationMessageFor(x => x.Name)
+                </div>
+                <div class="pure-control-group">
+                    @Html.LabelFor(x => x.Email)
+                    @Html.TextBoxFor(x => x.Email)
+                    @Html.ValidationMessageFor(x => x.Email)
+                </div>
+                <div class="pure-control-group">
+                    @Html.LabelFor(x => x.Comment)
+                    @Html.TextAreaFor(x => x.Comment)
+                    @Html.ValidationMessageFor(x => x.Comment)
+                </div>
+                <button type="submit" class="pure-button">Send</button>
+            </fieldset>
+    }*@
+<form class="form contact__form" data-endpoint="/?ets-ajax=contact1" data-security="5e8af54eee">
+    <div class="form__container">
+        <div class="form__row">
+            <div class="form__column --half">
+                @Html.LabelFor(x => x.Name, new { @class = "form__label" })
+                @Html.TextBoxFor(x => x.Name, new { @class = "form__text-field contact__form__text-field" })
+                @Html.ValidationMessageFor(x => x.Name)
+            </div>
+            <div class="form__column --column --half">
+                @Html.LabelFor(x => x.Email, new { @class = "form__label" })
+                @Html.TextBoxFor(x => x.Email, new { @class = "form__text-field contact__form__text-field" })
+                @Html.ValidationMessageFor(x => x.Email)
+            </div>
+        </div>
+        <div class="form__row">
+            <div class="form__column">                
+                @Html.LabelFor(x => x.Comment, new { @class = "form__label" })
+                @Html.TextAreaFor(x => x.Comment, new { @class = "form__text-area contact__form__text-field" })
+                @Html.ValidationMessageFor(x => x.Comment)
+            </div>
+        </div>
+        <div class="form__row">
+            <div class="form__column --text-align-center">
+                <button class="button --border-color-5 --background-color-7 --text-color-1" type="submit" data-text="Send Message">
+                    <i class="button__letter">S</i><i class="button__letter">e</i><i class="button__letter">n</i><i class="button__letter">d</i> <i class="button__letter">M</i><i class="button__letter">e</i><i class="button__letter">s</i><i class="button__letter">s</i><i class="button__letter">a</i><i class="button__letter">g</i><i class="button__letter">e</i>
+                </button>
+            </div>
+        </div>
+    </div>
+</form>

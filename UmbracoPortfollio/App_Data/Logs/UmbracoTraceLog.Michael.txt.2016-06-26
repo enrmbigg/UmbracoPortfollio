@@ -1,0 +1,13 @@
+﻿ 2016-06-26 00:11:42,525 [P22512/D3/T42] WARN  Umbraco.Core.Services.ApplicationTreeService - The tree definition: <add initialize="true" sortOrder="0" alias="uioMaticTree" application="uiomatic" title="UI-O-Matic" iconClosed="icon-folder" iconOpen="icon-folder-open" type="UIOMatic.Trees.UIOMaticTreeController, UIOMatic" /> could not be resolved to a .Net object type
+ 2016-06-26 00:11:53,224 [P22512/D3/T37] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-06-26 00:11:53,831 [P22512/D3/T57] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-06-26 00:11:54,470 [P22512/D3/T45] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-06-26 00:12:07,763 [P22512/D3/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
+ 2016-06-26 00:12:07,770 [P22512/D3/T46] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-06-26 00:12:07,828 [P22512/D3/T21] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2016-06-26 03:15:03,797 [P22512/D3/T18] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-25 03:15:03
+ 2016-06-26 07:15:04,126 [P22512/D3/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-25 07:15:03
+ 2016-06-26 11:15:04,368 [P22512/D3/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-25 11:15:04
+ 2016-06-26 15:15:04,826 [P22512/D3/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-25 15:15:04
+ 2016-06-26 19:15:05,639 [P22512/D3/T248] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-25 19:15:04
+ 2016-06-26 23:15:06,009 [P22512/D3/T66] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-06-25 23:15:05
