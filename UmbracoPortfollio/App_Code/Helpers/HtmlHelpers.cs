@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Web;
 using Umbraco.Core;
@@ -118,5 +120,53 @@ namespace UmbracoPortfollio.App_Code
                 return null;
             }
         }        
+        public static string DaysAgo(DateTime date)
+        {
+            DateTime startDate = date;
+
+            // 2.
+            // Get the current DateTime.
+            DateTime now = DateTime.Now;
+
+            // 3.
+            // Get the TimeSpan of the difference.
+            TimeSpan elapsed = now.Subtract(startDate);
+
+            // 4.
+            // Get number of days ago.
+            double daysAgo = elapsed.TotalDays;
+            if (daysAgo >= 1)
+            {
+                return string.Format("{0} days ago", daysAgo.ToString("0"));
+            }
+            else
+            {
+                return "Today";
+            }
+        }
+
+        public static string GravatarImageUrl(string email)
+        {
+            // Create a new instance of the MD5CryptoServiceProvider object.  
+            MD5 md5Hasher = MD5.Create();
+
+            // Convert the input string to a byte array and compute the hash.  
+            byte[] data = md5Hasher.ComputeHash(Encoding.Default.GetBytes(email.ToLower()));
+
+            // Create a new Stringbuilder to collect the bytes  
+            // and create a string.  
+            StringBuilder sBuilder = new StringBuilder();
+
+            // Loop through each byte of the hashed data  
+            // and format each one as a hexadecimal string.  
+            for (int i = 0; i < data.Length; i++)
+            {
+                sBuilder.Append(data[i].ToString("x2"));
+            }
+
+            var hash = sBuilder.ToString();  // Return the hexadecimal string. 
+        
+            return string.Format("https://secure.gravatar.com/avatar/{0}?", hash);
+        }
     }
 }

@@ -22,7 +22,7 @@ namespace UmbracoPortfollio.App_Code
         public DateTime Date { get; set; }
 
         [Column("NodeId")]
-        public DateTime NodeId { get; set; }
+        public int NodeId { get; set; }
 
         [Column("Name")]
         [UmbracoRequired("CommentForm.NameRequired", "Please enter your Name")]

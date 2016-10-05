@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Umbraco.Core.Logging;
+using Umbraco.Core.Persistence;
 using Umbraco.Web;
 using Umbraco.Web.Mvc;
 
@@ -11,22 +12,35 @@ namespace UmbracoPortfollio.App_Code
 {
     public class CommentController : SurfaceController
         {
+        /// <summary>
+        /// Renders the Contact Form
+        /// @Html.Action("RenderCommentForm","CommentSurface")
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult RenderCommentForm()
+        {
+            return PartialView("CommentForm", new CommentModel() { NodeId = CurrentPage.Id });
+        }
 
-            /// <summary>
-            /// Renders the Contact Form
-            /// @Html.Action("RenderContactForm","ContactSurface")
-            /// </summary>
-            /// <returns></returns>
-            public ActionResult RenderCommentForm()
+        public ActionResult RenderComments()
+        {
+            var db = ApplicationContext.DatabaseContext.Database;
+            var nodeId = CurrentPage.Id;
+            var helper = GlobalHelpers.GetDatabaseSchemeInstance();
+            if (helper.TableExist("Comments"))
             {
-                return PartialView("CommentForm", new CommentModel());
-            }
 
-            /// <summary>
-            /// Sends the Contact Form            
-            /// </summary>
-            /// <returns></returns>
-            [HttpPost]
+                var comments = db.Fetch<CommentModel>("WHERE NodeId = @0", nodeId);
+
+                return PartialView("Comments", comments);
+            }
+            return PartialView("Comments", new List<CommentModel>());
+        }
+        /// <summary>
+        /// Sends the Contact Form            
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
             public ActionResult SendCommentForm(CommentModel model)
             {
                 if (!ModelState.IsValid)
@@ -51,7 +65,7 @@ namespace UmbracoPortfollio.App_Code
                 }
                 catch (Exception ex)
                 {
-                    LogHelper.Error<ContactController>("There was an error logging the contact form data.", ex);
+                    LogHelper.Error<ContactController>("There was an error adding a comment.", ex);
                 }
             }
         }
