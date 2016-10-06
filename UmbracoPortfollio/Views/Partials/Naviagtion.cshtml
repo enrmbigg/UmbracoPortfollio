@@ -3,8 +3,8 @@
     var home = Model.Content.AncestorOrSelf(1);
     var contact = home.Children.FirstOrDefault(x => x.DocumentTypeAlias == "contact");
     var blog = home.Children.FirstOrDefault(x => x.DocumentTypeAlias == "blogHome");
-    var aboutus = "";
-    var search = "/search";
+    var aboutus = home.Children.FirstOrDefault(x => x.DocumentTypeAlias == "aboutMe");
+    var search = home.Children.FirstOrDefault(x => x.DocumentTypeAlias == "search");
 }
 
 <!-- Navigation -->
@@ -17,7 +17,7 @@
         <i class="navigation-open__icon"></i>
         <span class="navigation-open__text">Menu</span>
     </button>
-    <form class="header-search" method="get" action="@search" role="search">
+    <form class="header-search" method="get" action="@search.Url" role="search">
         <div class="header-search__group">
             <input id="header-search-field" class="header-search__field" type="search" name="q" value="" required="">
             <label class="header-search__label" for="header-search-field">Search</label>
@@ -30,11 +30,11 @@
 <nav class="navigation">
     <p class="navigation__title">Menu</p>
     <button class="navigation__close">Close menu</button>
-    <form class="navigation__search" method="get" action="@search" role="search">
+    <form class="navigation__search" method="get" action="@search.Url" role="search">
         <input id="navigation-search-field" class="navigation__search__field" type="search" name="q" value="" placeholder="Search …" required="">
     </form>
     <ul class="navigation__list --depth-0">
-        <li class="navigation__item --depth-0"><a class="navigation__link --depth-0" href="@aboutus">About Me</a></li>
+        <li class="navigation__item --depth-0"><a class="navigation__link --depth-0" href="@aboutus.Url">About Me</a></li>
         <li class="navigation__item --depth-0"><a class="navigation__link --depth-0" href="@blog.Url">Blog</a></li>       
         <li class="navigation__item --depth-0"><a class="navigation__link --depth-0" href="@contact.Url">Contact Me</a></li>
     </ul>

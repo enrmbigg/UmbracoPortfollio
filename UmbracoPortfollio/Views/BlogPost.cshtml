@@ -10,38 +10,30 @@
     var link = Model.Content.Url;
     var tags = Model.Content.GetPropertyValue("tag");
 }
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-push-12 text-center">
-                <h1>@title</h1>
-                <hr>
-            </div>
-            <div class="col-md-8">
-                <div class="post text">
-                    <p>
-                        @date
-                    </p>
-                    <article>
-                        <p>@description</p>
-                        @markdown
-                        @body
-                    </article>
-                    @Html.Partial("Share")
-                </div>
-                @*@Html.Action("RenderCommentForm", "Comment")*@
-                @Html.Partial("CommentsFacebook")
-            </div>
-            <div class="col-md-4">
-                <div class="well">
-                    <h4>Recent Posts:</h4>
-                    @foreach(var post in recentPosts)
-                    {
-                        <a href="@post.Url">@post.Name</a>
-                    }                    
-                </div>
+
+<div class="sections">
+    <section class="section post-content" itemprop="text">
+        <div class="section__container post-content__container">
+            <p>@description</p>
+            @markdown
+            @body
+        </div>
+    </section>
+    @Html.Partial("Share")
+    @Html.Action("RenderComments", "Comment")
+    @Html.Action("RenderCommentForm", "Comment")
+    
+   
+
+    <section class="section related">
+        <div class="section__container">
+            <div class="related__more">
+                <a class="button --border-color-4 --background-color-1 --text-color-8"
+                   href="https://edgethreesixty.co.uk/blog/"
+                   data-text="More articles">
+                    <i class="button__letter">M</i><i class="button__letter">o</i><i class="button__letter">r</i><i class="button__letter">e</i> <i class="button__letter">a</i><i class="button__letter">r</i><i class="button__letter">t</i><i class="button__letter">i</i><i class="button__letter">c</i><i class="button__letter">l</i><i class="button__letter">e</i><i class="button__letter">s</i>
+                </a>
             </div>
         </div>
-        <hr>
-    </div>
-</section>
+    </section>
+</div>

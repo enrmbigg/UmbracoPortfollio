@@ -41,3 +41,4 @@ Assets/uploaded*
 [Cc]onnectionStrings.config
 
 *.txt
+App_Data/*

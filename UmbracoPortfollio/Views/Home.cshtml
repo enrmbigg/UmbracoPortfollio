@@ -6,7 +6,7 @@
     var pNumber = Umbraco.Field("phoneNumber", recursive: true);
     var skype = Umbraco.Field("skypeUsername", recursive: true);
     var email = Umbraco.Field("email", recursive: true);
-    var posts = Model.Content.Descendants().Where(x => x.DocumentTypeAlias == "blogPost").OrderByDescending(x=> x.GetPropertyValue<DateTime>("createTime"));
+    var posts = Model.Content.Descendants().Where(x => x.DocumentTypeAlias == "blogPost").OrderByDescending(x=> x.GetPropertyValue<DateTime>("createTime")).Take(6);
     var i = 0;
 }
 @*	 
@@ -26,106 +26,30 @@
         <div class="section__header">
             <h2 class="section__title front-post__title">Latest posts</h2>
         </div>
-        <div id="posts">
-            <div class="front-post__column" style="width: 476px;">
-                @foreach (var post in posts.Take(2))
+            <div class="archive-post__list">
+                @foreach (var post in posts)
                 {
                     var image = post.GetHeaderImage();
                     var date = post.GetPropertyValue<DateTime>("createTime");
-
-                    <div class="front-post__item" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-                        <div class="front-post__item__container">
-                            <a class="front-post__item__link" href="@post.Url" itemprop="url" tabindex="0">
-                                @if (image != null)
-                                {
-                                <img width="500" height="500" src="@image.GetCropUrl(500,500)" class="front-post__item__image" alt="" itemprop="image" srcset="@image.GetCropUrl(400,400) 400w,@image.GetCropUrl(150,150) 150w, @image.GetCropUrl(160,160) 160w" sizes="(max-width: 400px) 100vw, 400px">
-                                }
-                                <time class="front-post__item__date" datetime="@date.ToString()" itemprop="datePublished">
-                                    <span class="front-post__item__date__day">@date.Day</span>
-                                    <span class="front-post__item__date__month">@date.ToString("MMM")</span>
-                                </time>
-                                <div class="front-post__item__content">
-                                    <div class="front-post__item__title" itemprop="name headline">@post.Name</div>
-                                </div>
-                            </a>
-                        </div>
+                    var blogTags = post.GetPropertyValue<string>("tag").Split(',');
+                    var desc = post.GetPropertyValue<string>("pageIntro");
+                    <div class="archive-post__item">
+                        <a class="archive-post__item__title__link" href="@post.UrlWithDomain()" itemprop="url">
+                            @if (image != null)
+                            {
+                                <img src="@Url.GetCropUrl(image,"Thumbnail")" class="archive-post__item__image" alt="" itemprop="image">
+                            }
+                            <time class="archive-post__item__date" datetime="@date.ToString()" itemprop="datePublished">
+                                <span class="archive-post__item__date__day">@date.Day</span>
+                                <span class="archive-post__item__date__month">@date.ToString("MMM")</span>
+                            </time>
+                            <div class="archive-post__item__title front-post__item__title" itemprop="name headline">@post.Name</div>
+                        </a>                    
                     </div>
                 }
             </div>            
-            <div class="front-post__column" style="width: 476px;">
-                @foreach (var post in posts.Skip(2).Take(2))
-                {
-                    var image = post.GetHeaderImage();
-                    var date = post.GetPropertyValue<DateTime>("createTime");
-                    <div class="front-post__item" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-                        <div class="front-post__item__container">
-                            <a class="front-post__item__link" href="@post.Url" itemprop="url" tabindex="0">
-                                @if (image != null)
-                                {
-                                    <img width="500" height="500" src="@image.GetCropUrl(500,500)" class="front-post__item__image" alt="" itemprop="image" srcset="@image.GetCropUrl(400,400) 400w,@image.GetCropUrl(150,150) 150w, @image.GetCropUrl(160,160) 160w" sizes="(max-width: 400px) 100vw, 400px">
-                                }
-                                <time class="front-post__item__date" datetime="@date.ToString()" itemprop="datePublished">
-                                    <span class="front-post__item__date__day">@date.Day</span>
-                                    <span class="front-post__item__date__month">@date.ToString("MMM")</span>
-                                </time>
-                                <div class="front-post__item__content">
-                                    <div class="front-post__item__title" itemprop="name headline">@post.Name</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                }
-            </div>   
-            <div class="front-post__column" style="width: 476px;">
-                @foreach (var post in posts.Skip(4).Take(2))
-                {
-                    var image = post.GetHeaderImage();
-                    var date = post.GetPropertyValue<DateTime>("createTime");
-                    <div class="front-post__item" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-                        <div class="front-post__item__container">
-                            <a class="front-post__item__link" href="@post.Url" itemprop="url" tabindex="0">
-                                @if (image != null)
-                                {
-                                    <img width="500" height="500" src="@image.GetCropUrl(500,500)" class="front-post__item__image" alt="" itemprop="image" srcset="@image.GetCropUrl(400,400) 400w,@image.GetCropUrl(150,150) 150w, @image.GetCropUrl(160,160) 160w" sizes="(max-width: 400px) 100vw, 400px">
-                                }
-                                <time class="front-post__item__date" datetime="@date.ToString()" itemprop="datePublished">
-                                    <span class="front-post__item__date__day">@date.Day</span>
-                                    <span class="front-post__item__date__month">@date.ToString("MMM")</span>
-                                </time>
-                                <div class="front-post__item__content">
-                                    <div class="front-post__item__title" itemprop="name headline">@post.Name</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                }
-            </div>   
-            <div class="front-post__column" style="width: 476px;">
-                @foreach (var post in posts.Skip(6).Take(2))
-                {
-                    var image = post.GetHeaderImage();
-                    var date = post.GetPropertyValue<DateTime>("createTime");
-                    <div class="front-post__item" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
-                        <div class="front-post__item__container">
-                            <a class="front-post__item__link" href="@post.Url" itemprop="url" tabindex="0">
-                                @if (image != null)
-                                {
-                                    <img width="500" height="500" src="@image.GetCropUrl(500,500)" class="front-post__item__image" alt="" itemprop="image" srcset="@image.GetCropUrl(400,400) 400w,@image.GetCropUrl(150,150) 150w, @image.GetCropUrl(160,160) 160w" sizes="(max-width: 400px) 100vw, 400px">
-                                }
-                                <time class="front-post__item__date" datetime="@date.ToString()" itemprop="datePublished">
-                                    <span class="front-post__item__date__day">@date.Day</span>
-                                    <span class="front-post__item__date__month">@date.ToString("MMM")</span>
-                                </time>
-                                <div class="front-post__item__content">
-                                    <div class="front-post__item__title" itemprop="name headline">@post.Name</div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                }
-            </div>   
-        </div>
     </section>
+
     <section class="section contact">
         <div class="section__container contact__container">
             <div class="section__header">

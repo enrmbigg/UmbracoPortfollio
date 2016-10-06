@@ -1,0 +1,38 @@
+﻿@model List<CommentModel>
+@using UmbracoPortfollio.App_Code
+
+<section class="section comments">
+    <div class="section__container comments__container">
+        <div class="section__header">
+            <p class="section__title">
+                @Model.Count thoughts on the post
+            </p>
+        </div>
+        <ol class="comment-list">
+            @foreach (var comment in Model)
+            {
+            <li id="comment-@comment.Id" class="comment --even --thread-even --depth-1">
+                <div class="comment__avatar">
+                    <img alt="Avatar" src="@HtmlHelpers.GravatarImageUrl(comment.Email);s=56&amp&amp;r=g" srcset="@HtmlHelpers.GravatarImageUrl(comment.Email);s=112&amp;r=g 2x" class="avatar avatar-56 photo" height="56" width="56">
+                </div>
+                <div class="comment__content">
+                    <div class="comment__metadata">
+                        <span class="comment__author">
+                            @comment.Name
+                        </span>
+                        <span class="comment__date">
+                            —
+                            <time datetime="@comment.Date">
+                                @HtmlHelpers.DaysAgo(comment.Date)
+                            </time>
+                        </span>
+                    </div>
+                    <div class="comment__text">
+                        <p>@comment.Comment</p>
+                    </div>
+                </div>
+            </li>
+            }
+        </ol>
+    </div>
+</section>

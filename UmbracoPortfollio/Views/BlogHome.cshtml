@@ -1,7 +1,7 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
     Layout = "Root.cshtml";
-    var q = Request.QueryString["tag"];
+    var q = Request.QueryString["q"];
     var posts = q == null ?
         Model.Content.Children.OrderByDescending(x => x.GetPropertyValue<DateTime>("createTime")).ToList()
         : Umbraco.TagQuery.GetContentByTag(q).OrderByDescending(x => x.GetPropertyValue<DateTime>("createTime")).ToList();
@@ -40,7 +40,7 @@
             <div class="section__container archive-post__container">
                 <div class="archive-post__list">
                     @foreach (var post in posts)
-            {
+                    {
                 var image = post.GetHeaderImage();
                 var date = post.GetPropertyValue<DateTime>("createTime");
                 var blogTags = post.GetPropertyValue<string>("tag").Split(',');

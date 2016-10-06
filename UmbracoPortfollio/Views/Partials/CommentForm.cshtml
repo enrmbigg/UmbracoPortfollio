@@ -1,34 +1,38 @@
 ﻿@model CommentModel
 @using UmbracoPortfollio.App_Code
-@using (Html.BeginUmbracoForm<UmbracoPortfollio.App_Code.CommentController>("SendCommentForm"))
-{    
-        @Html.HiddenFor(x => x.NodeId)
-    <div class="row control-group">
-        <div class="form-group col-xs-12 floating-label-form-group controls">
-            @Html.LabelFor(x => x.Comment)
-            @Html.TextAreaFor(x => x.Comment, new { @class = "form-control" })
-            <p class="help-block text-danger">@Html.ValidationMessageFor(x => x.Comment)</p>
+
+    <section class="section leave-comment">
+        <div class="section__container leave-comment__container">
+            @using (Html.BeginUmbracoForm<CommentController>("SendCommentForm"))
+            {
+            <div class="section__header leave-comment__header">
+                <p class="section__title leave-comment__title">Leave a comment</p>
+            </div>
+            @Html.HiddenFor(x => x.NodeId)            
+                <div class="form__row">
+                    <div class="form__column --half">
+                        @Html.LabelFor(x => x.Name, new { @class = "form__label" })
+                        @Html.TextAreaFor(x => x.Name, new { @class = "form__text-field" })
+                    </div>
+                    <div class="form__column --column --half">
+                        @Html.LabelFor(x => x.Email, new { @class = "form__label" })
+                        @Html.TextAreaFor(x => x.Email, new { @class = "form__text-field" })
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__column">
+                        @Html.LabelFor(x => x.Comment, new { @class = "form__label" })
+                        @Html.TextAreaFor(x => x.Comment, new { @class = "form__text-area" })
+                    </div>
+                </div>
+                <div class="form__row">
+                    <div class="form__column --text-align-center">
+                        <button class="button --border-color-5 --background-color-1 --text-color-8" type="submit" data-text="Post comment">
+                            <i class="button__letter">P</i><i class="button__letter">o</i><i class="button__letter">s</i><i class="button__letter">t</i> <i class="button__letter">c</i><i class="button__letter">o</i><i class="button__letter">m</i><i class="button__letter">m</i><i class="button__letter">e</i><i class="button__letter">n</i><i class="button__letter">t</i>
+                        </button>
+                    </div>
+                </div>
+            }
         </div>
-    </div>
-    <div class="row control-group">
-        <div class="form-group col-xs-12 floating-label-form-group controls">
-            @Html.LabelFor(x => x.Name)
-            @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })                               
-            <p class="help-block text-danger">@Html.ValidationMessageFor(x => x.Name) </p>
-        </div>
-    </div>
-    <div class="row control-group">
-        <div class="form-group col-xs-12 floating-label-form-group controls">
-            @Html.LabelFor(x => x.Email)
-            @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })                    
-            <p class="help-block text-danger">@Html.ValidationMessageFor(x => x.Email)</p>
-        </div>
-    </div>                
-    <br>
-    <div id="success"></div>
-    <div class="row">
-        <div class="form-group col-xs-12">
-            <button type="submit" class="btn btn-success btn-lg">Send</button>
-        </div>
-    </div>
-}
+    </section>
+

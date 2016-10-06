@@ -3613,9 +3613,9 @@ only screen and (min-device-pixel-ratio:1.5) {
 
 @media (min-width:75em) {
     .front-post__item {
-        max-width: 300px;
+        max-width: 260px;
         margin: 0 auto;
-        max-height:300px;
+        max-height:200px;
     }
 }
 
@@ -3845,10 +3845,6 @@ only screen and (min-device-pixel-ratio:1.5) {
 .contact__form__text-field {
     border-color: #7E7592;
     background: rgba(0, 0, 0, .55)
-}
-
-.home .contact {
-    margin-top: 60px
 }
 
 .notfound {
@@ -6617,7 +6613,15 @@ only screen and (min-device-pixel-ratio:1.5) {
 
 .archive-post__item__title {
     font-size: 26px;
-    margin: 10px 0 0
+    margin: 10px 0 0;
+    
+}
+.archive-post__item__title .front-post__item__title{
+    filter: alpha(Opacity=0);
+    opacity: 0;
+    -o-transition: opacity .2s;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
 }
 
 .archive-post__item__title__link {
@@ -7063,4 +7067,15 @@ only screen and (min-device-pixel-ratio:1.5) {
 
  .fancybox-margin {
             margin-right: 17px;
+}
+
+ @media (min-width:62em) {
+    .archive-post__item__title__link:hover .archive-post__item__title {
+        filter: alpha(enabled=false);
+        opacity: 1;
+        -moz-transition: opacity .5s .2s;
+        -webkit-transition: opacity .5s .2s;
+        -o-transition: opacity .5s .2s;
+        transition: opacity .5s .2s
+    }
 }
