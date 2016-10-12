@@ -1,6 +1,6 @@
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{ 
-    var name = Model.Content.Name;
+    var name = HttpContext.Current.Server.UrlEncode(Model.Content.Name);
     var url = Model.Content.UrlWithDomain();
 
 }

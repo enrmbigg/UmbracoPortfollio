@@ -180,7 +180,10 @@ kbd,
 pre,
 samp {
     font-family: monospace, monospace;
-    font-size: 1em
+    font-size: 1em;
+    background: #444;
+    color: #fff;
+    margin: 10px;
 }
 
 button,
@@ -306,7 +309,7 @@ table {
 .case-study-result__list,
 .case-study-technology__list,
 .category__list,
-.certification__list,
+.services__list,
 .comment-list,
 .navigation__list,
 .project-plan__list,
@@ -322,7 +325,7 @@ table {
 .case-study-brief__content__title,
 .case-study-client__caption,
 .case-study-hero__content__title,
-.certification__title,
+.services__title,
 .contact__title,
 .front-case-study__title,
 .front-post__title,
@@ -3738,7 +3741,7 @@ only screen and (min-device-pixel-ratio:1.5) {
     *display: inline
 }
 
-.certification__title,
+.services__title,
 .contact__title {
     font-family: miradorbook_demo, sans-serif;
     font-weight: 400;
@@ -3754,11 +3757,6 @@ only screen and (min-device-pixel-ratio:1.5) {
 @media (min-width:62em) {
     .front-post__item__title {
         font-size: 18px;
-        filter: alpha(Opacity=0);
-        opacity: 0;
-        -o-transition: opacity .2s;
-        -webkit-transition: opacity .2s;
-        transition: opacity .2s
     }
 }
 
@@ -3771,28 +3769,27 @@ only screen and (min-device-pixel-ratio:1.5) {
     transition: opacity .2s
 }
 
-.certification__title {
+.services__title {
     font-size: 21px;
     padding-bottom: 11px;
     color: #181226
 }
 
-.certification__list {
-    font-size: 0;
+.services__list {
     margin-top: -20px;
     text-align: center
 }
 
-.certification__item {
+.services__item {
     padding-top: 20px
 }
 
 @media (min-width:48em) {
-    .certification__list {
+    .services__list {
         margin: 0 -20px
     }
-    .certification__item {
-        width: 33.3%;
+    .services__item {
+        width: 33%;
         padding: 0 20px;
         display: inline-block;
         vertical-align: middle;
@@ -3807,7 +3804,7 @@ only screen and (min-device-pixel-ratio:1.5) {
     padding-top: 60px
 }
 
-.certification__item__link {
+.services__item__link {
     display: block
 }
 
@@ -6705,7 +6702,6 @@ only screen and (min-device-pixel-ratio:1.5) {
 .footer__content {
     height: 227px;
     margin-left: 132px;
-    border-left: 1px solid #fff
 }
 
 @media (min-width:48em) {
@@ -7079,3 +7075,10 @@ only screen and (min-device-pixel-ratio:1.5) {
         transition: opacity .5s .2s
     }
 }
+
+ .certification__item__image{
+     font-size:75px;
+ }
+ .certification__item__title{
+     font-size:35px;
+ }

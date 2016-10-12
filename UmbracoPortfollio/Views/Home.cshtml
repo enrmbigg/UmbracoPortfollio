@@ -49,13 +49,36 @@
                 }
             </div>            
     </section>
-
-    <section class="section contact">
-        <div class="section__container contact__container">
+    <section class="section services">
+        <div class="section__container">
             <div class="section__header">
-                <h2 class="section__title contact__title">Contact Me</h2>
+                <h2 class="section__title services__title">Services</h2>
+                <p>I offer a tailored service, so you may want a bit of all three services or
+feel free to get in contact if you don’t see what you’re looking for.</p>
             </div>
-            @Html.Action("RenderContactForm", "Contact")
+            <ul class="services__list">
+                <li class="services__item">
+                    <a class="certification__item__link" href="#" rel="nofollow">
+                        <i class="fa fa-code certification__item__image"></i>
+                        <h4 class="certification__item__title">Umbraco consultancy</h4>
+                    </a>
+                    <p>Whether you want your current website reviewed, starting a new project, or something else, I have loads of experience and expert advice to assist you.</p>
+                </li>
+                <li class="services__item">
+                    <a class="certification__item__link" href="#" rel="nofollow">
+                        <i class="fa fa-comments-o certification__item__image"></i>
+                        <h4 class="certification__item__title">Umbraco consultancy</h4>
+                    </a>
+                    <p>Whether you want your current website reviewed, starting a new project, or something else, I have loads of experience and expert advice to assist you.</p>
+</li>
+                <li class="services__item">
+                    <a class="certification__item__link" href="#" rel="nofollow">
+                        <i class="fa fa-graduation-cap certification__item__image"></i>
+                        <h4 class="certification__item__title">Umbraco training</h4>
+                    </a>
+                    <p>I can offer comprehensive training, specific to your website, that will ensure your staff have the confidence to get the most out of your website.</p>
+                </li>
+            </ul>
         </div>
     </section>
 </div>
