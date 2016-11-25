@@ -1,39 +1,38 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
-	Layout = "Root.cshtml";
+    Layout = "Root.cshtml";
     var body = Model.Content.GetPropertyValue("bodyContent");
     var recentPosts = Model.Content.Parent.Children.Where(x => x.IsVisible() && x.IsNotEqual(Model.Content)).OrderByDescending(x => x.UpdateDate).Take(5);
     var title = Model.Content.GetPropertyValue("pageTitle");
-    var date = Model.Content.UpdateDate;
+    var update = Model.Content.UpdateDate;
+    var date = Model.Content.GetPropertyValue<DateTime>("createTime");
     var description = Model.Content.GetPropertyValue("pageIntro");
     var markdown = Model.Content.GetPropertyValue("markdown");
     var link = Model.Content.Url;
     var tags = Model.Content.GetPropertyValue("tag");
 }
 
-<div class="sections">
-    <section class="section post-content" itemprop="text">
-        <div class="section__container post-content__container">
-            <p>@description</p>
-            @markdown
-            @body
+<div>
+    <div class="row medium-up-3 large-up-4" itemprop="text">
+        <div class="section__container post-content__container" itemid="@Model.Content.UrlWithDomain()" itemscope itemtype="http://schema.org/BlogPosting">
+            <meta itemprop="name headline" content="@title" />
+            <time itemprop="datePublished" datetime="@date" />
+            <time itemprop="dateModified" datetime="@update" />
+            <p itemprop="description">@description</p>
+            <div itemprop="articleBody mainEntityOfPage">
+                @markdown
+                @body
+            </div>  
+            <div itemprop="author publisher" itemscope="" itemtype="http://schema.org/Person">
+                <meta itemprop="name" content="Michael Biggs" />
+                <meta itemprop="url" content="http://www.biggsy150.co.uk" />
+            </div>          
         </div>
-    </section>
-    @Html.Partial("Share")
-    @Html.Action("RenderComments", "Comment")
-    @Html.Action("RenderCommentForm", "Comment")
-    
-   
-
-    <section class="section related">
-        <div class="section__container">
-            <div class="related__more">
-                <a class="button --border-color-4 --background-color-1 --text-color-8"
-                   href="https://edgethreesixty.co.uk/blog/"
-                   data-text="More articles">
-                    <i class="button__letter">M</i><i class="button__letter">o</i><i class="button__letter">r</i><i class="button__letter">e</i> <i class="button__letter">a</i><i class="button__letter">r</i><i class="button__letter">t</i><i class="button__letter">i</i><i class="button__letter">c</i><i class="button__letter">l</i><i class="button__letter">e</i><i class="button__letter">s</i>
-                </a>
-            </div>
-        </div>
-    </section>
+        
+    </div>
+    <div class="row medium-up-3 large-up-4">
+        @Html.Partial("Share")
+        @Html.Action("RenderComments", "Comment")
+        @Html.Action("RenderCommentForm", "Comment")
+    </div>
 </div>

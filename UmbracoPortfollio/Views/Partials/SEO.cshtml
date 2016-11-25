@@ -43,7 +43,6 @@
         <meta name="MobileOptimized" content="width" />
         <meta name="HandheldFriendly" content="true" />
         <meta name="robots" content="@robots"/>
-
         <!-- Schema.org markup for Google+ -->
         <meta itemprop="name" content="@title">
         <meta itemprop="description" content="@description">
@@ -56,7 +55,6 @@
         <meta name="twitter:description" content="@description">
         <!-- Twitter summary card with large image must be at least 280x150px -->
         <meta name="twitter:image:src" content="@string.Format("{0}{1}", home.UrlWithDomain().TrimEnd('/'), imageUrl)">
-
         <!-- Open Graph data -->
         <meta property="og:type" content="website">
         <meta property="og:title" content="@openTitle" />
@@ -71,8 +69,5 @@
         <link rel="amphtml" href="@Model.Content.AmpUrl()">
         @*TODO finish this before live*@
         <script type="application/ld+json">
-            {"@@context":"http:\/\/schema.org","@@type":"WebSite","url":"https:\/\/edgethreesixty.co.uk\/","name":"EdgeThreeSixty.co.uk","potentialAction":{"@@type":"SearchAction","target":"https:\/\/edgethreesixty.co.uk\/search\/{search_term_string}","query-input":"required name=search_term_string"}}
-        </script>
-        <script type="application/ld+json">
-            {"@@context":"http:\/\/schema.org","@@type":"Organization","url":"https:\/\/edgethreesixty.co.uk\/","sameAs":[],"name":"EdgeThreeSixty Ltd","logo":"http:\/\/edgethreesixty.co.uk\/app\/uploads\/2014\/06\/edge-three-sixty-logo-51.png"}
+            {"@@context":"http:\/\/schema.org","@@type":"WebSite","url":"@home.UrlWithDomain()","name":"@siteName","potentialAction":{"@@type":"SearchAction","target":"@home.UrlWithDomain()search\/{search_term_string}","query-input":"required name=search_term_string"}}
         </script>

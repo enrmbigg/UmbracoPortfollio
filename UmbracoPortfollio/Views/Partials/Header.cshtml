@@ -6,38 +6,18 @@
     var link = header.GetPropertyValue<UrlPicker>("link");
     var title = header.GetPropertyValue<string>("title");
     var description = header.GetPropertyValue<string>("description");
+    var colour = header.GetPropertyValue<string>("textColour");
 }
 
 <!-- Header -->
-<section class="section hero" style="height: 895px;">
-    @if (image != null)
-    {
-    <div class="hero__background" data-background="@image.Url" style="position: absolute; z-index: 0; background: none;">
-        <div class="backstretch" style="left: 0px; top: 0px; overflow: hidden; margin: 0px; padding: 0px; height: 984px; width: 2093px; z-index: -999998; position: absolute; opacity: 0.5; transform: translate3d(0px, -300px, 0px) scale(1.45, 1.45);">
-            <img src="@image.Url" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 2093px; height: 1308.13px; max-height: none; max-width: none; z-index: -999999; top: -162.063px; left: 0px;">
-        </div>
-    </div>
-    }
-    <div class="hero__content" style="margin-top: -450px; opacity: -0.125;">
-        <h1 class="hero__content__title">@title</h1>
-        <div class="hero__content__text">
-            <p>@description</p>
-        </div>
-        @if (link.Url != null)
+<div class="callout large background-image" style="background-image: url('@image.Url');">
+    <div class="row column text-center" style = "color:#@Umbraco.If(!string.IsNullOrWhiteSpace(colour),colour,"00000")">
+        <h1>@title</h1>
+        <p class="lead">@description</p>
+        @if (!string.IsNullOrWhiteSpace(link.Url))
         {
-            <p class="hero__content__action">
-                <a class="button --border-color-4 --background-color-19 --text-color-1" href="@link.Url" data-text="@link.Meta.Title">
-                    @foreach (char letter in link.Meta.Title)
-                    {
-                        <i class="button__letter">@letter</i>
-                    }
-                </a>
-            </p>
+        <a href="@link.Url" class="button large hollow">@link.Meta.Title</a>
         }
     </div>
-    <div class="hero__scroll --active">
-        <i class="hero__scroll__icon" title="scroll"></i>
-        <span class="hero__scroll__text">Scroll</span>
-    </div>
-</section>
+</div>
 <!-- //Header -->

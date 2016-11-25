@@ -1,534 +1,733 @@
-﻿ 2016-10-04 00:00:39,837 [P16856/D4/T38] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1003/apple3.jpeg
- 2016-10-04 00:00:54,130 [P16856/D4/T38] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
- 2016-10-04 00:00:54,177 [P16856/D4/T20] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field default
- 2016-10-04 00:00:54,245 [P16856/D4/T48] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
- 2016-10-04 00:01:13,117 [P16856/D4/T85] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1010/hands-technology-photo-phone.jpg
- 2016-10-04 00:01:39,543 [P16856/D4/T17] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1010/hands-technology-photo-phone.jpg
- 2016-10-04 00:01:56,494 [P16856/D4/T17] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1010/hands-technology-photo-phone.jpg
- 2016-10-04 00:02:10,284 [P16856/D4/T30] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1003/apple3.jpeg
- 2016-10-04 00:02:10,306 [P16856/D4/T44] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1002/apple2.jpeg
- 2016-10-04 00:02:10,358 [P16856/D4/T38] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+﻿ 2016-11-23 22:13:31,260 [P44996/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.2 application starting on MICHAEL
+ 2016-11-23 22:13:31,274 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-11-23 22:13:31,295 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 20ms)
+ 2016-11-23 22:13:31,341 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-11-23 22:13:31,357 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 16ms)
+ 2016-11-23 22:13:31,373 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-11-23 22:13:31,375 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2016-11-23 22:13:31,375 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-11-23 22:13:31,377 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2016-11-23 22:13:31,389 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-11-23 22:13:31,391 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2016-11-23 22:13:31,391 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-11-23 22:13:31,414 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 23ms)
+ 2016-11-23 22:13:31,476 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-11-23 22:13:31,477 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-11-23 22:13:31,478 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-11-23 22:13:31,478 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-11-23 22:13:32,531 [P44996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-23 22:13:32,750 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-11-23 22:13:32,751 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 1ms)
+ 2016-11-23 22:13:32,851 [P44996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-23 22:13:32,862 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2016-11-23 22:13:32,865 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2016-11-23 22:13:33,112 [P44996/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (137ms)
+ 2016-11-23 22:13:33,121 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 10
+ 2016-11-23 22:13:33,157 [P44996/D2/T1] INFO  Jumoo.uSync.Content.ContentHandler - Loading Handler Settings 0
+ 2016-11-23 22:13:33,161 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = Default Folder = ~/uSync/data/ Force = False
+ 2016-11-23 22:13:33,173 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2016-11-23 22:13:35,036 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-11-23 22:13:35,038 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-11-23 22:13:36,078 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 39 Items 2 changes 0 failures
+ 2016-11-23 22:13:36,078 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2016-11-23 22:13:36,155 [P44996/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:13:36,155 [P44996/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:13:36,160 [P44996/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:13:36,160 [P44996/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:13:36,221 [P44996/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:13:36,221 [P44996/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:13:36,227 [P44996/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:13:36,227 [P44996/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:13:36,227 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 16 Items 4 changes 0 failures
+ 2016-11-23 22:13:36,228 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2016-11-23 22:13:37,730 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 14 Items 2 changes 0 failures
+ 2016-11-23 22:13:37,730 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2016-11-23 22:13:37,875 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2016-11-23 22:13:37,875 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2016-11-23 22:13:37,917 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-11-23 22:13:37,917 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2016-11-23 22:13:37,918 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-11-23 22:13:37,918 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2016-11-23 22:13:37,918 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-11-23 22:13:38,017 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-11-23 22:13:38,019 [P44996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2016-11-23 22:13:43,169 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events
+ 2016-11-23 22:13:43,175 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 122 items with 8 changes ###
+ 2016-11-23 22:13:43,176 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textarea Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textarea\Textarea.config
+ 2016-11-23 22:13:43,176 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textbox multiple Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textbox-multiple\TextboxMultiple.config
+ 2016-11-23 22:13:43,176 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\config\Config.config
+ 2016-11-23 22:13:43,176 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\emailtemplate\EmailTemplate.config
+ 2016-11-23 22:13:43,176 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tag\Tag.config
+ 2016-11-23 22:13:43,176 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Folder Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tagfolder\TagFolder.config
+ 2016-11-23 22:13:43,176 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\config\def.config
+ 2016-11-23 22:13:43,176 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\email-template\def.config
+ 2016-11-23 22:13:43,178 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Data\temp\uSync\20161123_221343_Startup.config
+ 2016-11-23 22:13:43,189 [P44996/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (10323ms)
+ 2016-11-23 22:13:43,280 [P44996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-23 22:13:43,341 [P44996/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-11-23 22:13:43,430 [P44996/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-11-23 22:13:43,430 [P44996/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-11-23 22:13:43,538 [P44996/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 12392ms)
+ 2016-11-23 22:13:43,760 [P44996/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-11-23 22:13:44,880 [P44996/D2/T6] INFO  umbraco.content - Load Xml from file...
+ 2016-11-23 22:13:44,883 [P44996/D2/T6] INFO  umbraco.content - Loaded Xml from file.
+ 2016-11-23 22:14:00,141 [P44996/D2/T6] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-11-23 22:14:00,245 [P44996/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-11-23 22:14:00,245 [P44996/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 1ms)
+ 2016-11-23 22:14:00,249 [P44996/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-11-23 22:14:00,250 [P44996/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-11-23 22:14:00,275 [P44996/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-11-23 22:14:00,276 [P44996/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-11-23 22:14:00,278 [P44996/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-11-23 22:14:00,278 [P44996/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-11-23 22:14:00,330 [P44996/D2/T6] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-11-23 22:14:00,331 [P44996/D2/T6] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-11-23 22:14:00,359 [P44996/D2/T6] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Our.Umbraco.NestedContent. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:14:00,361 [P44996/D2/T6] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:14:00,372 [P44996/D2/T6] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:14:00,388 [P44996/D2/T6] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:14:00,400 [P44996/D2/T6] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:14:00,416 [P44996/D2/T6] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:14:44,917 [P44996/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-22 22:14:44
+ 2016-11-23 22:19:14,654 [P44996/D2/T8] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-11-23 22:19:14,656 [P44996/D2/T48] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-11-23 22:19:14,656 [P44996/D2/T50] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-11-23 22:19:14,659 [P44996/D2/T45] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1117/rsz_stocksnap_dknn0yhnee.jpg
+ 2016-11-23 22:19:14,661 [P44996/D2/T23] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-11-23 22:21:15,224 [P44996/D2/T47] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1117/rsz_stocksnap_dknn0yhnee.jpg
+ 2016-11-23 22:21:15,227 [P44996/D2/T46] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-11-23 22:21:15,227 [P44996/D2/T52] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-11-23 22:21:15,232 [P44996/D2/T47] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-11-23 22:21:15,272 [P44996/D2/T33] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-11-23 22:22:06,577 [P45968/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.2 application starting on MICHAEL
+ 2016-11-23 22:22:06,589 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-11-23 22:22:06,603 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 14ms)
+ 2016-11-23 22:22:06,634 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-11-23 22:22:07,220 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 585ms)
+ 2016-11-23 22:22:07,327 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-11-23 22:22:07,328 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-11-23 22:22:07,328 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-11-23 22:22:07,355 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 26ms)
+ 2016-11-23 22:22:07,365 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-11-23 22:22:07,366 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-11-23 22:22:07,366 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-11-23 22:22:07,576 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 209ms)
+ 2016-11-23 22:22:07,612 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-11-23 22:22:07,613 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-11-23 22:22:07,613 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-11-23 22:22:07,614 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-11-23 22:22:08,521 [P45968/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-23 22:22:08,680 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-11-23 22:22:08,714 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 34ms)
+ 2016-11-23 22:22:08,799 [P45968/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-23 22:22:08,806 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2016-11-23 22:22:08,862 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2016-11-23 22:22:18,517 [P45968/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (9612ms)
+ 2016-11-23 22:22:18,540 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 10
+ 2016-11-23 22:22:18,576 [P45968/D2/T1] INFO  Jumoo.uSync.Content.ContentHandler - Loading Handler Settings 0
+ 2016-11-23 22:22:18,580 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = Default Folder = ~/uSync/data/ Force = False
+ 2016-11-23 22:22:18,587 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2016-11-23 22:22:19,650 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-11-23 22:22:19,652 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-11-23 22:22:20,473 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 39 Items 2 changes 0 failures
+ 2016-11-23 22:22:20,473 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2016-11-23 22:22:20,545 [P45968/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:22:20,545 [P45968/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:22:20,546 [P45968/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:22:20,546 [P45968/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:22:20,552 [P45968/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:22:20,552 [P45968/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:22:20,553 [P45968/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:22:20,553 [P45968/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:22:20,553 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 16 Items 4 changes 0 failures
+ 2016-11-23 22:22:20,553 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2016-11-23 22:22:22,071 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 14 Items 2 changes 0 failures
+ 2016-11-23 22:22:22,072 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2016-11-23 22:22:22,204 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2016-11-23 22:22:22,204 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2016-11-23 22:22:22,241 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-11-23 22:22:22,241 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2016-11-23 22:22:22,242 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-11-23 22:22:22,242 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2016-11-23 22:22:22,242 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-11-23 22:22:22,335 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-11-23 22:22:22,337 [P45968/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2016-11-23 22:22:27,005 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events
+ 2016-11-23 22:22:27,010 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 122 items with 8 changes ###
+ 2016-11-23 22:22:27,010 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textarea Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textarea\Textarea.config
+ 2016-11-23 22:22:27,010 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textbox multiple Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textbox-multiple\TextboxMultiple.config
+ 2016-11-23 22:22:27,010 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\config\Config.config
+ 2016-11-23 22:22:27,010 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\emailtemplate\EmailTemplate.config
+ 2016-11-23 22:22:27,010 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tag\Tag.config
+ 2016-11-23 22:22:27,010 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Folder Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tagfolder\TagFolder.config
+ 2016-11-23 22:22:27,010 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\config\def.config
+ 2016-11-23 22:22:27,010 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\email-template\def.config
+ 2016-11-23 22:22:27,012 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Data\temp\uSync\20161123_222227_Startup.config
+ 2016-11-23 22:22:27,021 [P45968/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (18158ms)
+ 2016-11-23 22:22:27,108 [P45968/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-23 22:22:27,169 [P45968/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-11-23 22:22:27,240 [P45968/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-11-23 22:22:27,240 [P45968/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-11-23 22:22:27,297 [P45968/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 20779ms)
+ 2016-11-23 22:22:27,411 [P45968/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-11-23 22:22:28,042 [P45968/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2016-11-23 22:22:28,044 [P45968/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2016-11-23 22:22:30,389 [P45968/D2/T15] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-11-23 22:22:30,471 [P45968/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-11-23 22:22:30,472 [P45968/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 1ms)
+ 2016-11-23 22:22:30,476 [P45968/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-11-23 22:22:30,477 [P45968/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-11-23 22:22:30,486 [P45968/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-11-23 22:22:30,487 [P45968/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-11-23 22:22:30,490 [P45968/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-11-23 22:22:30,490 [P45968/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-11-23 22:22:30,522 [P45968/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-11-23 22:22:30,523 [P45968/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2016-11-23 22:22:30,541 [P45968/D2/T15] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Our.Umbraco.NestedContent. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:22:30,543 [P45968/D2/T15] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:22:30,571 [P45968/D2/T15] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:22:30,583 [P45968/D2/T15] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:22:30,587 [P45968/D2/T15] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:22:30,594 [P45968/D2/T15] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:23:28,079 [P42128/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.2 application starting on MICHAEL
+ 2016-11-23 22:23:28,091 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-11-23 22:23:28,105 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2016-11-23 22:23:28,136 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-11-23 22:23:28,702 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 565ms)
+ 2016-11-23 22:23:28,814 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-11-23 22:23:28,816 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+ 2016-11-23 22:23:28,816 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-11-23 22:23:28,856 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 39ms)
+ 2016-11-23 22:23:28,868 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-11-23 22:23:28,869 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-11-23 22:23:28,869 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-11-23 22:23:29,104 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 235ms)
+ 2016-11-23 22:23:29,145 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-11-23 22:23:29,145 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-11-23 22:23:29,145 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-11-23 22:23:29,146 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-11-23 22:23:30,100 [P42128/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-23 22:23:30,294 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-11-23 22:23:30,331 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 37ms)
+ 2016-11-23 22:23:30,421 [P42128/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-23 22:23:30,429 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2016-11-23 22:23:30,488 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2016-11-23 22:23:40,148 [P42128/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (9616ms)
+ 2016-11-23 22:23:40,159 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 10
+ 2016-11-23 22:23:40,212 [P42128/D2/T1] INFO  Jumoo.uSync.Content.ContentHandler - Loading Handler Settings 0
+ 2016-11-23 22:23:40,218 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = Default Folder = ~/uSync/data/ Force = False
+ 2016-11-23 22:23:40,226 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2016-11-23 22:23:41,360 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-11-23 22:23:41,362 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-11-23 22:23:42,158 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 39 Items 2 changes 0 failures
+ 2016-11-23 22:23:42,158 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2016-11-23 22:23:42,225 [P42128/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:23:42,225 [P42128/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:23:42,226 [P42128/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:23:42,226 [P42128/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:23:42,232 [P42128/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:23:42,232 [P42128/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:23:42,232 [P42128/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:23:42,232 [P42128/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:23:42,232 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 16 Items 4 changes 0 failures
+ 2016-11-23 22:23:42,233 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2016-11-23 22:23:43,735 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 14 Items 2 changes 0 failures
+ 2016-11-23 22:23:43,735 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2016-11-23 22:23:43,870 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2016-11-23 22:23:43,871 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2016-11-23 22:23:43,913 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-11-23 22:23:43,913 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2016-11-23 22:23:43,913 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-11-23 22:23:43,914 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2016-11-23 22:23:43,914 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-11-23 22:23:44,013 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-11-23 22:23:44,015 [P42128/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2016-11-23 22:23:48,666 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events
+ 2016-11-23 22:23:48,671 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 122 items with 8 changes ###
+ 2016-11-23 22:23:48,671 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textarea Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textarea\Textarea.config
+ 2016-11-23 22:23:48,671 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textbox multiple Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textbox-multiple\TextboxMultiple.config
+ 2016-11-23 22:23:48,671 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\config\Config.config
+ 2016-11-23 22:23:48,671 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\emailtemplate\EmailTemplate.config
+ 2016-11-23 22:23:48,671 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tag\Tag.config
+ 2016-11-23 22:23:48,671 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Folder Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tagfolder\TagFolder.config
+ 2016-11-23 22:23:48,671 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\config\def.config
+ 2016-11-23 22:23:48,671 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\email-template\def.config
+ 2016-11-23 22:23:48,673 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Data\temp\uSync\20161123_222348_Startup.config
+ 2016-11-23 22:23:48,682 [P42128/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (18194ms)
+ 2016-11-23 22:23:48,772 [P42128/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-23 22:23:48,834 [P42128/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-11-23 22:23:48,907 [P42128/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-11-23 22:23:48,907 [P42128/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-11-23 22:23:48,964 [P42128/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 20943ms)
+ 2016-11-23 22:23:49,085 [P42128/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-11-23 22:23:49,714 [P42128/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2016-11-23 22:23:49,717 [P42128/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2016-11-23 22:23:53,266 [P42128/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-11-23 22:23:53,399 [P42128/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-11-23 22:23:53,400 [P42128/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 1ms)
+ 2016-11-23 22:23:53,404 [P42128/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-11-23 22:23:53,405 [P42128/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-11-23 22:23:53,418 [P42128/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-11-23 22:23:53,420 [P42128/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-11-23 22:23:53,423 [P42128/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-11-23 22:23:53,424 [P42128/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-11-23 22:23:53,469 [P42128/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-11-23 22:23:53,471 [P42128/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-11-23 22:23:53,495 [P42128/D2/T16] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Our.Umbraco.NestedContent. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:23:53,501 [P42128/D2/T16] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:23:53,516 [P42128/D2/T16] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:23:53,528 [P42128/D2/T16] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:23:53,540 [P42128/D2/T16] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:23:53,556 [P42128/D2/T16] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:24:49,787 [P42128/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-22 22:24:49
+ 2016-11-23 22:29:54,402 [P46332/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.2 application starting on MICHAEL
+ 2016-11-23 22:29:54,417 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-11-23 22:29:54,430 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 13ms)
+ 2016-11-23 22:29:54,464 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-11-23 22:29:55,075 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 610ms)
+ 2016-11-23 22:29:55,180 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-11-23 22:29:55,181 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-11-23 22:29:55,181 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-11-23 22:29:55,209 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 28ms)
+ 2016-11-23 22:29:55,219 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-11-23 22:29:55,220 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2016-11-23 22:29:55,220 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-11-23 22:29:55,424 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 204ms)
+ 2016-11-23 22:29:55,459 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-11-23 22:29:55,460 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2016-11-23 22:29:55,460 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-11-23 22:29:55,461 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-11-23 22:29:56,376 [P46332/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-23 22:29:56,543 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-11-23 22:29:56,574 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 31ms)
+ 2016-11-23 22:29:56,657 [P46332/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-23 22:29:56,664 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2016-11-23 22:29:56,711 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2016-11-23 22:30:07,002 [P46332/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (10248ms)
+ 2016-11-23 22:30:07,017 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 10
+ 2016-11-23 22:30:07,052 [P46332/D2/T1] INFO  Jumoo.uSync.Content.ContentHandler - Loading Handler Settings 0
+ 2016-11-23 22:30:07,057 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = Default Folder = ~/uSync/data/ Force = False
+ 2016-11-23 22:30:07,063 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2016-11-23 22:30:08,476 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-11-23 22:30:08,478 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-11-23 22:30:09,569 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 39 Items 2 changes 0 failures
+ 2016-11-23 22:30:09,570 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2016-11-23 22:30:09,654 [P46332/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:30:09,655 [P46332/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:30:09,656 [P46332/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:30:09,656 [P46332/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:30:09,666 [P46332/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:30:09,666 [P46332/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:30:09,670 [P46332/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-23 22:30:09,670 [P46332/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-23 22:30:09,672 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 16 Items 4 changes 0 failures
+ 2016-11-23 22:30:09,673 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2016-11-23 22:30:11,228 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 14 Items 2 changes 0 failures
+ 2016-11-23 22:30:11,229 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2016-11-23 22:30:11,388 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2016-11-23 22:30:11,388 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2016-11-23 22:30:11,431 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-11-23 22:30:11,431 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2016-11-23 22:30:11,432 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-11-23 22:30:11,432 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2016-11-23 22:30:11,432 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-11-23 22:30:11,562 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-11-23 22:30:11,565 [P46332/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 3ms)
+ 2016-11-23 22:30:16,370 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events
+ 2016-11-23 22:30:16,375 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 122 items with 8 changes ###
+ 2016-11-23 22:30:16,375 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textarea Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textarea\Textarea.config
+ 2016-11-23 22:30:16,375 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textbox multiple Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textbox-multiple\TextboxMultiple.config
+ 2016-11-23 22:30:16,375 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\config\Config.config
+ 2016-11-23 22:30:16,375 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\emailtemplate\EmailTemplate.config
+ 2016-11-23 22:30:16,375 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tag\Tag.config
+ 2016-11-23 22:30:16,375 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Folder Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tagfolder\TagFolder.config
+ 2016-11-23 22:30:16,375 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\config\def.config
+ 2016-11-23 22:30:16,375 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\email-template\def.config
+ 2016-11-23 22:30:16,377 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Data\temp\uSync\20161123_223016_Startup.config
+ 2016-11-23 22:30:16,387 [P46332/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (19675ms)
+ 2016-11-23 22:30:16,470 [P46332/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-23 22:30:16,533 [P46332/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-11-23 22:30:16,603 [P46332/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-11-23 22:30:16,604 [P46332/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-11-23 22:30:16,662 [P46332/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 22321ms)
+ 2016-11-23 22:30:16,782 [P46332/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-11-23 22:30:17,404 [P46332/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2016-11-23 22:30:17,407 [P46332/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2016-11-23 22:30:21,160 [P46332/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-11-23 22:30:21,284 [P46332/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-11-23 22:30:21,285 [P46332/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 1ms)
+ 2016-11-23 22:30:21,289 [P46332/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-11-23 22:30:21,290 [P46332/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2016-11-23 22:30:21,298 [P46332/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-11-23 22:30:21,299 [P46332/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2016-11-23 22:30:21,303 [P46332/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-11-23 22:30:21,303 [P46332/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2016-11-23 22:30:21,334 [P46332/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2016-11-23 22:30:21,335 [P46332/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2016-11-23 22:30:21,353 [P46332/D2/T16] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Our.Umbraco.NestedContent. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:30:21,355 [P46332/D2/T16] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:30:21,369 [P46332/D2/T16] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:30:21,386 [P46332/D2/T16] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:30:21,404 [P46332/D2/T16] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:30:21,420 [P46332/D2/T16] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-23 22:31:17,454 [P46332/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-22 22:31:17
+ 2016-11-23 22:31:39,552 [P46332/D2/T20] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-11-23 22:31:39,552 [P46332/D2/T11] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-11-23 22:31:39,563 [P46332/D2/T20] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1117/rsz_stocksnap_dknn0yhnee.jpg
+ 2016-11-23 22:31:39,633 [P46332/D2/T23] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-11-23 22:31:39,674 [P46332/D2/T11] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-11-23 22:33:44,485 [P46332/D2/T12] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1117/rsz_stocksnap_dknn0yhnee.jpg
+ 2016-11-23 22:33:44,485 [P46332/D2/T26] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-11-23 22:33:44,488 [P46332/D2/T26] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-11-23 22:33:44,489 [P46332/D2/T28] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-11-23 22:33:44,587 [P46332/D2/T12] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-11-23 22:34:03,997 [P46332/D2/T13] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-11-23 22:34:04,028 [P46332/D2/T10] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-11-23 22:34:04,035 [P46332/D2/T22] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1117/rsz_stocksnap_dknn0yhnee.jpg
+ 2016-11-23 22:34:04,037 [P46332/D2/T24] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-11-23 22:34:04,044 [P46332/D2/T30] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-11-23 22:36:19,574 [P46332/D2/T16] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-11-23 22:36:19,574 [P46332/D2/T21] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-11-23 22:36:19,574 [P46332/D2/T30] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1117/rsz_stocksnap_dknn0yhnee.jpg
+ 2016-11-23 22:36:19,575 [P46332/D2/T7] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-11-23 22:36:19,609 [P46332/D2/T21] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-11-23 22:36:57,911 [P46332/D2/T7] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-11-23 22:36:57,918 [P46332/D2/T35] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-11-23 22:36:57,935 [P46332/D2/T10] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1117/rsz_stocksnap_dknn0yhnee.jpg
+ 2016-11-23 22:36:57,948 [P46332/D2/T22] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-11-23 22:36:57,993 [P46332/D2/T19] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-11-23 22:48:17,544 [P46332/D2/T20] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1117/rsz_stocksnap_dknn0yhnee.jpg
+ 2016-11-23 22:48:17,545 [P46332/D2/T25] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-11-23 22:48:17,552 [P46332/D2/T25] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-11-23 22:48:17,552 [P46332/D2/T84] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-11-23 22:48:17,553 [P46332/D2/T72] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-11-23 22:50:57,882 [P46332/D2/T20] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-11-23 22:50:57,898 [P46332/D2/T94] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-11-23 22:50:57,900 [P46332/D2/T20] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-11-23 22:50:57,926 [P46332/D2/T93] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1117/rsz_stocksnap_dknn0yhnee.jpg
+ 2016-11-23 22:50:57,974 [P46332/D2/T20] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-11-23 22:51:21,411 [P46332/D2/T91] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1117/rsz_stocksnap_dknn0yhnee.jpg
+ 2016-11-23 22:51:21,412 [P46332/D2/T72] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-11-23 22:51:21,415 [P46332/D2/T91] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-11-23 22:51:21,957 [P46332/D2/T20] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-11-23 22:51:22,070 [P46332/D2/T20] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-11-23 22:52:06,724 [P46332/D2/T76] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-11-23 22:52:06,724 [P46332/D2/T76] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1117/rsz_stocksnap_dknn0yhnee.jpg
+ 2016-11-23 22:52:06,726 [P46332/D2/T93] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-11-23 22:52:06,810 [P46332/D2/T91] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-11-23 22:52:06,916 [P46332/D2/T76] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-11-23 22:53:42,970 [P46332/D2/T90] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-11-23 22:53:45,930 [P46332/D2/T90] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-11-23 22:53:45,948 [P46332/D2/T90] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-11-23 22:53:45,951 [P46332/D2/T90] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-11-23 22:54:30,400 [P46332/D2/T72] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Mikeylfc007@blueyonder.co.uk from IP address ::1
+ 2016-11-23 22:54:30,402 [P46332/D2/T72] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: mikeylfc007@blueyonder.co.uk logged in from IP address ::1
+ 2016-11-23 22:54:30,518 [P46332/D2/T72] ERROR Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper - Could not validate XSRF token
+System.Web.Mvc.HttpAntiForgeryException (0x80004005): The anti-forgery token could not be decrypted. If this application is hosted by a Web Farm or cluster, ensure that all machines are running the same version of ASP.NET Web Pages and that the <machineKey> configuration specifies explicit encryption and validation keys. AutoGenerate cannot be used in a cluster.
+   at System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.DeserializeToken(String serializedToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext, String cookieToken, String formToken)
+   at System.Web.Helpers.AntiForgery.Validate(String cookieToken, String formToken)
+   at Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper.ValidateTokens(String cookieToken, String headerToken)
+ 2016-11-23 22:54:30,590 [P46332/D2/T72] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-11-23 22:54:30,591 [P46332/D2/T72] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-11-23 22:56:06,692 [P46332/D2/T72] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Mikeylfc007@blueyonder.co.uk from IP address ::1
+ 2016-11-23 22:56:06,692 [P46332/D2/T72] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: mikeylfc007@blueyonder.co.uk logged in from IP address ::1
+ 2016-11-23 22:56:06,732 [P46332/D2/T92] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-11-23 22:56:06,732 [P46332/D2/T92] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-11-23 22:56:29,128 [P46332/D2/T72] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1117/rsz_stocksnap_dknn0yhnee.jpg
+ 2016-11-23 22:57:10,220 [P46332/D2/T89] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
 ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1001/apple.jpeg
- 2016-10-04 00:02:11,845 [P16856/D4/T48] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1010/hands-technology-photo-phone.jpg
- 2016-10-04 00:02:16,354 [P16856/D4/T37] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1028/hands-technology-photo-phone.jpg
- 2016-10-04 00:02:34,160 [P16856/D4/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
- 2016-10-04 00:02:34,188 [P16856/D4/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 27ms)
- 2016-10-04 00:02:52,932 [P16856/D4/T44] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:02:52,945 [P16856/D4/T25] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:02:52,973 [P16856/D4/T17] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:02:52,974 [P16856/D4/T66] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:02:52,987 [P16856/D4/T34] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:02:52,990 [P16856/D4/T48] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:02:52,991 [P16856/D4/T20] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:04:29,163 [P16856/D4/T25] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1031/pexels-photo-126590.jpeg
- 2016-10-04 00:04:30,556 [P16856/D4/T72] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1030/pexels-photo-126590.jpeg
- 2016-10-04 00:05:45,911 [P16856/D4/T85] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1010/hands-technology-photo-phone.jpg
- 2016-10-04 00:05:57,153 [P16856/D4/T72] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:05:57,175 [P16856/D4/T23] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:05:57,177 [P16856/D4/T7] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:05:57,190 [P16856/D4/T84] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:05:57,192 [P16856/D4/T83] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:05:57,194 [P16856/D4/T72] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:05:57,199 [P16856/D4/T14] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:06:21,890 [P16856/D4/T84] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
- 2016-10-04 00:06:32,720 [P16856/D4/T86] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
- 2016-10-04 00:06:32,733 [P16856/D4/T86] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 13ms)
- 2016-10-04 00:06:32,793 [P16856/D4/T86] INFO  Jumoo.uSync.BackOffice.Handlers.MediaTypeHandler - Save: Saving uSync file for item: Image
- 2016-10-04 00:06:32,823 [P16856/D4/T86] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generate models now.
- 2016-10-04 00:06:34,105 [P16856/D4/T86] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generated.
- 2016-10-04 00:08:51,423 [P16856/D4/T72] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:08:51,432 [P16856/D4/T25] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
- 2016-10-04 00:08:51,450 [P16856/D4/T7] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:08:51,453 [P16856/D4/T84] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:08:51,460 [P16856/D4/T72] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:08:51,468 [P16856/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:08:51,476 [P16856/D4/T25] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:08:51,491 [P16856/D4/T85] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 00:13:58,596 [P16856/D4/T54] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1010/hands-technology-photo-phone.jpg
- 2016-10-04 00:22:44,565 [P16856/D4/T11] INFO  Umbraco.Core.Manifest.ManifestWatcher - manifest has changed, app pool is restarting (C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Plugins\Analytics\package.manifest)
- 2016-10-04 00:22:44,597 [P16856/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
- 2016-10-04 00:22:44,597 [P16856/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
- 2016-10-04 00:22:44,597 [P16856/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
- 2016-10-04 00:22:44,597 [P16856/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
- 2016-10-04 00:22:44,597 [P16856/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
- 2016-10-04 00:22:44,597 [P16856/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
- 2016-10-04 00:22:44,597 [P16856/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
- 2016-10-04 00:22:44,597 [P16856/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
- 2016-10-04 00:22:44,597 [P16856/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
- 2016-10-04 00:22:44,597 [P16856/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
- 2016-10-04 00:22:44,598 [P16856/D4/T18] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
- 2016-10-04 00:22:44,598 [P16856/D4/T18] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
- 2016-10-04 00:22:44,599 [P16856/D4/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
- 2016-10-04 00:22:44,599 [P16856/D4/T79] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
- 2016-10-04 00:22:44,599 [P16856/D4/T46] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
- 2016-10-04 00:22:46,196 [P16856/D5/T32] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.2 application starting on MICHAEL
- 2016-10-04 00:22:46,213 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
- 2016-10-04 00:22:46,226 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Hash determined (took 12ms)
- 2016-10-04 00:22:46,257 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
- 2016-10-04 00:22:46,710 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 452ms)
- 2016-10-04 00:22:46,802 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
- 2016-10-04 00:22:46,803 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
- 2016-10-04 00:22:46,803 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
- 2016-10-04 00:22:46,836 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 33ms)
- 2016-10-04 00:22:46,847 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
- 2016-10-04 00:22:46,848 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
- 2016-10-04 00:22:46,848 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
- 2016-10-04 00:22:47,040 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 192ms)
- 2016-10-04 00:22:47,073 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
- 2016-10-04 00:22:47,074 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
- 2016-10-04 00:22:47,074 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
- 2016-10-04 00:22:47,075 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
- 2016-10-04 00:22:47,969 [P16856/D5/T32] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-10-04 00:22:48,137 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
- 2016-10-04 00:22:48,175 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 38ms)
- 2016-10-04 00:22:48,235 [P16856/D5/T32] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-10-04 00:22:48,310 [P16856/D5/T32] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-10-04 00:22:48,328 [P16856/D5/T32] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
- 2016-10-04 00:22:48,477 [P16856/D5/T32] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
- 2016-10-04 00:22:48,477 [P16856/D5/T32] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
- 2016-10-04 00:22:48,487 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
- 2016-10-04 00:22:48,528 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
- 2016-10-04 00:22:51,333 [P16856/D5/T32] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (2745ms)
- 2016-10-04 00:22:51,346 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 10
- 2016-10-04 00:22:51,395 [P16856/D5/T32] INFO  Jumoo.uSync.Content.ContentHandler - Loading Handler Settings 0
- 2016-10-04 00:22:51,400 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = Default Folder = ~/uSync/data/ Force = False
- 2016-10-04 00:22:51,407 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
- 2016-10-04 00:22:51,552 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
- 2016-10-04 00:22:51,555 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
- 2016-10-04 00:22:51,697 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
- 2016-10-04 00:22:51,699 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
- 2016-10-04 00:22:51,785 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 38 Items 2 changes 0 failures
- 2016-10-04 00:22:51,786 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
- 2016-10-04 00:22:51,833 [P16856/D5/T32] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
- 2016-10-04 00:22:51,833 [P16856/D5/T32] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
- 2016-10-04 00:22:51,834 [P16856/D5/T32] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
- 2016-10-04 00:22:51,834 [P16856/D5/T32] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
- 2016-10-04 00:22:51,839 [P16856/D5/T32] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
- 2016-10-04 00:22:51,839 [P16856/D5/T32] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
- 2016-10-04 00:22:51,840 [P16856/D5/T32] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
- 2016-10-04 00:22:51,840 [P16856/D5/T32] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
- 2016-10-04 00:22:51,840 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 15 Items 4 changes 0 failures
- 2016-10-04 00:22:51,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
- 2016-10-04 00:22:52,567 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 13 Items 3 changes 0 failures
- 2016-10-04 00:22:52,567 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
- 2016-10-04 00:22:52,655 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
- 2016-10-04 00:22:52,655 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
- 2016-10-04 00:22:52,670 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
- 2016-10-04 00:22:52,671 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
- 2016-10-04 00:22:52,671 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
- 2016-10-04 00:22:52,672 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
- 2016-10-04 00:22:52,672 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
- 2016-10-04 00:22:52,732 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
- 2016-10-04 00:22:52,735 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
- 2016-10-04 00:22:53,244 [P16856/D5/T32] INFO  umbraco.content - Load Xml from file...
- 2016-10-04 00:22:53,245 [P16856/D5/T32] INFO  umbraco.content - Loaded Xml from file.
- 2016-10-04 00:22:53,295 [P16856/D5/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blog' with Id '1094' has been published.
- 2016-10-04 00:22:53,860 [P16856/D5/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'My First CodeGarden' with Id '1101' has been published.
- 2016-10-04 00:22:54,080 [P16856/D5/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'What I Learned at CodeGarden 2016' with Id '1102' has been published.
- 2016-10-04 00:22:54,247 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
- 2016-10-04 00:22:54,249 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 2ms)
- 2016-10-04 00:22:54,255 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
- 2016-10-04 00:22:54,258 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 3ms)
- 2016-10-04 00:22:54,267 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
- 2016-10-04 00:22:54,268 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
- 2016-10-04 00:22:54,272 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
- 2016-10-04 00:22:54,272 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
- 2016-10-04 00:22:54,306 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
- 2016-10-04 00:22:54,307 [P16856/D5/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
- 2016-10-04 00:22:54,323 [P16856/D5/T32] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
- 2016-10-04 00:22:54,324 [P16856/D5/T32] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
- 2016-10-04 00:22:54,324 [P16856/D5/T32] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Our.Umbraco.NestedContent. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
- 2016-10-04 00:22:54,335 [P16856/D5/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blog' with Id '1094' has been published.
- 2016-10-04 00:22:54,461 [P16856/D5/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'My First CodeGarden' with Id '1101' has been published.
- 2016-10-04 00:22:54,598 [P16856/D5/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'What I Learned at CodeGarden 2016' with Id '1102' has been published.
- 2016-10-04 00:22:54,834 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events
- 2016-10-04 00:22:54,839 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 105 items with 12 changes ###
- 2016-10-04 00:22:54,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textarea Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textarea\Textarea.config
- 2016-10-04 00:22:54,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textbox multiple Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textbox-multiple\TextboxMultiple.config
- 2016-10-04 00:22:54,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\config\Config.config
- 2016-10-04 00:22:54,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\emailtemplate\EmailTemplate.config
- 2016-10-04 00:22:54,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tag\Tag.config
- 2016-10-04 00:22:54,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Folder Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tagfolder\TagFolder.config
- 2016-10-04 00:22:54,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\config\def.config
- 2016-10-04 00:22:54,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\email-template\def.config
- 2016-10-04 00:22:54,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Header Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\content\component\header\def.config
- 2016-10-04 00:22:54,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Blog Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\content.config
- 2016-10-04 00:22:54,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import My First CodeGarden Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\my-first-codegarden\content.config
- 2016-10-04 00:22:54,841 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import What I Learned at CodeGarden 2016 Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\what-i-learned-at-codegarden-2016\content.config
- 2016-10-04 00:22:54,843 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Data\temp\uSync\20161004_002254_Startup.config
- 2016-10-04 00:22:54,851 [P16856/D5/T32] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (6322ms)
- 2016-10-04 00:22:54,877 [P16856/D5/T32] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 8755ms)
- 2016-10-04 00:22:55,012 [P16856/D5/T18] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
- 2016-10-04 00:22:56,615 [P16856/D5/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
- 2016-10-04 00:22:56,615 [P16856/D5/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
- 2016-10-04 00:22:56,673 [P16856/D5/T24] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
- 2016-10-04 00:22:56,675 [P16856/D5/T24] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 1ms)
- 2016-10-04 00:22:57,696 [P16856/D5/T79] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1028/hands-technology-photo-phone.jpg
- 2016-10-04 00:22:57,889 [P16856/D5/T31] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-10-04 00:22:57,896 [P16856/D5/T24] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
- 2016-10-04 00:22:57,922 [P16856/D5/T24] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
- 2016-10-04 00:22:57,925 [P16856/D5/T24] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
- 2016-10-04 00:22:58,675 [P16856/D5/T5] INFO  umbraco.content - Save Xml to file...
- 2016-10-04 00:22:58,685 [P16856/D5/T5] INFO  umbraco.content - Saved Xml to file.
- 2016-10-04 00:23:09,978 [P16856/D5/T24] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-10-04 00:23:14,699 [P16856/D4/T43] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: UnloadAppDomainCalled
-
-_shutDownMessage=User code called UnloadAppDomain
-HostingEnvironment initiated shutdown
-HostingEnvironment caused shutdown
-
-_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
-   at System.Environment.get_StackTrace()
-   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
-   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
-   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
-   at System.Web.HttpRuntime.UnloadAppDomain()
-   at Umbraco.Core.Manifest.ManifestWatcher.FswChanged(Object sender, FileSystemEventArgs e)
-   at System.IO.FileSystemWatcher.OnChanged(FileSystemEventArgs e)
-   at System.IO.FileSystemWatcher.NotifyFileSystemEventArgs(Int32 action, String name)
-   at System.IO.FileSystemWatcher.CompletionStatusChanged(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* overlappedPointer)
-   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
- 2016-10-04 00:23:34,150 [P16856/D5/T21] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-10-04 00:23:39,156 [P16856/D5/T16] ERROR SEOChecker.Events.UrlHistoryEventHandler - SEOChecker: Error getting media history
-System.NullReferenceException: Object reference not set to an instance of an object.
-   at SEOChecker.Events.UrlHistoryEventHandler.(IMedia )
-   at SEOChecker.Events.UrlHistoryEventHandler.(IMediaService , SaveEventArgs`1 )
- 2016-10-04 00:23:54,327 [P16856/D5/T50] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1028/hands-technology-photo-phone.jpg
- 2016-10-04 00:23:56,363 [P16856/D5/T46] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-03 00:23:56
- 2016-10-04 00:24:08,379 [P16856/D5/T50] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1010/hands-technology-photo-phone.jpg
- 2016-10-04 00:24:17,013 [P16856/D5/T79] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1028/hands-technology-photo-phone.jpg
- 2016-10-04 00:25:02,796 [P16856/D5/T50] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1009/summerandme.jpg
- 2016-10-04 00:25:21,132 [P16856/D5/T21] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-10-04 00:25:27,107 [P16856/D5/T16] ERROR SEOChecker.Events.UrlHistoryEventHandler - SEOChecker: Error getting media history
-System.NullReferenceException: Object reference not set to an instance of an object.
-   at SEOChecker.Events.UrlHistoryEventHandler.(IMedia )
-   at SEOChecker.Events.UrlHistoryEventHandler.(IMediaService , SaveEventArgs`1 )
- 2016-10-04 00:25:33,992 [P16856/D5/T12] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1048/hands-technology-photo-phone.jpg
- 2016-10-04 00:26:04,872 [P16856/D5/T59] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1010/hands-technology-photo-phone.jpg
- 2016-10-04 00:26:16,823 [P16856/D5/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
- 2016-10-04 00:26:16,823 [P16856/D5/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
- 2016-10-04 00:26:17,865 [P16856/D5/T55] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1010/hands-technology-photo-phone.jpg
- 2016-10-04 00:26:31,151 [P16856/D5/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'What I Learned at CodeGarden 2016' with Id '1102' has been published.
- 2016-10-04 00:26:31,187 [P16856/D5/T26] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
- 2016-10-04 00:26:35,309 [P16856/D5/T13] INFO  umbraco.content - Save Xml to file...
- 2016-10-04 00:26:35,326 [P16856/D5/T13] INFO  umbraco.content - Saved Xml to file.
- 2016-10-04 00:26:59,832 [P16856/D5/T59] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 00:28:43,409 [P16856/D5/T50] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-10-04 00:28:47,352 [P16856/D5/T12] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1030/pexels-photo-126590.jpeg
- 2016-10-04 00:28:49,670 [P16856/D5/T55] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1031/pexels-photo-126590.jpeg
- 2016-10-04 00:29:13,819 [P16856/D5/T55] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 00:29:15,648 [P16856/D5/T55] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1048/hands-technology-photo-phone.jpg
- 2016-10-04 00:29:31,891 [P16856/D5/T78] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ 2016-11-23 22:57:10,390 [P46332/D2/T72] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1002/apple2.jpeg
+ 2016-11-23 22:57:10,390 [P46332/D2/T61] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
 ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1003/apple3.jpeg
- 2016-10-04 22:54:00,995 [P15380/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.2 application starting on MICHAEL
- 2016-10-04 22:54:01,019 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
- 2016-10-04 22:54:01,036 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 16ms)
- 2016-10-04 22:54:01,078 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
- 2016-10-04 22:54:01,617 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 538ms)
- 2016-10-04 22:54:01,627 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
- 2016-10-04 22:54:01,635 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
- 2016-10-04 22:54:01,636 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
- 2016-10-04 22:54:01,653 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 17ms)
- 2016-10-04 22:54:01,663 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
- 2016-10-04 22:54:01,668 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
- 2016-10-04 22:54:01,668 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
- 2016-10-04 22:54:01,694 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 25ms)
- 2016-10-04 22:54:01,733 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
- 2016-10-04 22:54:01,743 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 9ms)
- 2016-10-04 22:54:01,743 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
- 2016-10-04 22:54:01,753 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 10ms)
- 2016-10-04 22:54:02,599 [P15380/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-10-04 22:54:02,788 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
- 2016-10-04 22:54:02,803 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 14ms)
- 2016-10-04 22:54:02,897 [P15380/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-10-04 22:54:02,903 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
- 2016-10-04 22:54:02,905 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
- 2016-10-04 22:54:03,072 [P15380/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (101ms)
- 2016-10-04 22:54:03,081 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 10
- 2016-10-04 22:54:03,118 [P15380/D2/T1] INFO  Jumoo.uSync.Content.ContentHandler - Loading Handler Settings 0
- 2016-10-04 22:54:03,122 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = Default Folder = ~/uSync/data/ Force = False
- 2016-10-04 22:54:03,130 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
- 2016-10-04 22:54:04,436 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
- 2016-10-04 22:54:04,442 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 6ms)
- 2016-10-04 22:54:05,402 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 38 Items 2 changes 0 failures
- 2016-10-04 22:54:05,402 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
- 2016-10-04 22:54:05,494 [P15380/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
- 2016-10-04 22:54:05,494 [P15380/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
- 2016-10-04 22:54:05,501 [P15380/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
- 2016-10-04 22:54:05,501 [P15380/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
- 2016-10-04 22:54:05,562 [P15380/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
- 2016-10-04 22:54:05,562 [P15380/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
- 2016-10-04 22:54:05,568 [P15380/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
- 2016-10-04 22:54:05,568 [P15380/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
- 2016-10-04 22:54:05,568 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 15 Items 4 changes 0 failures
- 2016-10-04 22:54:05,568 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
- 2016-10-04 22:54:08,516 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 13 Items 3 changes 0 failures
- 2016-10-04 22:54:08,517 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
- 2016-10-04 22:54:08,755 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
- 2016-10-04 22:54:08,756 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
- 2016-10-04 22:54:08,818 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
- 2016-10-04 22:54:08,818 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
- 2016-10-04 22:54:08,818 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
- 2016-10-04 22:54:08,819 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
- 2016-10-04 22:54:08,819 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
- 2016-10-04 22:54:08,930 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
- 2016-10-04 22:54:08,973 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 43ms)
- 2016-10-04 22:54:18,368 [P15380/D2/T1] INFO  umbraco.content - Load Xml from file...
- 2016-10-04 22:54:18,377 [P15380/D2/T1] INFO  umbraco.content - Loaded Xml from file.
- 2016-10-04 22:54:18,511 [P15380/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'My First CodeGarden' with Id '1101' has been published.
- 2016-10-04 22:54:18,638 [P15380/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
-System.Web.HttpException (0x80004005): Request is not available in this context
-   at System.Web.HttpContext.get_Request()
-   at PackageGarden.Licensing.ValidationContext..ctor()
-   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
-   at SEOChecker.Core.ProductLicense.get_Instance()
-   at SEOChecker.Core.Licensing.IsTrial()
-   at SEOChecker.Core.Config.Configuration.()
-   at SEOChecker.Core.Config.Configuration.get_Triggers()
-   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
- 2016-10-04 22:54:18,960 [P15380/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'What I Learned at CodeGarden 2016' with Id '1102' has been published.
- 2016-10-04 22:54:19,058 [P15380/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
-System.Web.HttpException (0x80004005): Request is not available in this context
-   at System.Web.HttpContext.get_Request()
-   at PackageGarden.Licensing.ValidationContext..ctor()
-   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
-   at SEOChecker.Core.ProductLicense.get_Instance()
-   at SEOChecker.Core.Licensing.IsTrial()
-   at SEOChecker.Core.Config.Configuration.()
-   at SEOChecker.Core.Config.Configuration.get_Triggers()
-   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
- 2016-10-04 22:54:19,353 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
- 2016-10-04 22:54:19,401 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 47ms)
- 2016-10-04 22:54:19,405 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
- 2016-10-04 22:54:19,422 [P15380/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 17ms)
- 2016-10-04 22:54:19,482 [P15380/D2/T1] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
- 2016-10-04 22:54:19,483 [P15380/D2/T1] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
- 2016-10-04 22:54:19,483 [P15380/D2/T1] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Our.Umbraco.NestedContent. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
- 2016-10-04 22:54:19,508 [P15380/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'My First CodeGarden' with Id '1101' has been published.
- 2016-10-04 22:54:19,557 [P15380/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
-System.Web.HttpException (0x80004005): Request is not available in this context
-   at System.Web.HttpContext.get_Request()
-   at PackageGarden.Licensing.ValidationContext..ctor()
-   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
-   at SEOChecker.Core.ProductLicense.get_Instance()
-   at SEOChecker.Core.Licensing.IsTrial()
-   at SEOChecker.Core.Config.Configuration.()
-   at SEOChecker.Core.Config.Configuration.get_Triggers()
-   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
- 2016-10-04 22:54:19,580 [P15380/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'What I Learned at CodeGarden 2016' with Id '1102' has been published.
- 2016-10-04 22:54:19,639 [P15380/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
-System.Web.HttpException (0x80004005): Request is not available in this context
-   at System.Web.HttpContext.get_Request()
-   at PackageGarden.Licensing.ValidationContext..ctor()
-   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
-   at SEOChecker.Core.ProductLicense.get_Instance()
-   at SEOChecker.Core.Licensing.IsTrial()
-   at SEOChecker.Core.Config.Configuration.()
-   at SEOChecker.Core.Config.Configuration.get_Triggers()
-   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
- 2016-10-04 22:54:19,810 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events
- 2016-10-04 22:54:19,819 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 105 items with 12 changes ###
- 2016-10-04 22:54:19,819 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textarea Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textarea\Textarea.config
- 2016-10-04 22:54:19,819 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textbox multiple Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textbox-multiple\TextboxMultiple.config
- 2016-10-04 22:54:19,820 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\config\Config.config
- 2016-10-04 22:54:19,820 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\emailtemplate\EmailTemplate.config
- 2016-10-04 22:54:19,820 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tag\Tag.config
- 2016-10-04 22:54:19,820 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Folder Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tagfolder\TagFolder.config
- 2016-10-04 22:54:19,820 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\config\def.config
- 2016-10-04 22:54:19,820 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\email-template\def.config
- 2016-10-04 22:54:19,820 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Header Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\content\component\header\def.config
- 2016-10-04 22:54:19,820 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import hands-technology-photo-phone.jpg (2) Umbraco.Core.Models.IMedia  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Media\hands-technology-photo-phone.jpg-2\media.config
- 2016-10-04 22:54:19,820 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import My First CodeGarden Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\my-first-codegarden\content.config
- 2016-10-04 22:54:19,820 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import What I Learned at CodeGarden 2016 Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\what-i-learned-at-codegarden-2016\content.config
- 2016-10-04 22:54:19,821 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Data\temp\uSync\20161004_225419_Startup.config
- 2016-10-04 22:54:19,830 [P15380/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (16924ms)
- 2016-10-04 22:54:19,839 [P15380/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
- 2016-10-04 22:54:19,855 [P15380/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
- 2016-10-04 22:54:19,931 [P15380/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
- 2016-10-04 22:54:19,931 [P15380/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
- 2016-10-04 22:54:19,975 [P15380/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 19042ms)
- 2016-10-04 22:54:20,113 [P15380/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
- 2016-10-04 22:54:25,733 [P15380/D2/T6] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
- 2016-10-04 22:54:25,759 [P15380/D2/T6] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
- 2016-10-04 22:54:25,762 [P15380/D2/T6] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
- 2016-10-04 22:54:38,308 [P15380/D2/T18] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 22:54:38,804 [P15380/D2/T6] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 645 : The request /img/ajax-loader.gif?1470759882 could not be understood by the server due to malformed syntax.
- 2016-10-04 22:54:40,292 [P15380/D2/T18] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
- 2016-10-04 22:54:40,351 [P15380/D2/T18] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
- 2016-10-04 22:54:40,356 [P15380/D2/T18] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
- 2016-10-04 22:54:40,364 [P15380/D2/T18] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
- 2016-10-04 22:55:20,756 [P15380/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-03 22:55:20
- 2016-10-04 22:56:44,925 [P15380/D2/T25] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:16:58,328 [P15380/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Mikeylfc007@blueyonder.co.uk from IP address ::1
- 2016-10-04 23:16:58,330 [P15380/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: mikeylfc007@blueyonder.co.uk logged in from IP address ::1
- 2016-10-04 23:16:58,485 [P15380/D2/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
- 2016-10-04 23:16:58,499 [P15380/D2/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 13ms)
- 2016-10-04 23:17:20,591 [P15380/D2/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
- 2016-10-04 23:17:20,591 [P15380/D2/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
- 2016-10-04 23:17:26,096 [P15380/D2/T68] ERROR SEOChecker.Events.UrlHistoryEventHandler - SEOChecker: Error getting media history
-System.NullReferenceException: Object reference not set to an instance of an object.
-   at SEOChecker.Events.UrlHistoryEventHandler.(IMedia )
-   at SEOChecker.Events.UrlHistoryEventHandler.(IMediaService , SaveEventArgs`1 )
- 2016-10-04 23:17:27,346 [P15380/D2/T68] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
- 2016-10-04 23:17:27,370 [P15380/D2/T68] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 24ms)
- 2016-10-04 23:17:46,106 [P15380/D2/T68] WARN  Umbraco.Core.PropertyEditors.PropertyValueEditor - The value  cannot be converted to the type Integer
- 2016-10-04 23:17:46,133 [P15380/D2/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'My First CodeGarden' with Id '1101' has been published.
- 2016-10-04 23:17:46,183 [P15380/D2/T68] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
- 2016-10-04 23:17:50,354 [P15380/D2/T13] INFO  umbraco.content - Save Xml to file...
- 2016-10-04 23:17:50,389 [P15380/D2/T13] INFO  umbraco.content - Saved Xml to file.
- 2016-10-04 23:18:18,950 [P15380/D2/T11] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:18:20,123 [P15380/D2/T17] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1031/pexels-photo-126590.jpeg
- 2016-10-04 23:18:45,512 [P15380/D2/T70] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:18:45,522 [P15380/D2/T71] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:21:10,016 [P15380/D2/T69] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:21:10,037 [P15380/D2/T16] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:21:26,195 [P15380/D2/T16] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:21:26,221 [P15380/D2/T103] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:22:25,158 [P15380/D2/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
- 2016-10-04 23:22:25,158 [P15380/D2/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
- 2016-10-04 23:22:33,986 [P15380/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
- 2016-10-04 23:22:34,008 [P15380/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 21ms)
- 2016-10-04 23:22:38,611 [P15380/D2/T103] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
- 2016-10-04 23:22:38,612 [P15380/D2/T17] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:22:38,680 [P15380/D2/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:22:38,686 [P15380/D2/T11] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:22:38,706 [P15380/D2/T96] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:22:38,725 [P15380/D2/T101] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:22:38,726 [P15380/D2/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:22:38,726 [P15380/D2/T14] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:22:49,823 [P15380/D2/T17] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field crops
- 2016-10-04 23:23:33,914 [P15380/D2/T99] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generate models now.
- 2016-10-04 23:23:34,857 [P15380/D2/T99] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generated.
- 2016-10-04 23:23:36,923 [P15380/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
- 2016-10-04 23:23:36,938 [P15380/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 14ms)
- 2016-10-04 23:23:36,991 [P15380/D2/T17] INFO  Jumoo.uSync.BackOffice.Handlers.MediaTypeHandler - Save: Saving uSync file for item: Image
- 2016-10-04 23:23:37,052 [P15380/D2/T17] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generate models now.
- 2016-10-04 23:23:37,161 [P15380/D2/T17] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generated.
- 2016-10-04 23:23:37,965 [P15380/D2/T97] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Save: Saving uSync file for item: Image Cropper
- 2016-10-04 23:23:57,315 [P15380/D2/T70] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1010/hands-technology-photo-phone.jpg
- 2016-10-04 23:23:58,418 [P15380/D2/T70] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ 2016-11-23 22:57:10,481 [P46332/D2/T90] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1004/desk-laptop-notebook-pen.jpg
+ 2016-11-23 22:57:10,496 [P46332/D2/T24] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1005/dogs.jpg
+ 2016-11-23 22:57:10,551 [P46332/D2/T50] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
 ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1006/landscape.jpg
- 2016-10-04 23:24:31,281 [P15380/D2/T17] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ 2016-11-23 22:57:10,620 [P46332/D2/T85] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1007/movies.jpg
+ 2016-11-23 22:57:10,904 [P46332/D2/T90] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1008/profile.jpg
+ 2016-11-23 22:57:10,919 [P46332/D2/T25] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1009/summerandme.jpg
+ 2016-11-23 22:57:10,954 [P46332/D2/T61] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1010/hands-technology-photo-phone.jpg
+ 2016-11-23 22:57:10,965 [P46332/D2/T38] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
 ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:24:33,558 [P15380/D2/T97] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ 2016-11-23 22:57:10,971 [P46332/D2/T72] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-11-23 22:57:11,000 [P46332/D2/T38] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1030/pexels-photo-126590.jpeg
+ 2016-11-23 22:57:11,044 [P46332/D2/T50] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-11-23 22:57:11,144 [P46332/D2/T61] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-11-23 22:57:11,158 [P46332/D2/T25] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1057/pexels-photo-92904.jpeg
+ 2016-11-23 22:57:11,159 [P46332/D2/T90] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-11-23 22:57:11,213 [P46332/D2/T86] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1058/marketing-man-person-communication.jpg
+ 2016-11-23 22:57:11,356 [P46332/D2/T90] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1059/person-looking-searching-clean.jpg
+ 2016-11-23 22:57:11,377 [P46332/D2/T72] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1060/blog_header.jpg
+ 2016-11-23 22:57:11,386 [P46332/D2/T25] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1062/desk-laptop-notebook-pen.jpg
+ 2016-11-23 22:57:11,413 [P46332/D2/T59] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1063/rsz_map.jpg
+ 2016-11-23 22:57:13,900 [P46332/D2/T25] ERROR SEOChecker.Events.UrlHistoryEventHandler - SEOChecker: Error getting media history
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMedia )
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMediaService , SaveEventArgs`1 )
+ 2016-11-23 22:57:15,782 [P46332/D2/T25] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2016-11-23 22:57:15,783 [P46332/D2/T25] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2016-11-23 22:57:16,081 [P46332/D2/T90] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1118/code.jpeg
+ 2016-11-23 22:57:22,054 [P46332/D2/T72] WARN  Umbraco.Core.PropertyEditors.PropertyValueEditor - The value  cannot be converted to the type Integer
+ 2016-11-23 22:57:22,113 [P46332/D2/T72] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How to create Fluent Interfaces in C#' with Id '1157' has been published.
+ 2016-11-23 22:57:22,157 [P46332/D2/T72] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-11-23 22:57:26,286 [P46332/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2016-11-23 22:57:26,298 [P46332/D2/T9] INFO  umbraco.content - Saved Xml to file.
+ 2016-11-23 22:57:26,976 [P46332/D2/T72] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1118/code.jpeg
+ 2016-11-23 22:58:31,109 [P46332/D2/T97] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1057/pexels-photo-92904.jpeg
+ 2016-11-23 22:58:31,133 [P46332/D2/T40] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
 ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:24:48,099 [P15380/D2/T96] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:24:48,131 [P15380/D2/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:24:48,131 [P15380/D2/T11] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:24:48,132 [P15380/D2/T14] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:24:48,133 [P15380/D2/T96] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:24:48,148 [P15380/D2/T100] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:24:48,167 [P15380/D2/T103] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:25:06,820 [P15380/D2/T17] INFO  Jumoo.uSync.BackOffice.Handlers.MediaTypeHandler - Save: Saving uSync file for item: Image
- 2016-10-04 23:25:06,852 [P15380/D2/T17] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generate models now.
- 2016-10-04 23:25:07,003 [P15380/D2/T17] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generated.
- 2016-10-04 23:25:09,785 [P15380/D2/T96] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1001/apple.jpeg
- 2016-10-04 23:25:09,881 [P15380/D2/T17] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1003/apple3.jpeg
- 2016-10-04 23:25:09,887 [P15380/D2/T97] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1002/apple2.jpeg
- 2016-10-04 23:25:27,994 [P15380/D2/T16] WARN  Umbraco.Web.PropertyEditors.ImageCropperPropertyValueEditor - Could not parse current db value to a JObject. Exception: Newtonsoft.Json.JsonReaderException: Error parsing comment. Expected: *, got m. Path '', line 1, position 1.
-   at Newtonsoft.Json.JsonTextReader.ParseComment()
-   at Newtonsoft.Json.JsonTextReader.ParseValue()
-   at Newtonsoft.Json.JsonTextReader.ReadInternal()
-   at Newtonsoft.Json.JsonTextReader.Read()
-   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
-   at Newtonsoft.Json.Linq.JObject.Parse(String json)
-   at Umbraco.Web.PropertyEditors.ImageCropperPropertyValueEditor.ConvertEditorToDb(ContentPropertyData editorValue, Object currentValue)
- 2016-10-04 23:27:20,535 [P15380/D2/T16] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:27:20,545 [P15380/D2/T96] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:28:44,099 [P15380/D2/T99] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:29:08,286 [P15380/D2/T70] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:29:42,059 [P15380/D2/T92] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:29:42,357 [P15380/D2/T16] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:30:20,469 [P15380/D2/T92] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:30:20,560 [P15380/D2/T16] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:34:49,324 [P15380/D2/T92] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:34:49,344 [P15380/D2/T70] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:35:21,328 [P15380/D2/T70] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:35:21,438 [P15380/D2/T92] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:35:43,501 [P15380/D2/T84] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:35:43,629 [P15380/D2/T69] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:38:48,427 [P15380/D2/T96] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:38:48,446 [P15380/D2/T93] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:38:48,449 [P15380/D2/T14] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:38:48,455 [P15380/D2/T103] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:38:48,456 [P15380/D2/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:38:48,461 [P15380/D2/T16] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:38:48,471 [P15380/D2/T18] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field values
- 2016-10-04 23:39:02,237 [P15380/D2/T16] INFO  Jumoo.uSync.BackOffice.Handlers.MediaTypeHandler - Save: Saving uSync file for item: Image
- 2016-10-04 23:39:02,273 [P15380/D2/T16] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generate models now.
- 2016-10-04 23:39:02,404 [P15380/D2/T16] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generated.
- 2016-10-04 23:39:08,645 [P15380/D2/T97] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1001/apple.jpeg
- 2016-10-04 23:41:11,521 [P15380/D2/T103] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generate models now.
- 2016-10-04 23:41:11,722 [P15380/D2/T103] INFO  Umbraco.ModelsBuilder.Umbraco.LiveModelsProvider - Generated.
- 2016-10-04 23:41:15,572 [P15380/D2/T16] INFO  Jumoo.uSync.BackOffice.Handlers.DataTypeHandler - Save: Saving uSync file for item: Image Cropper
- 2016-10-04 23:43:13,897 [P15380/D2/T16] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:43:13,907 [P15380/D2/T16] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:43:50,760 [P15380/D2/T92] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:43:57,663 [P15380/D2/T92] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:44:09,474 [P15380/D2/T16] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:44:31,806 [P15380/D2/T69] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
- 2016-10-04 23:44:39,098 [P15380/D2/T84] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1049/hands-technology-photo-phone.jpg
- 2016-10-04 23:44:39,118 [P15380/D2/T84] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
-ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
+ 2016-11-23 22:59:01,941 [P46332/D2/T61] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2016-11-23 22:59:01,941 [P46332/D2/T61] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2016-11-23 22:59:47,024 [P46332/D2/T97] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Name' for the required error message is empty or does not exist
+ 2016-11-23 22:59:47,028 [P46332/D2/T97] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Email' for the required error message is empty or does not exist
+ 2016-11-23 22:59:47,031 [P46332/D2/T97] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Comment' for the required error message is empty or does not exist
+ 2016-11-23 23:01:09,703 [P46332/D2/T61] WARN  Umbraco.Core.PropertyEditors.PropertyValueEditor - The value  cannot be converted to the type Integer
+ 2016-11-23 23:01:09,720 [P46332/D2/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Markup Your Blog Using Schema.org' with Id '0' has been published.
+ 2016-11-23 23:01:09,749 [P46332/D2/T61] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-11-23 23:01:17,741 [P46332/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2016-11-23 23:01:17,746 [P46332/D2/T97] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Home_cshtml.Execute() in c:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Views\Home.cshtml:line 28
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-11-23 23:01:17,789 [P46332/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-11-23 23:01:48,091 [P46332/D2/T82] WARN  Umbraco.Core.PropertyEditors.PropertyValueEditor - The value  cannot be converted to the type Integer
+ 2016-11-23 23:01:48,105 [P46332/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Markup Your Blog Using Schema.org' with Id '1161' has been published.
+ 2016-11-23 23:01:48,128 [P46332/D2/T82] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-11-23 23:01:52,184 [P46332/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2016-11-23 23:01:52,197 [P46332/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-11-23 23:01:53,386 [P46332/D2/T99] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Name' for the required error message is empty or does not exist
+ 2016-11-23 23:01:53,388 [P46332/D2/T99] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Email' for the required error message is empty or does not exist
+ 2016-11-23 23:01:53,392 [P46332/D2/T99] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Comment' for the required error message is empty or does not exist
+ 2016-11-23 23:01:56,398 [P46332/D2/T99] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_Partials_Header_cshtml.Execute() in c:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Views\Partials\Header.cshtml:line 9
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName)
+   at ASP._Page_Views_Master_cshtml.Execute() in c:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\Views\Master.cshtml:line 33
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageExecutingBase.WriteTo(TextWriter writer, HelperResult content)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageExecutingBase.WriteTo(TextWriter writer, HelperResult content)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2016-11-23 23:02:59,404 [P46332/D2/T94] ERROR SEOChecker.Events.UrlHistoryEventHandler - SEOChecker: Error getting media history
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMedia )
+   at SEOChecker.Events.UrlHistoryEventHandler.(IMediaService , SaveEventArgs`1 )
+ 2016-11-23 23:03:01,300 [P46332/D2/T93] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1119/google.jpeg
+ 2016-11-23 23:03:15,634 [P46332/D2/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Markup Your Blog Using Schema.org' with Id '1161' has been published.
+ 2016-11-23 23:03:15,656 [P46332/D2/T94] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-11-23 23:03:17,871 [P46332/D2/T94] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Name' for the required error message is empty or does not exist
+ 2016-11-23 23:03:17,874 [P46332/D2/T94] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Email' for the required error message is empty or does not exist
+ 2016-11-23 23:03:17,876 [P46332/D2/T94] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Comment' for the required error message is empty or does not exist
+ 2016-11-23 23:03:19,719 [P46332/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2016-11-23 23:03:19,736 [P46332/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-11-23 23:03:30,816 [P46332/D2/T81] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Markup Your Blog Using Schema.org' with Id '1161' has been published.
+ 2016-11-23 23:03:30,837 [P46332/D2/T81] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-11-23 23:03:33,627 [P46332/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Markup Your Blog Using Schema.org' with Id '1161' has been published.
+ 2016-11-23 23:03:33,649 [P46332/D2/T73] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-11-23 23:03:36,085 [P46332/D2/T57] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Name' for the required error message is empty or does not exist
+ 2016-11-23 23:03:36,087 [P46332/D2/T57] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Email' for the required error message is empty or does not exist
+ 2016-11-23 23:03:36,090 [P46332/D2/T57] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Comment' for the required error message is empty or does not exist
+ 2016-11-23 23:03:37,778 [P46332/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2016-11-23 23:03:37,861 [P46332/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2016-11-23 23:03:39,185 [P46332/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Markup Your Blog Using Schema.org' with Id '1161' has been published.
+ 2016-11-23 23:03:39,210 [P46332/D2/T70] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-11-23 23:03:41,095 [P46332/D2/T91] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Name' for the required error message is empty or does not exist
+ 2016-11-23 23:03:41,098 [P46332/D2/T91] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Email' for the required error message is empty or does not exist
+ 2016-11-23 23:03:41,100 [P46332/D2/T91] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Comment' for the required error message is empty or does not exist
+ 2016-11-23 23:03:43,275 [P46332/D2/T73] INFO  umbraco.content - Save Xml to file...
+ 2016-11-23 23:03:43,286 [P46332/D2/T73] INFO  umbraco.content - Saved Xml to file.
+ 2016-11-23 23:04:50,600 [P46332/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Markup Your Blog Using Schema.org' with Id '1161' has been published.
+ 2016-11-23 23:04:50,625 [P46332/D2/T25] INFO  Jumoo.uSync.Content.ContentHandler - Content Save Fired:
+ 2016-11-23 23:04:53,259 [P46332/D2/T81] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Name' for the required error message is empty or does not exist
+ 2016-11-23 23:04:53,261 [P46332/D2/T81] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Email' for the required error message is empty or does not exist
+ 2016-11-23 23:04:53,263 [P46332/D2/T81] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Comment' for the required error message is empty or does not exist
+ 2016-11-23 23:04:54,704 [P46332/D2/T73] INFO  umbraco.content - Save Xml to file...
+ 2016-11-23 23:04:54,708 [P46332/D2/T73] INFO  umbraco.content - Saved Xml to file.
+ 2016-11-23 23:06:20,212 [P46332/D2/T74] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Name' for the required error message is empty or does not exist
+ 2016-11-23 23:06:20,216 [P46332/D2/T74] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Email' for the required error message is empty or does not exist
+ 2016-11-23 23:06:20,221 [P46332/D2/T74] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Comment' for the required error message is empty or does not exist
+ 2016-11-23 23:07:04,575 [P46332/D2/T64] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Name' for the required error message is empty or does not exist
+ 2016-11-23 23:07:04,577 [P46332/D2/T64] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Email' for the required error message is empty or does not exist
+ 2016-11-23 23:07:04,580 [P46332/D2/T64] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'CommentForm.Comment' for the required error message is empty or does not exist
+ 2016-11-23 23:12:05,106 [P46332/D2/T91] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1119/google.jpeg

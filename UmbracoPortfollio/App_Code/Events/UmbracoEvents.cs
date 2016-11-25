@@ -10,6 +10,7 @@ using Umbraco.Core.Persistence;
 using Umbraco.Core.Publishing;
 using Umbraco.Core.Services;
 using UmbracoPortfollio.App_Code;
+using UmbracoPortfollio.App_Code.Helpers;
 
 namespace UmbracoPortfollio.App_Code
 {
@@ -71,11 +72,21 @@ namespace UmbracoPortfollio.App_Code
                     foreach (var member in members)
                     {
                         GlobalHelpers.SendGridEmailMessage("no-reply@biggsy150.co.uk", member.Email, "Blog Post Published", string.Format("A new Blog Post was created called {0}, fancy having a look at <a href='http://www.biggsy150.co.uk/blog/' >{1}</a>.", node.Name, node.CreateDate));
-                    }
+                    }                    
                 }
-            }
+            }            
         }
-
+        //public void PublishTweetBlog(IPublishingStrategy sender, PublishEventArgs<IContent> args)
+        //{
+        //    foreach (var node in args.PublishedEntities)
+        //    {
+                
+        //        if (node) //new record
+        //        {
+        //            SocialMediaHelpers.PostTweet()
+        //        }
+        //    }
+        //}
         public void ContentServiceCreate(IContentService sender, NewEventArgs<IContent> args)
         {
             var memberService = ApplicationContext.Current.Services.MemberService;

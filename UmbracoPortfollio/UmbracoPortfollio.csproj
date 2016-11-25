@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <Import Project="..\packages\uSync.3.2.1.740\build\uSync.props" Condition="Exists('..\packages\uSync.3.2.1.740\build\uSync.props')" />
   <Import Project="..\packages\UmbracoCms.7.5.2\build\UmbracoCms.props" Condition="Exists('..\packages\UmbracoCms.7.5.2\build\UmbracoCms.props')" />
   <Import Project="..\packages\UmbracoCms.7.5.0-beta\build\UmbracoCms.props" Condition="Exists('..\packages\UmbracoCms.7.5.0-beta\build\UmbracoCms.props')" />
@@ -26,6 +27,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <UseGlobalApplicationHostFile />
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -687,30 +689,22 @@
     <Content Include="Config\Lang\zh-CN.user.xml" />
     <Content Include="Config\splashes\booting.aspx" />
     <Content Include="Config\splashes\noNodes.aspx" />
+    <Content Include="Content\style.css" />
     <Content Include="css\ajax-loader.gif" />
-    <Content Include="css\base.min.css" />
-    <Content Include="css\bootstrap.css" />
-    <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
-    <Content Include="css\github-activity-0.1.4.min.css" />
     <Content Include="css\grids-responsive-min.css" />
-    <Content Include="css\interaction.css" />
-    <Content Include="css\main.min.css" />
-    <Content Include="css\marketing.css" />
     <Content Include="css\owl.carousel.css" />
     <Content Include="css\owl.carousel.min.css" />
     <Content Include="css\owl.theme.default.min.css" />
     <Content Include="css\owl.theme.green.min.css" />
     <Content Include="css\owl.video.play.png" />
-    <Content Include="css\plugins.css" />
-    <Content Include="css\timeline.min.css" />
     <Content Include="default.aspx" />
     <Content Include="error.html" />
     <Content Include="favicon1.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="gulpfile.js" />
     <Content Include="Images\dogs.jpg" />
     <Content Include="Images\free_logo.jpg" />
     <Content Include="Images\icons\android-icon-144x144.png" />
@@ -835,6 +829,8 @@
     <Content Include="App_Plugins\Analytics\package.manifest" />
     <Content Include="App_Plugins\NestedContent\package.manifest" />
     <Content Include="App_Code\RazorHelpers.cshtml" />
+    <Content Include="package.json" />
+    <Content Include="Content\scss\style.scss" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Properties\PublishProfiles\LocalHosted.pubxml" />
     <None Include="scripts\jquery-2.2.3.intellisense.js" />
@@ -3851,7 +3847,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\" />
+    <Folder Include="Content\scss\foundation\" />
     <Folder Include="js\" />
     <Folder Include="masterpages\" />
     <Folder Include="usercontrols\" />
@@ -3863,11 +3859,15 @@
       <Name>UmbracoValidationAttributes</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <ProjectExtensions>

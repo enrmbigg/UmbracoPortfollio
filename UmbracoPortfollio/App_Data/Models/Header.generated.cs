@@ -73,6 +73,15 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 
 		///<summary>
+		/// Text Colour
+		///</summary>
+		[ImplementPropertyType("textColour")]
+		public object TextColour
+		{
+			get { return this.GetPropertyValue("textColour"); }
+		}
+
+		///<summary>
 		/// Title
 		///</summary>
 		[ImplementPropertyType("title")]

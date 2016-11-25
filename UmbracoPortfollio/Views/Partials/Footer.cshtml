@@ -9,45 +9,66 @@
     var email = Umbraco.Field("email", recursive: true);
 }
 @*<div class="container footer">
-    <div class="socialbuttons">
-        <h2>Around the Web</h2>
-        <ul class="share-buttons">
-            <li>
-                <a href="@facebook" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="@github" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-            </li>
-            <li>
-                <a href="@twitter" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="@linkedin" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-            </li>
-            <li>
-                <a href="@google" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-            </li>
-            <li>
-                <a href="@instagram" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
-            </li>
-        </ul>
-    </div>
-    Copyright &copy; <a href="mailto:@email"> Michael Biggs</a>
-</div>*@
-
-<footer class="footer">
-    <div class="footer__content">        
-        <div class="social footer-social">
-            <ul class="social__list">
-                <li class="social__item">
-                    <a href="https://www.facebook.com/Biggsy150" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+        <div class="socialbuttons">
+            <h2>Around the Web</h2>
+            <ul class="share-buttons">
+                <li>
+                    <a href="@facebook" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                 </li>
-                <li class="social__item">
-                    <a class="social__link --twitter" href="https://twitter.com/edgethreesixty" target="_blank" rel="nofollow">
-                        <span class="social__text">Twitter</span>
-                    </a>
+                <li>
+                    <a href="@github" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="@twitter" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="@linkedin" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="@google" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                </li>
+                <li>
+                    <a href="@instagram" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
                 </li>
             </ul>
+        </div>
+        Copyright &copy; <a href="mailto:@email"> Michael Biggs</a>
+    </div>*@
+
+<footer class="footer">
+    <div class="row full-width">
+        <div class="small-12 medium-6 large-6 columns">
+            <h4>Work With Me</h4>
+            <ul class="footer-links">
+                <li><a href="#">What I Do</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ's</a></li>
+            </ul>
+        </div>
+        <div class="small-12 medium-6 large-6 columns">
+            <h4>Follow Me</h4>
+            <ul class="social-footer-links">
+                <li>
+                    <a class="social-link" href="@linkedin"><i class="fa fa-fw fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a class="social-link" href="@twitter"><i class="fa fa-fw fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a class="social-link" href="@facebook"><i class="fa fa-fw fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a class="social-link" href="@instagram"><i class="fa fa-fw fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a class="social-link" href="@github"><i class="fa fa-fw fa-github"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="small-12 medium-12 large-12">
+            <a class="float-center" href="mailto:@email">Copyright &copy; Michael Biggs</a>
         </div>
     </div>
 </footer>

@@ -20,6 +20,7 @@ using Skybrud.Social.Instagram;
 using Skybrud.Social.Instagram.Responses;
 using Skybrud.Social.Instagram.Objects;
 using UmbracoPortfollio.App_Code.Models;
+using Skybrud.Social.Twitter.Responses;
 
 namespace UmbracoPortfollio.App_Code.Helpers
 {
@@ -172,6 +173,21 @@ namespace UmbracoPortfollio.App_Code.Helpers
             list.AddRange(ReturnSocialImage(twitterItems));
             list.AddRange(ReturnSocialImage(instagramItems));
             return list;
+        }
+        public static TwitterStatusMessageResponse PostTweet(object OAuthValue,string tweet)
+        {
+            TwitterOAuthData twitter = OAuthValue as TwitterOAuthData;
+            // Check whether the OAuth data is valid
+            if (twitter != null && twitter.IsValid)
+            {
+                // Gets an instance of TwitterService based on the OAuth data
+                TwitterService service = twitter.GetService();
+                // Post tweet
+                TwitterStatusMessageResponse response = service.Statuses.PostStatusMessage(tweet);
+                // Return response if successful
+                return response;
+            }
+            return null;
         }
     }
 }

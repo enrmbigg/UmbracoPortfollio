@@ -37,39 +37,41 @@
             </div>
         </section>
         <section class="section archive-post">
-            <div class="section__container archive-post__container">
-                <div class="archive-post__list">
+            <div class="latest-posts" itemscope="" itemtype="http://schema.org/Blog">
+                <div class="row column">
+                    <h3>Latest posts</h3>
+                </div>
+                <div class="row medium-up-3 large-up-4">
                     @foreach (var post in posts)
                     {
-                var image = post.GetHeaderImage();
-                var date = post.GetPropertyValue<DateTime>("createTime");
-                var blogTags = post.GetPropertyValue<string>("tag").Split(',');
-                var desc = post.GetPropertyValue<string>("pageIntro");
-                        <div class="archive-post__item">
-                            @if (image != null)
-                            {
-                                <img src="@Url.GetCropUrl(image,"Thumbnail")" class="archive-post__item__image" alt="" itemprop="image">
-                            }
-                            <time class="archive-post__item__date" datetime="@date.ToString()" itemprop="datePublished">
-                                <span class="archive-post__item__date__day">@date.Day</span>
-                                <span class="archive-post__item__date__month">@date.ToString("MMM")</span>
-                            </time>
-                            <h2 class="archive-post__item__title" itemprop="name headline">
-                                <a class="archive-post__item__title__link" href="@post.UrlWithDomain()" itemprop="url">@post.Name</a>
-                            </h2>
-                            <div class="archive-post__item__excerpt">
-                                <p>@Umbraco.Truncate(desc, 150, true)</p>
-                            </div>
-                            <div class="archive-post__item__tags">
+                        var image = post.GetHeaderImage();
+                        var date = post.GetPropertyValue<DateTime>("createTime");
+                        var blogTags = post.GetPropertyValue<string>("tag").Split(',');
+                        var desc = post.GetPropertyValue<string>("pageIntro");
+                        <div class="column">
+                            <a href="@post.UrlWithDomain()" itemprop="url">
+                                @if (image != null)
+                {
+                                    <img class="thumbnail" src="@Url.GetCropUrl(image, "Thumbnail")" itemprop="image">
+                                }
+                                <h4 itemprop="name headline">@post.Name</h4>
+                                <time datetime="@date.ToString()" itemprop="datePublished">
+                                    <span>@date.ToString()</span>
+                                </time>
+                            </a>
+                            <div class="post-tags">
                                 @foreach (var tag in blogTags)
                                 {
-                                    <a class="archive-post__item__tag" href="@Model.Content.Url?q=@tag">@tag</a>
+                                    <a class="tag" href="@Model.Content.Url?q=@tag">@tag</a>
                                 }
 
                             </div>
                         </div>
                     }
+
                 </div>
+            </div>
+            <div class="">
                 @RazorHelpers.RenderPagination(page, postCount, pageSize)
             </div>
         </section>

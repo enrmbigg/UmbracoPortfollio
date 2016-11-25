@@ -6,79 +6,76 @@
     var pNumber = Umbraco.Field("phoneNumber", recursive: true);
     var skype = Umbraco.Field("skypeUsername", recursive: true);
     var email = Umbraco.Field("email", recursive: true);
-    var posts = Model.Content.Descendants().Where(x => x.DocumentTypeAlias == "blogPost").OrderByDescending(x=> x.GetPropertyValue<DateTime>("createTime")).Take(6);
-    var i = 0;
+    var posts = Model.Content.Descendants().Where(x => x.DocumentTypeAlias == "blogPost").OrderByDescending(x=> x.GetPropertyValue<DateTime>("createTime")).Take(8);
 }
-@*	 
-    @Html.CachedPartial("SocialMediaStream", Model, 21600)
-    @Html.CachedPartial("Modals", Model, 21600)*@
+ 
 
-<div class="sections" style="margin-top: 895px;">
-    <section class="section front-content">
-        <div class="section__container front-content__container">
-            <div class="front-content__text">
-                <h2>Who Am I?</h2>
-                @Umbraco.Field("bodyContent")
-            </div>           
-        </div>
-    </section>
-    <section class="section front-post" itemscope="" itemtype="http://schema.org/Blog">
-        <div class="section__header">
-            <h2 class="section__title front-post__title">Latest posts</h2>
-        </div>
-            <div class="archive-post__list">
-                @foreach (var post in posts)
-                {
-                    var image = post.GetHeaderImage();
-                    var date = post.GetPropertyValue<DateTime>("createTime");
-                    var blogTags = post.GetPropertyValue<string>("tag").Split(',');
-                    var desc = post.GetPropertyValue<string>("pageIntro");
-                    <div class="archive-post__item">
-                        <a class="archive-post__item__title__link" href="@post.UrlWithDomain()" itemprop="url">
-                            @if (image != null)
-                            {
-                                <img src="@Url.GetCropUrl(image,"Thumbnail")" class="archive-post__item__image" alt="" itemprop="image">
-                            }
-                            <time class="archive-post__item__date" datetime="@date.ToString()" itemprop="datePublished">
-                                <span class="archive-post__item__date__day">@date.Day</span>
-                                <span class="archive-post__item__date__month">@date.ToString("MMM")</span>
-                            </time>
-                            <div class="archive-post__item__title front-post__item__title" itemprop="name headline">@post.Name</div>
-                        </a>                    
-                    </div>
-                }
-            </div>            
-    </section>
-    <section class="section services">
-        <div class="section__container">
-            <div class="section__header">
-                <h2 class="section__title services__title">Services</h2>
-                <p>I offer a tailored service, so you may want a bit of all three services or
-feel free to get in contact if you don’t see what you’re looking for.</p>
-            </div>
-            <ul class="services__list">
-                <li class="services__item">
-                    <a class="certification__item__link" href="#" rel="nofollow">
-                        <i class="fa fa-code certification__item__image"></i>
-                        <h4 class="certification__item__title">Umbraco consultancy</h4>
-                    </a>
-                    <p>Whether you want your current website reviewed, starting a new project, or something else, I have loads of experience and expert advice to assist you.</p>
-                </li>
-                <li class="services__item">
-                    <a class="certification__item__link" href="#" rel="nofollow">
-                        <i class="fa fa-comments-o certification__item__image"></i>
-                        <h4 class="certification__item__title">Umbraco consultancy</h4>
-                    </a>
-                    <p>Whether you want your current website reviewed, starting a new project, or something else, I have loads of experience and expert advice to assist you.</p>
-</li>
-                <li class="services__item">
-                    <a class="certification__item__link" href="#" rel="nofollow">
-                        <i class="fa fa-graduation-cap certification__item__image"></i>
-                        <h4 class="certification__item__title">Umbraco training</h4>
-                    </a>
-                    <p>I can offer comprehensive training, specific to your website, that will ensure your staff have the confidence to get the most out of your website.</p>
-                </li>
-            </ul>
-        </div>
-    </section>
+<div class="row intro">
+    <div class="medium-12 columns">
+        <h2>Who Am I?</h2>
+        @Umbraco.Field("bodyContent")
+    </div>
 </div>
+<div class="latest-posts" itemscope="" itemtype="http://schema.org/Blog">
+    <div class="row column">
+        <h3>Latest posts</h3>
+    </div>
+    <div class="row medium-up-3 large-up-4" >
+       @foreach (var post in posts)
+       {
+           var image = post.GetHeaderImage();
+           var date = post.GetPropertyValue<DateTime>("createTime");
+           var blogTags = post.GetPropertyValue<string>("tag").Split(',');
+           var desc = post.GetPropertyValue<string>("pageIntro");
+        <div class="column">
+            <a href="@post.UrlWithDomain()" itemprop="url">
+                @if (image != null)
+                {
+                <img class="thumbnail" src="@Url.GetCropUrl(image, "Thumbnail")" itemprop="image">
+                }
+                <h4 itemprop="name headline">@post.Name</h4>
+                <time datetime="@date.ToString()" itemprop="datePublished">
+                    <span>@date.ToString()</span>
+                </time>
+            </a>
+        </div>
+       }
+
+    </div>
+</div>
+<div class="services">
+    <div class="text-center row column">
+        <h3>Services</h3>
+        <p>
+            I offer a tailored service, so you may want a bit of all three services or
+            feel free to get in contact if you don’t see what you’re looking for.
+        </p>
+    </div>
+    <div class="row">
+        <div class="small-4 columns">
+            <a class="float-center text-center" href="#" rel="nofollow">
+                <i class="fa fa-code"></i>
+                <h4>Umbraco consultancy</h4>
+            </a>
+            <p>Whether you want your current website reviewed, starting a new project, or something else, I have loads of experience and expert advice to assist you.</p>
+
+        </div>
+        <div class="small-4 columns">
+            <a class="float-center text-center" href="#" rel="nofollow">
+                <i class="fa fa-comments-o"></i>
+                <h4>Umbraco consultancy</h4>
+            </a>
+            <p>Whether you want your current website reviewed, starting a new project, or something else, I have loads of experience and expert advice to assist you.</p>
+
+        </div>
+        <div class="small-4 columns">
+            <a class="float-center text-center" href="#" rel="nofollow">
+                <i class="fa fa-graduation-cap"></i>
+                <h4>Umbraco training</h4>
+            </a>
+            <p>I can offer comprehensive training, specific to your website, that will ensure your staff have the confidence to get the most out of your website.</p>
+        </div>
+    </div>
+</div>
+
+

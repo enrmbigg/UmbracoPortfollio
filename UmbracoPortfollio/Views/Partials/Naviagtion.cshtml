@@ -8,12 +8,35 @@
 }
 
 <!-- Navigation -->
-<header class="header">
+<div class="top-bar compact-menu">
+    <div class="top-bar-left">
+        <ul class="dropdown menu " data-dropdown-menu>
+            <li>
+                <a class="" href="@home.Url" rel="home">
+                    <img class="" src="~/Images/logo.png" height="45" width="40" alt="Biggsy150">
+                </a>
+            </li>
+            <li class=""><a class="" href="@aboutus.Url">About Me</a></li>
+            <li class=""><a class="" href="@blog.Url">Blog</a></li>
+            <li class=""><a class="" href="@contact.Url">Contact</a></li> 
+        </ul>
+    </div>
+    <div class="top-bar-right ">
+        <ul class="menu">
+   
+            <li class="hide-for-small-only"><input type="search" placeholder="Search"></li>
+            <li class="hide-for-small-only"><button type="button" class="button">Search</button></li>
+        </ul>
+    </div>
+</div>
+
+@*<header class="header">
     <div class="header-logo">
         <a class="header-logo__link" href="@home.Url" rel="home">
             <img class="" src="~/Images/logo.png" alt="Biggsy150">
         </a>
-    </div>	<button class="navigation-open">
+    </div>	
+    <button class="navigation-open">
         <i class="navigation-open__icon"></i>
         <span class="navigation-open__text">Menu</span>
     </button>
@@ -38,5 +61,5 @@
         <li class="navigation__item --depth-0"><a class="navigation__link --depth-0" href="@blog.Url">Blog</a></li>       
         <li class="navigation__item --depth-0"><a class="navigation__link --depth-0" href="@contact.Url">Contact Me</a></li>
     </ul>
-</nav>
+</nav>*@
 <!-- //Navigation -->

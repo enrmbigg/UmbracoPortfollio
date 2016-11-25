@@ -1,12 +1,12 @@
 ﻿@using System.Diagnostics
 @using UmbracoPortfollio.App_Code
 @using Umbraco.Core.Models
-    @*
-        shared helpers
-    *@
+@*
+    shared helpers
+*@
 
-    @helper RenderPagination(int page, int postCount, int itemsPerPage)
-    {
+@helper RenderPagination(int page, int postCount, int itemsPerPage)
+{
     var totalPages = (int)Math.Ceiling((double)postCount / itemsPerPage);
     var url = Request.Url.AbsolutePath + Request.Url.Query;
 
@@ -44,9 +44,19 @@
 
     if (totalPages > 1)
     {
-        <div class="pagination" role="navigation">
-            
-            
+        <ul class="pagination text-center" role="navigation" aria-label="Pagination">
+
+            @* render prev link *@
+            @if (page > 1)
+        {
+            url = url.ReplaceQueryStringItem("page", (page - 1).ToString());
+                <li class="pagination-previous"><a aria-label="Previous page" href="@url">Previous</a></li>
+                if (page > pagesPerGroup)
+                {
+                    url = url.ReplaceQueryStringItem("page", page % pagesPerGroup == 0 ? (page - pagesPerGroup).ToString() : (page / pagesPerGroup * pagesPerGroup).ToString());
+                    <li class="ellipsis"><a href="@url"></a></li>
+                }
+            }
 
             @* render page links *@
             @{
@@ -72,14 +82,14 @@
                     url = url.ReplaceQueryStringItem("page", i.ToString());
                     var pageClass = i == page ? "active" : string.Empty;
 
-                        if (page == i)
-                        {
-                            <span class="page-numbers current">@i</span>
-                        }
-                        else
-                        {
-                            <a class="page-numbers" href="@url">@i</a>
-                        }
+                    if (page == i)
+                    {
+                        <li class="current"><span class="show-for-sr">You're on page</span>@i</li>
+                    }
+                    else
+                    {
+                        <li><a aria-label="Page @i" href="@url">@i</a></li>
+                    }
 
                     pagesCount += 1;
                 }
@@ -96,25 +106,16 @@
                         url = url.ReplaceQueryStringItem("page", liPageNumber.ToString());
                     }
 
-                    <a href="@url">...</a>
+                    <li class="ellipsis"><a href="@url"></a></li>
                 }
             }
-                @* render prev link *@
-    @if (page > 1)
-    {
-        url = url.ReplaceQueryStringItem("page", (page - 1).ToString());
-        <a class="prev page-numbers" href="@url">‹</a>
 
-        if (page > pagesPerGroup)
-        {
-            url = url.ReplaceQueryStringItem("page", page % pagesPerGroup == 0 ? (page - pagesPerGroup).ToString() : (page / pagesPerGroup * pagesPerGroup).ToString());
-            <a href="@url">...</a>
-        }
-    }@* render next link *@@if (page < Math.Ceiling((double)postCount / itemsPerPage))
-    {
-        url = url.ReplaceQueryStringItem("page", (page + 1).ToString());
-                <a class="next page-numbers" href="@url">›</a>
-    }
-    </div>
+            @* render next link *@
+            @if (page < Math.Ceiling((double)postCount / itemsPerPage))
+            {
+                url = url.ReplaceQueryStringItem("page", (page + 1).ToString());
+                <li class="pagination-next"><a aria-label="Next page" href="@url">Next</a></li>
+            }
+        </ul>
                 }
 }

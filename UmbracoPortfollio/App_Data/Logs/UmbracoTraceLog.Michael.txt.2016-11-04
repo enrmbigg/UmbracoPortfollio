@@ -1,0 +1,150 @@
+﻿ 2016-11-04 02:51:24,066 [P1500/D2/T267] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-03 02:51:24
+ 2016-11-04 06:51:24,070 [P1500/D2/T385] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-03 06:51:24
+ 2016-11-04 10:51:24,088 [P1500/D2/T140] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-03 10:51:24
+ 2016-11-04 11:54:30,114 [P1500/D2/T137] INFO  Umbraco.Core.Manifest.ManifestWatcher - manifest has changed, app pool is restarting (C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Plugins\Analytics\package.manifest)
+ 2016-11-04 11:54:30,193 [P1500/D2/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2016-11-04 11:54:30,193 [P1500/D2/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2016-11-04 11:54:30,193 [P1500/D2/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-11-04 11:54:30,193 [P1500/D2/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-11-04 11:54:30,194 [P1500/D2/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-11-04 11:54:30,194 [P1500/D2/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-11-04 11:54:30,194 [P1500/D2/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-11-04 11:54:30,194 [P1500/D2/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-11-04 11:54:30,194 [P1500/D2/T266] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2016-11-04 11:54:30,194 [P1500/D2/T266] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-11-04 11:54:30,194 [P1500/D2/T258] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-11-04 11:54:30,201 [P1500/D2/T267] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-11-04 11:54:30,217 [P1500/D2/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-11-04 11:54:30,217 [P1500/D2/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-11-04 11:54:30,218 [P1500/D2/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-11-04 11:54:33,878 [P1500/D3/T241] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.2 application starting on MICHAEL
+ 2016-11-04 11:54:33,887 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-11-04 11:54:33,904 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Hash determined (took 16ms)
+ 2016-11-04 11:54:33,929 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-11-04 11:54:35,027 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 1098ms)
+ 2016-11-04 11:54:35,146 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-11-04 11:54:35,147 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2016-11-04 11:54:35,147 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-11-04 11:54:35,201 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 54ms)
+ 2016-11-04 11:54:35,210 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-11-04 11:54:35,211 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2016-11-04 11:54:35,211 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-11-04 11:54:35,608 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 396ms)
+ 2016-11-04 11:54:35,638 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-11-04 11:54:35,639 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2016-11-04 11:54:35,640 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-11-04 11:54:35,640 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2016-11-04 11:54:36,505 [P1500/D3/T241] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-04 11:54:36,590 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-11-04 11:54:36,649 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 59ms)
+ 2016-11-04 11:54:36,713 [P1500/D3/T241] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-04 11:54:36,729 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2016-11-04 11:54:36,838 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2016-11-04 11:54:41,624 [P1500/D3/T241] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (4720ms)
+ 2016-11-04 11:54:41,643 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 10
+ 2016-11-04 11:54:41,687 [P1500/D3/T241] INFO  Jumoo.uSync.Content.ContentHandler - Loading Handler Settings 0
+ 2016-11-04 11:54:41,691 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = Default Folder = ~/uSync/data/ Force = False
+ 2016-11-04 11:54:41,696 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2016-11-04 11:54:42,010 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-11-04 11:54:42,012 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2016-11-04 11:54:42,239 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 38 Items 2 changes 0 failures
+ 2016-11-04 11:54:42,240 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2016-11-04 11:54:42,296 [P1500/D3/T241] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-04 11:54:42,296 [P1500/D3/T241] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-04 11:54:42,301 [P1500/D3/T241] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-04 11:54:42,301 [P1500/D3/T241] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-04 11:54:42,352 [P1500/D3/T241] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-04 11:54:42,352 [P1500/D3/T241] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-04 11:54:42,356 [P1500/D3/T241] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-11-04 11:54:42,356 [P1500/D3/T241] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-11-04 11:54:42,356 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 15 Items 4 changes 0 failures
+ 2016-11-04 11:54:42,357 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2016-11-04 11:54:43,071 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 14 Items 3 changes 0 failures
+ 2016-11-04 11:54:43,072 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2016-11-04 11:54:43,171 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2016-11-04 11:54:43,171 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2016-11-04 11:54:43,189 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-11-04 11:54:43,189 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2016-11-04 11:54:43,190 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-11-04 11:54:43,190 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2016-11-04 11:54:43,190 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-11-04 11:54:43,239 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-11-04 11:54:43,241 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2016-11-04 11:54:44,041 [P1500/D3/T241] INFO  umbraco.content - Load Xml from file...
+ 2016-11-04 11:54:44,043 [P1500/D3/T241] INFO  umbraco.content - Loaded Xml from file.
+ 2016-11-04 11:54:44,177 [P1500/D3/T241] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How to create Fluent Interfaces in C#' with Id '1157' has been published.
+ 2016-11-04 11:54:44,313 [P1500/D3/T241] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-11-04 11:54:44,575 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-11-04 11:54:44,578 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 2ms)
+ 2016-11-04 11:54:44,585 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-11-04 11:54:44,588 [P1500/D3/T241] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 3ms)
+ 2016-11-04 11:54:44,645 [P1500/D3/T241] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-04 11:54:44,646 [P1500/D3/T241] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-04 11:54:44,646 [P1500/D3/T241] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Our.Umbraco.NestedContent. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-04 11:54:44,660 [P1500/D3/T241] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How to create Fluent Interfaces in C#' with Id '1157' has been published.
+ 2016-11-04 11:54:44,701 [P1500/D3/T241] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-11-04 11:54:44,803 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events
+ 2016-11-04 11:54:44,808 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 120 items with 10 changes ###
+ 2016-11-04 11:54:44,808 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textarea Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textarea\Textarea.config
+ 2016-11-04 11:54:44,808 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textbox multiple Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textbox-multiple\TextboxMultiple.config
+ 2016-11-04 11:54:44,808 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\config\Config.config
+ 2016-11-04 11:54:44,808 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\emailtemplate\EmailTemplate.config
+ 2016-11-04 11:54:44,808 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tag\Tag.config
+ 2016-11-04 11:54:44,808 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Folder Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tagfolder\TagFolder.config
+ 2016-11-04 11:54:44,808 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\config\def.config
+ 2016-11-04 11:54:44,808 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\email-template\def.config
+ 2016-11-04 11:54:44,808 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Header Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\content\component\header\def.config
+ 2016-11-04 11:54:44,808 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import How to create Fluent Interfaces in C# Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\how-to-create-fluent-interfaces-in-c\content.config
+ 2016-11-04 11:54:44,810 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Data\temp\uSync\20161104_115444_Startup.config
+ 2016-11-04 11:54:44,819 [P1500/D3/T241] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (7980ms)
+ 2016-11-04 11:54:44,835 [P1500/D3/T241] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-11-04 11:54:44,853 [P1500/D3/T241] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-11-04 11:54:44,918 [P1500/D3/T241] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-11-04 11:54:44,919 [P1500/D3/T241] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-11-04 11:54:44,943 [P1500/D3/T241] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 11116ms)
+ 2016-11-04 11:54:45,069 [P1500/D3/T258] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-11-04 11:54:45,909 [P1500/D3/T266] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username Mikeylfc007@blueyonder.co.uk from IP address ::1
+ 2016-11-04 11:54:45,917 [P1500/D3/T266] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: mikeylfc007@blueyonder.co.uk logged in from IP address ::1
+ 2016-11-04 11:54:49,639 [P1500/D3/T159] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-11-04 11:54:49,706 [P1500/D3/T159] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-04 11:54:49,711 [P1500/D3/T159] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-04 11:54:49,716 [P1500/D3/T159] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-11-04 11:55:00,325 [P1500/D2/T159] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: UnloadAppDomainCalled
+
+_shutDownMessage=User code called UnloadAppDomain
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.UnloadAppDomain()
+   at Umbraco.Core.Manifest.ManifestWatcher.FswChanged(Object sender, FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.OnChanged(FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.NotifyFileSystemEventArgs(Int32 action, String name)
+   at System.IO.FileSystemWatcher.CompletionStatusChanged(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* overlappedPointer)
+   at System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+ 2016-11-04 11:55:45,543 [P1500/D3/T267] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-03 11:55:45
+ 2016-11-04 15:55:45,558 [P1500/D3/T339] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-03 15:55:45
+ 2016-11-04 19:55:45,561 [P1500/D3/T151] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-03 19:55:45
+ 2016-11-04 23:55:45,574 [P1500/D3/T164] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-03 23:55:45

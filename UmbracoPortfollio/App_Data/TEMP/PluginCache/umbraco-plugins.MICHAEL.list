@@ -23,7 +23,7 @@
     <add type="Our.Umbraco.FileSystemProviders.Azure.VirtualPathProviderController, Our.Umbraco.FileSystemProviders.Azure, Version=0.5.2.96, Culture=neutral, PublicKeyToken=null" />
     <add type="SEOChecker.DataTypes.Events.SetSEOValuesFromMappedProperties, SEOChecker.DataTypes, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
     <add type="SEOChecker.DataTypes.Startup.RegisterLegacyPropertyMapping, SEOChecker.DataTypes, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="UmbracoPortfollio.App_Code.UmbracoEvents, App_Code.pcvbrjkg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="UmbracoPortfollio.App_Code.UmbracoEvents, App_Code.inma2mzg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <add type="YouTube.UmbracoStartup, YouTube.Umbraco, Version=1.0.4.87, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.BatchedDatabaseServerMessengerStartup, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Routing.RedirectTrackingEventHandler, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
@@ -99,16 +99,16 @@
     <add type="Umbraco.Web.PropertyEditors.ValueConverters.MarkdownEditorValueConverter, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.PropertyEditors.ValueConverters.TextStringValueConverter, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.PropertyEditors.ValueConverters.RteMacroRenderingValueConverter, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="UrlPickerExtensions.UrlPickerValueConverter, App_Code.pcvbrjkg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="UrlPickerExtensions.UrlPickerValueConverter, App_Code.inma2mzg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="Umbraco.Web.Mvc.SurfaceController" resolutionType="FindAllTypes">
     <add type="Umbraco.Web.Controllers.UmbProfileController, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Controllers.UmbLoginStatusController, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Controllers.UmbRegisterController, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Controllers.UmbLoginController, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="UmbracoPortfollio.App_Code.CommentController, App_Code.pcvbrjkg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="UmbracoPortfollio.App_Code.Controllers.XmlSitemapSurfaceController, App_Code.pcvbrjkg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="UmbracoPortfollio.App_Code.ContactController, App_Code.pcvbrjkg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="UmbracoPortfollio.App_Code.Controllers.XmlSitemapSurfaceController, App_Code.inma2mzg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="UmbracoPortfollio.App_Code.ContactController, App_Code.inma2mzg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="UmbracoPortfollio.App_Code.CommentController, App_Code.inma2mzg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="Umbraco.Web.WebApi.UmbracoApiController" resolutionType="FindAllTypes">
     <add type="Jumoo.uSync.BackOffice.Controllers.uSyncApiController, Jumoo.uSync.BackOffice, Version=3.2.1.740, Culture=neutral, PublicKeyToken=null" />
@@ -178,7 +178,7 @@
     <add type="Umbraco.Web.WebServices.XmlDataIntegrityController, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.ModelsBuilder.Api.ModelsBuilderApiController, Umbraco.ModelsBuilder.Api, Version=3.0.3.94, Culture=neutral, PublicKeyToken=null" />
     <add type="SEOChecker.DataTypes.Controllers.SEOCheckerApiController, SEOChecker.DataTypes, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Extensions.Controllers.UrlPreviewApiController, App_Code.pcvbrjkg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umbraco.Extensions.Controllers.UrlPreviewApiController, App_Code.inma2mzg, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="Umbraco.Core.Media.IThumbnailProvider" resolutionType="FindAllTypes">
     <add type="Umbraco.Web.Media.ThumbnailProviders.MediaTypeIconThumbnailProvider, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
@@ -285,6 +285,7 @@
     <add type="SEOChecker.DataTypes.PropertyEditors.XMLSitemapPropertyEditor, SEOChecker.DataTypes, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="umbraco.interfaces.IDataType" resolutionType="FindAllTypes">
+    <add type="Umbraco.Core.PropertyEditors.BackwardsCompatibleDataType, Umbraco.Core, Version=1.0.6079.16190, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.PickerRelations.PickerRelationsDataType, umbraco.editorControls, Version=1.0.6079.16198, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.checkboxlist.checkboxListDataType, umbraco.editorControls, Version=1.0.6079.16198, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.colorpicker.ColorPickerDataType, umbraco.editorControls, Version=1.0.6079.16198, Culture=neutral, PublicKeyToken=null" />
@@ -319,17 +320,8 @@
     <add type="umbraco.editorControls.XPathCheckBoxList.XPathCheckBoxListDataType, umbraco.editorControls, Version=1.0.6079.16198, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.XPathDropDownList.XPathDropDownListDataType, umbraco.editorControls, Version=1.0.6079.16198, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.editorControls.yesno.YesNoDataType, umbraco.editorControls, Version=1.0.6079.16198, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Core.PropertyEditors.BackwardsCompatibleDataType, Umbraco.Core, Version=1.0.6079.16190, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="umbraco.interfaces.ITree" resolutionType="FindAllTypes">
-    <add type="umbraco.editorControls.MultiNodeTreePicker.FilteredContentTree, umbraco.editorControls, Version=1.0.6079.16198, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.editorControls.MultiNodeTreePicker.FilteredMediaTree, umbraco.editorControls, Version=1.0.6079.16198, Culture=neutral, PublicKeyToken=null" />
-    <add type="SEOChecker.Trees.IssuesTree, SEOChecker, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="SEOChecker.Trees.RedirectManagerTree, SEOChecker, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="SEOChecker.Trees.SEOCheckerBaseTree, SEOChecker, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="SEOChecker.Trees.SEOCheckerTree, SEOChecker, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="SEOChecker.Trees.SettingsTree, SEOChecker, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="SEOChecker.Trees.ValidationQueueTree, SEOChecker, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.loadPackager, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Trees.PartialViewsTree, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Trees.PartialViewMacrosTree, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
@@ -363,10 +355,16 @@
     <add type="umbraco.cms.presentation.Trees.LegacyTree, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.cms.presentation.Trees.UserPermissions, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="umbraco.cms.presentation.Trees.UserTypes, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="SEOChecker.Trees.IssuesTree, SEOChecker, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="SEOChecker.Trees.RedirectManagerTree, SEOChecker, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="SEOChecker.Trees.SEOCheckerBaseTree, SEOChecker, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="SEOChecker.Trees.SEOCheckerTree, SEOChecker, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="SEOChecker.Trees.SettingsTree, SEOChecker, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="SEOChecker.Trees.ValidationQueueTree, SEOChecker, Version=1.9.4.0, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.editorControls.MultiNodeTreePicker.FilteredContentTree, umbraco.editorControls, Version=1.0.6079.16198, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.editorControls.MultiNodeTreePicker.FilteredMediaTree, umbraco.editorControls, Version=1.0.6079.16198, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="Umbraco.Web.Trees.TreeController" resolutionType="FindTypesWithAttribute">
-    <add type="Analytics.Controllers.AnalyticsTreeController, Analytics, Version=1.2.0.73, Culture=neutral, PublicKeyToken=null" />
-    <add type="Diplo.TraceLogViewer.Controllers.TraceLogTreeController, Diplo.TraceLogViewer, Version=2.2.6.0, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Trees.ContentTypeTreeController, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Trees.PackagesTreeController, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Trees.MediaTypeTreeController, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
@@ -377,6 +375,31 @@
     <add type="Umbraco.Web.Trees.TemplatesTreeController, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Trees.MediaTreeController, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Trees.ContentTreeController, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="Analytics.Controllers.AnalyticsTreeController, Analytics, Version=1.2.0.73, Culture=neutral, PublicKeyToken=null" />
+    <add type="Diplo.TraceLogViewer.Controllers.TraceLogTreeController, Diplo.TraceLogViewer, Version=2.2.6.0, Culture=neutral, PublicKeyToken=null" />
+  </baseType>
+  <baseType type="umbraco.interfaces.ITree" resolutionType="FindTypesWithAttribute">
+    <add type="umbraco.loadRelationTypes, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.loadDictionary, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.loadMacros, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.loadMemberGroups, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.loadPython, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.loadScripts, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.loadStylesheetProperty, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.loadStylesheets, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.loadUsers, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.loadXslt, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.cms.presentation.Trees.UserPermissions, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.cms.presentation.Trees.UserTypes, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
+  </baseType>
+  <baseType type="umbraco.interfaces.IApplication" resolutionType="FindTypesWithAttribute">
+    <add type="umbraco.businesslogic.ContentApplicationDefinition, businesslogic, Version=1.0.6079.16192, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.businesslogic.MediaApplicationDefinition, businesslogic, Version=1.0.6079.16192, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.businesslogic.SettingsApplicationDefinition, businesslogic, Version=1.0.6079.16192, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.businesslogic.DeveloperApplicationDefinition, businesslogic, Version=1.0.6079.16192, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.businesslogic.UsersApplicationDefinition, businesslogic, Version=1.0.6079.16192, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.businesslogic.MembersApplicationDefinition, businesslogic, Version=1.0.6079.16192, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.businesslogic.TranslationApplicationDefinition, businesslogic, Version=1.0.6079.16192, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="umbraco.interfaces.ICacheRefresher" resolutionType="FindAllTypes">
     <add type="Umbraco.Web.Cache.ApplicationCacheRefresher, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
@@ -399,24 +422,5 @@
     <add type="Umbraco.Web.Cache.UserCacheRefresher, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Cache.UserPermissionsCacheRefresher, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
     <add type="Umbraco.Web.Cache.UserTypeCacheRefresher, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-  </baseType>
-  <baseType type="Umbraco.Web.HealthCheck.HealthCheck" resolutionType="FindAllTypes">
-    <add type="Umbraco.Web.HealthCheck.Checks.Config.MacroErrorsCheck, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.HealthCheck.Checks.Config.NotificationEmailCheck, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.HealthCheck.Checks.Config.TrySkipIisCustomErrorsCheck, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.HealthCheck.Checks.Config.CustomErrorsCheck, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.HealthCheck.Checks.Config.TraceCheck, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.HealthCheck.Checks.Config.CompilationDebugCheck, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.HealthCheck.Checks.Services.SmtpCheck, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.HealthCheck.Checks.Permissions.FolderAndFilePermissionsCheck, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.HealthCheck.Checks.Security.ExcessiveHeadersCheck, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.HealthCheck.Checks.Security.ClickJackingCheck, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.HealthCheck.Checks.Security.HttpsCheck, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.HealthCheck.Checks.DataIntegrity.XmlDataIntegrityHealthCheck, umbraco, Version=1.0.6079.16195, Culture=neutral, PublicKeyToken=null" />
-  </baseType>
-  <baseType type="Umbraco.Web.Editors.IEditorValidator" resolutionType="FindAllTypes">
-    <add type="Umbraco.ModelsBuilder.Validation.ContentTypeModelValidator, Umbraco.ModelsBuilder, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.ModelsBuilder.Validation.MediaTypeModelValidator, Umbraco.ModelsBuilder, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.ModelsBuilder.Validation.MemberTypeModelValidator, Umbraco.ModelsBuilder, Version=3.0.4.0, Culture=neutral, PublicKeyToken=null" />
   </baseType>
 </plugins>

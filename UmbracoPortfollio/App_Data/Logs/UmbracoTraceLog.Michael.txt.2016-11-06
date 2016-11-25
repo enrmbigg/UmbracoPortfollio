@@ -1,0 +1,5 @@
+﻿ 2016-11-06 03:55:45,664 [P1500/D3/T342] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-05 03:55:45
+ 2016-11-06 07:55:45,680 [P1500/D3/T329] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-05 07:55:45
+ 2016-11-06 11:55:45,696 [P1500/D3/T333] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-05 11:55:45
+ 2016-11-06 15:55:53,499 [P1500/D3/T211] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-05 15:55:53
+ 2016-11-06 19:55:53,506 [P1500/D3/T247] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-11-05 19:55:53

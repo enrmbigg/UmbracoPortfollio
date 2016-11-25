@@ -1,0 +1,439 @@
+﻿ 2016-10-10 23:21:18,456 [P3260/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.2 application starting on MICHAEL
+ 2016-10-10 23:21:18,471 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2016-10-10 23:21:18,488 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 17ms)
+ 2016-10-10 23:21:18,541 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2016-10-10 23:21:19,004 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 464ms)
+ 2016-10-10 23:21:19,016 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2016-10-10 23:21:19,026 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 10ms)
+ 2016-10-10 23:21:19,026 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2016-10-10 23:21:19,047 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 20ms)
+ 2016-10-10 23:21:19,059 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2016-10-10 23:21:19,070 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 10ms)
+ 2016-10-10 23:21:19,071 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2016-10-10 23:21:19,102 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 30ms)
+ 2016-10-10 23:21:19,149 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2016-10-10 23:21:19,158 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 9ms)
+ 2016-10-10 23:21:19,159 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2016-10-10 23:21:19,168 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 9ms)
+ 2016-10-10 23:21:20,158 [P3260/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-10 23:21:20,534 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Models.PublishedContent.PublishedContentModel
+ 2016-10-10 23:21:20,555 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Models.PublishedContent.PublishedContentModel, found 0 (took 21ms)
+ 2016-10-10 23:21:20,671 [P3260/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-10 23:21:20,688 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Initializing uSync 73
+ 2016-10-10 23:21:20,691 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Firing up uSync
+ 2016-10-10 23:21:20,991 [P3260/D2/T1] INFO  Jumoo.uSync.Core.uSyncCoreContext - Loading Context (151ms)
+ 2016-10-10 23:21:21,000 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncBackOfficeContext - Loading up Sync Handlers : 10
+ 2016-10-10 23:21:21,042 [P3260/D2/T1] INFO  Jumoo.uSync.Content.ContentHandler - Loading Handler Settings 0
+ 2016-10-10 23:21:21,046 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Running uSync Import: Group = Default Folder = ~/uSync/data/ Force = False
+ 2016-10-10 23:21:21,057 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DataType
+ 2016-10-10 23:21:22,431 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2016-10-10 23:21:22,464 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 32ms)
+ 2016-10-10 23:21:23,360 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 38 Items 2 changes 0 failures
+ 2016-10-10 23:21:23,360 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Template
+ 2016-10-10 23:21:23,435 [P3260/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-10-10 23:21:23,435 [P3260/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-10-10 23:21:23,439 [P3260/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-10-10 23:21:23,439 [P3260/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-10-10 23:21:23,481 [P3260/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-10-10 23:21:23,481 [P3260/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-10-10 23:21:23,485 [P3260/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Cannot find underling template file, so we cannot create the template
+ 2016-10-10 23:21:23,485 [P3260/D2/T1] WARN  Jumoo.uSync.Core.Serializers.TemplateSerializer - Can't get a template path?
+ 2016-10-10 23:21:23,486 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 15 Items 4 changes 0 failures
+ 2016-10-10 23:21:23,486 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DocumentType
+ 2016-10-10 23:21:25,530 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 14 Items 3 changes 0 failures
+ 2016-10-10 23:21:25,530 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: MediaType
+ 2016-10-10 23:21:25,675 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 3 Items 0 changes 0 failures
+ 2016-10-10 23:21:25,676 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: Languages
+ 2016-10-10 23:21:25,719 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 1 Items 0 changes 0 failures
+ 2016-10-10 23:21:25,720 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: DictionaryItem
+ 2016-10-10 23:21:25,720 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-10-10 23:21:25,720 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Running Import: macro
+ 2016-10-10 23:21:25,721 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.Logging - Handler Import Complete: 0 Items 0 changes 0 failures
+ 2016-10-10 23:21:25,822 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2016-10-10 23:21:25,870 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 47ms)
+ 2016-10-10 23:21:31,176 [P3260/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2016-10-10 23:21:31,180 [P3260/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2016-10-10 23:21:31,305 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1092' has been published.
+ 2016-10-10 23:21:31,452 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:31,796 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Me' with Id '1154' has been published.
+ 2016-10-10 23:21:31,876 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:32,103 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blog' with Id '1094' has been published.
+ 2016-10-10 23:21:32,171 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:32,565 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# Generic Session Helper' with Id '1095' has been published.
+ 2016-10-10 23:21:32,670 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:32,997 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Get Umbraco content by tag' with Id '1096' has been published.
+ 2016-10-10 23:21:33,081 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:33,388 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How To Display Umbraco Tags On Razor Templates' with Id '1097' has been published.
+ 2016-10-10 23:21:33,487 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:33,935 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HTML Sitemap with Umbraco' with Id '1099' has been published.
+ 2016-10-10 23:21:34,039 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:34,366 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Intercepting content and member save events in Umbraco' with Id '1100' has been published.
+ 2016-10-10 23:21:34,468 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:34,819 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'My First CodeGarden' with Id '1101' has been published.
+ 2016-10-10 23:21:34,955 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:35,370 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1103' has been published.
+ 2016-10-10 23:21:35,442 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:35,653 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Search' with Id '1148' has been published.
+ 2016-10-10 23:21:35,719 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:36,069 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IDataType
+ 2016-10-10 23:21:36,116 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IDataType, found 0 (took 47ms)
+ 2016-10-10 23:21:36,123 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2016-10-10 23:21:36,138 [P3260/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 15ms)
+ 2016-10-10 23:21:36,200 [P3260/D2/T1] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Facebook.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-10-10 23:21:36,201 [P3260/D2/T1] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Twitter.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-10-10 23:21:36,201 [P3260/D2/T1] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Skybrud.Social.Instagram.OAuth. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-10-10 23:21:36,202 [P3260/D2/T1] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor UrlPreview. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-10-10 23:21:36,202 [P3260/D2/T1] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor robotsMetaEditor. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-10-10 23:21:36,202 [P3260/D2/T1] WARN  Umbraco.Core.PropertyEditors.LegacyPropertyEditorIdToAliasConverter - A legacy GUID id was generated for property editor Our.Umbraco.NestedContent. This occurs when the legacy APIs are used and done to attempt to maintain backwards compatibility. Consider upgrading all code to use the new Services APIs instead to avoid any potential issues.
+ 2016-10-10 23:21:36,210 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Home' with Id '1092' has been published.
+ 2016-10-10 23:21:36,275 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:36,292 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Me' with Id '1154' has been published.
+ 2016-10-10 23:21:36,323 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:36,343 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blog' with Id '1094' has been published.
+ 2016-10-10 23:21:36,382 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:36,419 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'C# Generic Session Helper' with Id '1095' has been published.
+ 2016-10-10 23:21:36,463 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:36,484 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Get Umbraco content by tag' with Id '1096' has been published.
+ 2016-10-10 23:21:36,523 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:36,546 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How To Display Umbraco Tags On Razor Templates' with Id '1097' has been published.
+ 2016-10-10 23:21:36,584 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:36,607 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HTML Sitemap with Umbraco' with Id '1099' has been published.
+ 2016-10-10 23:21:36,655 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:36,676 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Intercepting content and member save events in Umbraco' with Id '1100' has been published.
+ 2016-10-10 23:21:36,718 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:36,741 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'My First CodeGarden' with Id '1101' has been published.
+ 2016-10-10 23:21:36,783 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:36,802 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '1103' has been published.
+ 2016-10-10 23:21:36,841 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:36,867 [P3260/D2/T1] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Search' with Id '1148' has been published.
+ 2016-10-10 23:21:36,898 [P3260/D2/T1] ERROR SEOChecker.Events.DocumentPublishedHandler - SEOChecker error adding documents to the publication queue
+System.Web.HttpException (0x80004005): Request is not available in this context
+   at System.Web.HttpContext.get_Request()
+   at PackageGarden.Licensing.ValidationContext..ctor()
+   at PackageGarden.Licensing.Validator..ctor(String licenseParameters, String productKey, String licenseFile, String licenseSupportInfo, Int32 versionNumber)
+   at SEOChecker.Core.ProductLicense.get_Instance()
+   at SEOChecker.Core.Licensing.IsTrial()
+   at SEOChecker.Core.Config.Configuration.()
+   at SEOChecker.Core.Config.Configuration.get_Triggers()
+   at SEOChecker.Events.DocumentPublishedHandler.(IPublishingStrategy , PublishEventArgs`1 )
+ 2016-10-10 23:21:36,991 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - Setting up Events
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - ### uSync.BackOffice Processed 117 items with 21 changes ###
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textarea Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textarea\Textarea.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Textbox multiple Umbraco.Core.Models.IDataTypeDefinition  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DataType\textbox-multiple\TextboxMultiple.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\config\Config.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\emailtemplate\EmailTemplate.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tag\Tag.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Tag Folder Umbraco.Core.Models.ITemplate Failed to generate template path C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Template\tagfolder\TagFolder.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Config Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\config\def.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Email Template Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\config\email-template\def.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Header Umbraco.Core.Models.IContentType  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\DocumentType\content\component\header\def.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import desk-laptop-notebook-pen.jpg (1) Umbraco.Core.Models.IMedia  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Media\desk-laptop-notebook-pen.jpg-1\media.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Home Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\content.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import About Me Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\about-me\content.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Blog Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\content.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import C# Generic Session Helper Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\c-generic-session-helper\content.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Get Umbraco content by tag Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\get-umbraco-content-by-tag\content.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import How To Display Umbraco Tags On Razor Templates Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\how-to-display-umbraco-tags-on-razor-templates\content.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import HTML Sitemap with Umbraco Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\html-sitemap-with-umbraco\content.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Intercepting content and member save events in Umbraco Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\intercepting-content-and-member-save-events-in-umbraco\content.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import My First CodeGarden Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\blog\my-first-codegarden\content.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Contact Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\contact\content.config
+ 2016-10-10 23:21:36,998 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncAction - Action: Import Search Umbraco.Core.Models.IContent  C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\uSync\data\Content\home\search\content.config
+ 2016-10-10 23:21:37,000 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncActionLogger - Saving uSync Report: C:\Users\Michael.Biggs\Documents\Visual Studio 2013\Projects\UmbracoPortfollio\UmbracoPortfollio\App_Data\temp\uSync\20161010_232137_Startup.config
+ 2016-10-10 23:21:37,017 [P3260/D2/T1] INFO  Jumoo.uSync.BackOffice.uSyncApplicationEventHandler - uSync Complete (16325ms)
+ 2016-10-10 23:21:37,028 [P3260/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2016-10-10 23:21:37,053 [P3260/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2016-10-10 23:21:37,152 [P3260/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2016-10-10 23:21:37,153 [P3260/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2016-10-10 23:21:37,180 [P3260/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 18798ms)
+ 2016-10-10 23:21:37,336 [P3260/D2/T6] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:57980/umbraco (UmbracoModule request)
+ 2016-10-10 23:21:43,218 [P3260/D2/T6] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-10-10 23:21:43,238 [P3260/D2/T6] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-10-10 23:21:43,241 [P3260/D2/T6] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-10-10 23:21:56,282 [P3260/D2/T16] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2016-10-10 23:22:37,897 [P3260/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-10-09 23:22:37
+ 2016-10-10 23:40:14,901 [P3260/D2/T73] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1063/rsz_map.jpg
+ 2016-10-10 23:40:19,578 [P3260/D2/T73] WARN  Umbraco.Web.Mvc.RenderRouteHandler - The current Document Type contact matches a locally declared controller of type UmbracoPortfollio.App_Code.ContactController. Custom Controllers for Umbraco routing must implement 'Umbraco.Web.Mvc.IRenderController' and inherit from 'System.Web.Mvc.ControllerBase'.
+ 2016-10-10 23:40:20,942 [P3260/D2/T73] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-10-10 23:40:20,944 [P3260/D2/T73] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-10-10 23:40:20,945 [P3260/D2/T73] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-10-10 23:40:39,848 [P3260/D2/T106] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-10-10 23:40:39,850 [P3260/D2/T106] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-10-10 23:40:39,852 [P3260/D2/T106] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-10-10 23:41:42,329 [P3260/D2/T93] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Name' for the required error message is empty or does not exist
+ 2016-10-10 23:41:42,331 [P3260/D2/T93] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Email' for the required error message is empty or does not exist
+ 2016-10-10 23:41:42,333 [P3260/D2/T93] WARN  Umbraco.Core.Models.DictionaryItem - The dictionary key 'ContactForm.Comment' for the required error message is empty or does not exist
+ 2016-10-10 23:41:42,781 [P3260/D2/T93] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-10-10 23:41:42,824 [P3260/D2/T93] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-10-10 23:41:42,832 [P3260/D2/T100] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-10-10 23:41:42,834 [P3260/D2/T95] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
+ 2016-10-10 23:41:42,858 [P3260/D2/T106] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-10-10 23:41:42,941 [P3260/D2/T90] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1057/pexels-photo-92904.jpeg
+ 2016-10-10 23:42:30,726 [P3260/D2/T83] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-10-10 23:42:30,950 [P3260/D2/T78] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-10-10 23:42:31,005 [P3260/D2/T78] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-10-10 23:42:31,007 [P3260/D2/T78] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
+ 2016-10-10 23:42:31,084 [P3260/D2/T78] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1057/pexels-photo-92904.jpeg
+ 2016-10-10 23:42:31,112 [P3260/D2/T78] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-10-10 23:44:54,776 [P3260/D2/T98] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-10-10 23:44:55,702 [P3260/D2/T102] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-10-10 23:44:55,740 [P3260/D2/T78] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
+ 2016-10-10 23:44:55,762 [P3260/D2/T78] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-10-10 23:44:55,825 [P3260/D2/T102] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1057/pexels-photo-92904.jpeg
+ 2016-10-10 23:44:55,828 [P3260/D2/T78] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-10-10 23:45:43,457 [P3260/D2/T89] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-10-10 23:45:43,459 [P3260/D2/T74] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-10-10 23:45:43,460 [P3260/D2/T74] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-10-10 23:45:43,507 [P3260/D2/T99] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
+ 2016-10-10 23:45:43,507 [P3260/D2/T90] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-10-10 23:45:43,590 [P3260/D2/T89] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1057/pexels-photo-92904.jpeg
+ 2016-10-10 23:47:43,942 [P3260/D2/T63] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-10-10 23:47:44,028 [P3260/D2/T63] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-10-10 23:47:44,105 [P3260/D2/T63] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
+ 2016-10-10 23:47:44,116 [P3260/D2/T63] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-10-10 23:47:44,122 [P3260/D2/T63] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-10-10 23:47:44,162 [P3260/D2/T60] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1057/pexels-photo-92904.jpeg
+ 2016-10-10 23:50:28,485 [P3260/D2/T68] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-10-10 23:50:28,500 [P3260/D2/T68] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
+ 2016-10-10 23:50:28,526 [P3260/D2/T76] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1057/pexels-photo-92904.jpeg
+ 2016-10-10 23:50:28,549 [P3260/D2/T76] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-10-10 23:50:28,604 [P3260/D2/T76] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
+ 2016-10-10 23:50:28,676 [P3260/D2/T76] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-10-10 23:55:58,938 [P3260/D2/T89] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1053/creative-apple-desk-office.jpg
+ 2016-10-10 23:55:58,939 [P3260/D2/T67] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1056/pexels-photo-51415-1.jpeg
+ 2016-10-10 23:55:58,939 [P3260/D2/T70] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1052/hands-technology-photo-phone.jpg
+ 2016-10-10 23:55:58,979 [P3260/D2/T76] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1050/social.jpg
+ 2016-10-10 23:55:58,992 [P3260/D2/T76] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1057/pexels-photo-92904.jpeg
+ 2016-10-10 23:55:59,017 [P3260/D2/T89] ERROR ImageProcessor.Web.HttpModules.ImageProcessingModule - 
+ImageProcessor.Common.Exceptions.ImageProcessingException: ProcessImageAsync 597 : No image exists at http://mbiggsstorage.blob.core.windows.net/media/1054/pexels-photo-89724.jpeg
