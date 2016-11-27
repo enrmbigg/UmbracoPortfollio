@@ -2,12 +2,9 @@
 @using ClientDependency.Core.Mvc
 @{
     Layout = "Master.cshtml";
-    Html.RequiresCss("~/css/font-awesome.min.css");
-    Html.RequiresJs("http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js", 0);
-    //Html.RequiresJs("~/scripts/modernizr-2.6.2.js", 0);
-    Html.RequiresJs("~/scripts/owl.carousel.min.js", 2);
-    Html.RequiresCss("~/css/owl.carousel.min.css", 2);
-    Html.RequiresCss("~/Content/style.css");
+    Html.RequiresJs("https://code.jquery.com/jquery-2.1.4.min.js", 0);
+    Html.RequiresJsFolder("~/Scripts/Build");
+    Html.RequiresCssFolder("~/Content/Build");
 }
 @section GoogleAnalytics
 {

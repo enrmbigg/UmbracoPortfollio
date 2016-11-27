@@ -690,19 +690,18 @@
     <Content Include="Config\splashes\booting.aspx" />
     <Content Include="Config\splashes\noNodes.aspx" />
     <Content Include="Content\style.css" />
-    <Content Include="css\ajax-loader.gif" />
-    <Content Include="css\font-awesome.min.css" />
-    <Content Include="css\grids-responsive-min.css" />
-    <Content Include="css\owl.carousel.css" />
-    <Content Include="css\owl.carousel.min.css" />
-    <Content Include="css\owl.theme.default.min.css" />
-    <Content Include="css\owl.theme.green.min.css" />
-    <Content Include="css\owl.video.play.png" />
+    <Content Include="Content\ajax-loader.gif" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\grids-responsive-min.css" />
+    <Content Include="Content\owl.carousel.css" />
+    <Content Include="Content\owl.carousel.min.css" />
+    <Content Include="Content\owl.theme.default.min.css" />
+    <Content Include="Content\owl.theme.green.min.css" />
+    <Content Include="Content\owl.video.play.png" />
     <Content Include="default.aspx" />
     <Content Include="error.html" />
     <Content Include="favicon1.ico" />
-    <Content Include="fonts\fontawesome-webfont.svg" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="gulpfile.js" />
     <Content Include="Images\dogs.jpg" />
@@ -756,18 +755,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="robots.txt" />
-    <Content Include="scripts\animatescroll.js" />
-    <Content Include="scripts\animatescroll.min.js" />
-    <Content Include="scripts\animatescroll.noeasing.js" />
-    <Content Include="scripts\bootstrap.js" />
-    <Content Include="scripts\bootstrap.min.js" />
     <Content Include="App_Browsers\Form.browser" />
     <Content Include="App_Browsers\w3cvalidator.browser" />
-    <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="fonts\fontawesome-webfont.ttf" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
-    <Content Include="fonts\fontawesome-webfont.woff2" />
-    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
     <Content Include="App_Plugins\Analytics\settings.config" />
     <Content Include="App_Plugins\Analytics\profile.config" />
     <Content Include="App_Plugins\Analytics\account.config" />
@@ -793,11 +787,6 @@
     <Content Include="App_Plugins\DiploTraceLogViewer\package.manifest" />
     <Content Include="App_Plugins\DiploTraceLogViewer\backoffice\diplotracelog\ng-table\ng-table.map" />
     <Content Include="App_Plugins\TheDashboard\package.manifest" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="scripts\main.js" />
     <Content Include="xslt\seochecker-notification.xslt" />
     <Content Include="xslt\seochecker-scheduledtask.xslt" />
     <Content Include="Images\icons\manifest.json" />
@@ -833,17 +822,9 @@
     <Content Include="Content\scss\style.scss" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Properties\PublishProfiles\LocalHosted.pubxml" />
-    <None Include="scripts\jquery-2.2.3.intellisense.js" />
-    <Content Include="scripts\github-activity-0.1.4.min.js" />
-    <Content Include="scripts\interaction.js" />
-    <Content Include="scripts\jquery-2.2.3.js" />
-    <Content Include="scripts\jquery-2.2.3.min.js" />
-    <Content Include="scripts\jquery.easing.min.js" />
-    <Content Include="scripts\modernizr-2.6.2.js" />
-    <Content Include="scripts\mustache.min.js" />
-    <Content Include="scripts\owl.carousel.js" />
-    <Content Include="scripts\owl.carousel.min.js" />
-    <Content Include="scripts\slick.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\owl.carousel.min.js" />
+    <Content Include="Scripts\slick.min.js" />
     <Content Include="umbraco\Actions\delete.aspx" />
     <Content Include="umbraco\Actions\editContent.aspx" />
     <Content Include="umbraco\Actions\preview.aspx" />
@@ -3592,7 +3573,6 @@
     <Content Include="umbraco_client\Ui\ui-lightness\jquery-ui.custom.css" />
     <Content Include="Views\Web.config" />
     <Content Include="Config\Dashboard.config" />
-    <Content Include="scripts\jquery-2.2.3.min.map" />
     <Content Include="umbraco_client\CodeMirror\Js\Mode\Razor\LICENSE" />
     <Content Include="umbraco_client\CodeMirror\Js\Mode\Sieve\LICENSE" />
     <Content Include="umbraco\assets\fonts\helveticons\helveticons.eot" />
@@ -3786,8 +3766,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="scripts\ai.0.15.0-build46802.js" />
-    <Content Include="scripts\ai.0.15.0-build46802.min.js" />
+    <Content Include="Scripts\ai.0.15.0-build46802.js" />
+    <Content Include="Scripts\ai.0.15.0-build46802.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -3848,7 +3828,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\scss\foundation\" />
-    <Folder Include="js\" />
     <Folder Include="masterpages\" />
     <Folder Include="usercontrols\" />
     <Folder Include="Views\MacroPartials\" />

@@ -35,10 +35,8 @@ Assets/uploaded*
 *node_modules
 
 [Pp]ublished/
-[Cc]onfig/
-[Ww]eb.config
 [Dd]ashboard.config
 [Cc]onnectionStrings.config
 
 *.txt
-App_Data/*
+[Aa]pp_Data*/

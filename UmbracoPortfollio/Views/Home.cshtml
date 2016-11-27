@@ -7,17 +7,17 @@
     var skype = Umbraco.Field("skypeUsername", recursive: true);
     var email = Umbraco.Field("email", recursive: true);
     var posts = Model.Content.Descendants().Where(x => x.DocumentTypeAlias == "blogPost").OrderByDescending(x=> x.GetPropertyValue<DateTime>("createTime")).Take(8);
-}
- 
-
+} 
 <div class="row intro">
-    <div class="medium-12 columns">
+    <div class="text-center row column">
         <h2>Who Am I?</h2>
+    </div>
+    <div>
         @Umbraco.Field("bodyContent")
     </div>
 </div>
 <div class="latest-posts" itemscope="" itemtype="http://schema.org/Blog">
-    <div class="row column">
+    <div class="text-center row column">
         <h3>Latest posts</h3>
     </div>
     <div class="row medium-up-3 large-up-4" >
@@ -27,7 +27,7 @@
            var date = post.GetPropertyValue<DateTime>("createTime");
            var blogTags = post.GetPropertyValue<string>("tag").Split(',');
            var desc = post.GetPropertyValue<string>("pageIntro");
-        <div class="column">
+        <div class="column blog-card">
             <a href="@post.UrlWithDomain()" itemprop="url">
                 @if (image != null)
                 {

@@ -3600,3 +3600,6 @@ pre {
   padding-bottom: 2em;
   overflow: visible;
   overflow-x: auto; }
+
+.blog-card {
+  padding-bottom: 25px; }

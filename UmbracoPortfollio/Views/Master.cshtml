@@ -19,10 +19,6 @@
         @Html.Partial("SEO")
         @RenderSection("Metadata", required: false)   
         @Html.RenderCssHere()
-        @*<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
-        <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" />*@
-        
 	    <!-- Google Analytics -->
 	    @RenderSection("GoogleAnalytics", required: false)
     </head>
@@ -37,10 +33,7 @@
         <!-- Copyright Footer -->
         @Html.Partial("Footer")
         <!--// Copyright Footer-->
-        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
         @Html.RenderJsHere()
-        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
         @Html.Partial("Scripts")
         @RenderSection("Scripts", required: false)
     </body>		
