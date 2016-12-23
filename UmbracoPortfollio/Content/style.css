@@ -3581,7 +3581,7 @@ pre {
   padding: 0.1em 0.5em 0.3em 0.7em;
   border-left: 11px solid #ccc;
   background-color: black;
-  color: white;
+  color: #FF2;
   margin: 1.7em 0 1.7em 0.3em;
   overflow: auto;
   width: 93%; }
@@ -3603,3 +3603,16 @@ pre {
 
 .blog-card {
   padding-bottom: 25px; }
+
+.menu-tags > li > a {
+  display: inline;
+  padding: .7rem 1rem; }
+
+.label.secondary > a {
+  color: #fefefe !important; }
+  .label.secondary > a :hover {
+    color: #fefefe !important; }
+
+.label.primary {
+  background: #2199e8;
+  color: #fefefe; }

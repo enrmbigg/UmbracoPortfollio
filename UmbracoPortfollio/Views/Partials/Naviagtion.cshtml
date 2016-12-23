@@ -5,6 +5,7 @@
     var blog = home.Children.FirstOrDefault(x => x.DocumentTypeAlias == "blogHome");
     var aboutus = home.Children.FirstOrDefault(x => x.DocumentTypeAlias == "aboutMe");
     var search = home.Children.FirstOrDefault(x => x.DocumentTypeAlias == "search");
+    var services = home.Children.FirstOrDefault(x => x.DocumentTypeAlias == "services");
 }
 
 <!-- Navigation -->
@@ -17,8 +18,9 @@
                 </a>
             </li>
             <li class=""><a class="" href="@aboutus.Url">About Me</a></li>
+            <li class=""><a class="" href="@services.Url">Services</a></li> 
             <li class=""><a class="" href="@blog.Url">Blog</a></li>
-            <li class=""><a class="" href="@contact.Url">Contact</a></li> 
+            <li class=""><a class="" href="@contact.Url">Contact</a></li>
         </ul>
     </div>
     <div class="top-bar-right ">

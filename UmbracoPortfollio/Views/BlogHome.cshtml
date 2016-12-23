@@ -8,7 +8,7 @@
     var pageTitle = Model.Content.GetPropertyValue<string>("pageTitle");
     var tags = Umbraco.TagQuery.GetAllContentTags().OrderByDescending(x => x.NodeCount);
     var page = 0; // The page we are viewing
-    var pageSize = 6; // How many items per page
+    var pageSize = 8; // How many items per page
     var postCount = 0;
     if (posts.Any())
     {
@@ -18,19 +18,18 @@
         }
         postCount = posts.Count();
         posts = posts.Skip((page - 1) * pageSize).Take(pageSize).ToList();
-
     }
 }
 
-<div class="sections" style="margin-top: 520px;">
+<div class="sections">
     <div>
-        <section class="section category">
-            <div class="section__container category__container">
-                <ul class="category__list">
+        <section class="section tags ">
+            <div class="text-center row column">
+                <ul class="horizontal float-center menu menu-tags">
                     @foreach (var tag in tags.Take(6))
                     {
-                        <li class="category__item">
-                            <a class="category__item__link " href="@Model.Content.Url?q=@tag.Text">@tag.Text</a>
+                        <li class="">
+                            <a href="@Model.Content.Url?q=@tag.Text">@tag.Text</a>
                         </li>
                     }
                 </ul>
@@ -38,7 +37,7 @@
         </section>
         <section class="section archive-post">
             <div class="latest-posts" itemscope="" itemtype="http://schema.org/Blog">
-                <div class="row column">
+                <div class="row column text-center">
                     <h3>Latest posts</h3>
                 </div>
                 <div class="row medium-up-3 large-up-4">
@@ -62,7 +61,9 @@
                             <div class="post-tags">
                                 @foreach (var tag in blogTags)
                                 {
-                                    <a class="tag" href="@Model.Content.Url?q=@tag">@tag</a>
+                                    <span class="secondary label">
+                                        <a class="tag" href="@Model.Content.Url?q=@tag">@tag</a>
+                                    </span>
                                 }
 
                             </div>
@@ -71,7 +72,7 @@
 
                 </div>
             </div>
-            <div class="">
+            <div>
                 @RazorHelpers.RenderPagination(page, postCount, pageSize)
             </div>
         </section>

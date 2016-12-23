@@ -1,0 +1,45 @@
+﻿.mediastock p {
+    margin: 0;
+}
+
+.mediastock-small {
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 20px !important;
+}
+
+.mediastock-imagewrap {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+    .mediastock-imagewrap img {
+        margin: 10px;
+    }
+
+.mediastock-imagecredit {
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+    background-color: rgba(45, 45, 45, 0.5);
+}
+
+    .mediastock-imagecredit a {
+        color: white;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+
+.btn.more {
+    margin: 50px 0;
+}
+
+.info {
+    margin-bottom: 50px;
+    font-style: italic;
+}

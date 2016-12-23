@@ -18,7 +18,7 @@
     <RootNamespace>UmbracoPortfollio</RootNamespace>
     <AssemblyName>UmbracoPortfollio</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -3758,6 +3758,7 @@
     <Content Include="Views\Partials\Comments.cshtml" />
     <Content Include="Views\AboutMe.cshtml" />
     <Content Include="Views\Search.cshtml" />
+    <Content Include="Views\Services.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3788,6 +3789,7 @@
     <Content Include="App_Code\Models\CommentModel.cs" />
     <Content Include="App_Code\Helpers\BlogHelper.cs" />
     <Content Include="App_Code\Helpers\UrlPicker.cs" />
+    <Content Include="App_Code\Models\Image.cs" />
     <Compile Include="App_Data\Models\BlogHome.generated.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -3857,7 +3859,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>58657</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:57980/</IISUrl>
+          <IISUrl>http://portfollio.local</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

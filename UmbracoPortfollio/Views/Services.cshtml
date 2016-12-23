@@ -1,0 +1,37 @@
+﻿@inherits UmbracoTemplatePage
+@{
+    Layout = "Root.cshtml";
+    var sections = Model.Content.Children;
+    var i = 0;
+}
+@foreach (var section in sections)
+{
+    var header = section.GetPropertyValue("header");
+    var image = section.ReturnImage("image");
+    var side = i % 2 == 0;
+    if (side)
+    {
+    <div class="row">
+        <div class="medium-6 columns medium-push-6">
+            <img class="thumbnail" src="http://placehold.it/750x350">
+        </div>
+        <div class="medium-6 columns medium-pull-6">
+            <h2>Our Agency, our selves.</h2>
+            <p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor.</p>
+        </div>
+    </div>
+    }
+    else
+    {
+        <div class="row">
+            <div class="medium-6 columns medium-push-6">
+                <h2>Our Agency, our selves.</h2>
+                <p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor.</p>
+            </div>
+            <div class="medium-6 columns medium-pull-6">
+                <img class="thumbnail" src="http://placehold.it/750x350">
+            </div>
+        </div>
+    }
+    i++;
+}

@@ -5,6 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Web;
+using System.Web.Mvc;
 using Umbraco.Core;
 using Umbraco.Core.Models;
 using Umbraco.Web;
@@ -167,6 +168,12 @@ namespace UmbracoPortfollio.App_Code
             var hash = sBuilder.ToString();  // Return the hexadecimal string. 
         
             return string.Format("https://secure.gravatar.com/avatar/{0}?", hash);
+        }
+        public static Image ReturnImage(this IPublishedContent node,string propertyName)
+        {
+            UmbracoHelper Umbraco = new UmbracoHelper(UmbracoContext.Current);
+            var image = Umbraco.TypedMedia(node.GetPropertyValue(propertyName));
+            return new Image(image);
         }
     }
 }

@@ -1,31 +1,21 @@
 @inherits Umbraco.Web.Mvc.UmbracoTemplatePage
-@{ 
+@{
     var name = HttpContext.Current.Server.UrlEncode(Model.Content.Name);
     var url = Model.Content.UrlWithDomain();
 
 }
 <!--- SHARING SECTION --->
 <section class="section social share">
-    <ul class="social__list share__list">
-        <li class="social__item">
-            <a class="social__link --twitter" href="https://twitter.com/share?text=@name&url=@url" target="_blank" title="Share on Twitter">
-                <span class="social__text">Twitter</span>
-            </a>
-        </li>
-        <li class="social__item">
-            <a class="social__link --facebook" href="http://www.facebook.com/sharer.php?u=@url" target="_blank" title="Share on Facebook">
-                <span class="social__text">Facebook</span>
-            </a>
-        </li>
-        <li class="social__item">
-            <a class="social__link --google" href="https://plus.google.com/share?url=@url" target="_blank" title="Share on Google +">
-                <span class="social__text">Google +</span>
-            </a>
-        </li>
-        <li class="social__item">
-            <a class="social__link --linkedin" href="http://linkedin.com/shareArticle?mini=true&amp;url=@url" target="_blank" title="Share on LinkedIn">
-                <span class="social__text">LinkedIn</span>
-            </a>
-        </li>
-    </ul>
+    <a href="https://twitter.com/share?text=@name&url=@url" target="_blank" title="Share on Twitter">
+        <span class="primary badge"><i class="fa fa-fw fa-twitter"></i></span>
+    </a>
+    <a href="http://www.facebook.com/sharer.php?u=@url" target="_blank" title="Share on Facebook">
+        <span class="primary badge"><i class="fa fa-fw fa-facebook"></i></span>
+    </a>
+    <a href="https://plus.google.com/share?url=@url" target="_blank" title="Share on Google +">
+        <span class="primary badge"><i class="fa fa-fw fa-google"></i></span>
+    </a>
+    <a href="http://linkedin.com/shareArticle?mini=true&amp;url=@url" target="_blank" title="Share on LinkedIn">
+        <span class="primary badge"><i class="fa fa-fw fa-linkedin"></i></span>
+    </a>
 </section>
