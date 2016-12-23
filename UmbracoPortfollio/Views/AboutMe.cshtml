@@ -1,119 +1,62 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
-	Layout = "Root.cshtml";
+    Layout = "Root.cshtml";
+    var summersDOB = new DateTime(2015, 12, 10);
+    var summersAge = HtmlHelpers.CalculateAge(summersDOB);
 }
 
-<div class="sections" itemprop="text" style="margin-top: 520px;">
-    <section class="section two-columns-content">
-        <div class="two-columns-content__row">
-            <div class="two-columns-content__column --right">
-                <div class="two-columns-content__column__container --image">
-                    <div class="two-columns-content__image" style="display: block; background-image: url(&quot;https://production-edgethreesixtylt.netdna-ssl.com/app/uploads/2016/01/solutions.jpg&quot;);"></div>
-                </div>
-            </div>
-            <div class="two-columns-content__column --left">
-                <div class="two-columns-content__column__container --content">
-                    <div class="two-columns-content__content">
-                        <h2 class="two-columns-content__title">WHO WE ARE</h2>
-                        <div class="two-columns-content__text">
-                            <p>EdgeThreeSixty is a full service digital agency offering high quality design, development and marketing&nbsp;<a href="http://edgethreesixty.co.uk/services/">services</a>&nbsp;to a range of clients. The company was originally founded in 2013 with just two members of staff, and has rapidly expanded since. Now, EdgeThreeSixty’s team comprises seven senior level professionals, with skills ranging from graphic design, to marketing and optimisation, as well as expertise in a range of development languages.</p>
-                            <p>EdgeThreeSixty’s head office is based in the Baltic Triangle area of Liverpool, but we also have a professional meeting space in London, allowing us to provide our services to businesses across the UK.</p>
-                            <p>The EdgeThreeSixty team are a tight knit bunch who work together closely and creatively on virtually all client projects. If you think you’d be a good fit for our ambitious and growing company, visit our&nbsp;<a href="http://edgethreesixty.co.uk/careers/">careers page</a>&nbsp;for current vacancies.</p>
-                        </div>
-                        <div class="two-columns-content__action">
-                            <a class="button --border-color-4 --background-color-1 --text-color-7" href="#" data-text="Learn More">
-                                <i class="button__letter">L</i><i class="button__letter">e</i><i class="button__letter">a</i><i class="button__letter">r</i><i class="button__letter">n</i> <i class="button__letter">M</i><i class="button__letter">o</i><i class="button__letter">r</i><i class="button__letter">e</i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+<div class="content">
+    <div class="pure-g">
+        <div class="l-box pure-u-1">
+            <div class="center">
+                @Umbraco.Field("bodyContent")
             </div>
         </div>
-    </section>
-    <section class="section two-columns-content">
-        <div class="two-columns-content__row">
-            <div class="two-columns-content__column --left">
-                <div class="two-columns-content__column__container --image">
-                    <div class="two-columns-content__image" style="display: block; background-image: url(&quot;https://production-edgethreesixtylt.netdna-ssl.com/app/uploads/2016/01/processes.jpg&quot;);"></div>
-                </div>
-            </div>
-            <div class="two-columns-content__column --right">
-                <div class="two-columns-content__column__container --content">
-                    <div class="two-columns-content__content">
-                        <h2 class="two-columns-content__title">OUR APPROACH</h2>
-                        <div class="two-columns-content__text">
-                            <p>The approach that we take to all design, development and marketing projects has three core elements: data, creativity and technology. The data that we gather from user research and the creative expertise of our team are combined with smart technological solutions to provide outcomes and deliver quality for our clients.</p>
-                            <p>We believe that simple and intuitive usability is the key to truly great web design. That’s why the users of a website, whether internal or external, are always at the heart of the work we do, and are the subject of the research and discovery that we undertake at the beginning of each project.</p>
-                        </div>
-                        <div class="two-columns-content__action">
-                            <a class="button --border-color-4 --background-color-1 --text-color-7" href="http://edgethreesixty.co.uk/our-approach/" data-text="Learn More">
-                                <i class="button__letter">L</i><i class="button__letter">e</i><i class="button__letter">a</i><i class="button__letter">r</i><i class="button__letter">n</i> <i class="button__letter">M</i><i class="button__letter">o</i><i class="button__letter">r</i><i class="button__letter">e</i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section two-columns-content">
-        <div class="two-columns-content__row">
-            <div class="two-columns-content__column --right">
-                <div class="two-columns-content__column__container --image">
-                    <div class="two-columns-content__image" style="display: block; background-image: url(&quot;https://production-edgethreesixtylt.netdna-ssl.com/app/uploads/2016/01/user-centric.jpg&quot;);"></div>
-                </div>
-            </div>
-            <div class="two-columns-content__column --left">
-                <div class="two-columns-content__column__container --content">
-                    <div class="two-columns-content__content">
-                        <h2 class="two-columns-content__title">SECTORS</h2>
-                        <div class="two-columns-content__text">
-                            <p>Over the years, we’ve worked closely with businesses in virtually every sector, which&nbsp;can be seen through our eclectic <a href="http://edgethreesixty.co.uk/case-studies/">portfolio</a> of clients. However, there are a handful of industries with which we have worked most extensively, and thoroughly understand the workings of. These core sectors include:</p>
-                            <ul>
-                                <li>Healthcare</li>
-                                <li>Accessible websites</li>
-                                <li>Legal &amp; financial</li>
-                                <li>Ecommerce</li>
-                                <li>Education.</li>
-                            </ul>
-                            <p>No matter what industry you operate within, there’s a good chance that EdgeThreeSixty&nbsp;could help you to achieve your digital goals. Get in touch to talk about your next project.</p>
-                        </div>
-                        <div class="two-columns-content__action">
-                            <a class="button --border-color-4 --background-color-1 --text-color-7" href="http://edgethreesixty.co.uk/sectors/" data-text="Learn more">
-                                <i class="button__letter">L</i><i class="button__letter">e</i><i class="button__letter">a</i><i class="button__letter">r</i><i class="button__letter">n</i> <i class="button__letter">m</i><i class="button__letter">o</i><i class="button__letter">r</i><i class="button__letter">e</i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="section help">
-        <div class="section__container help__container">
-            <p class="help__title">Think we can help?</p>
-            <p class="help__text --font-size-21">
-                Call us on: <span class="help__phone InfinityNumber">01512230001</span><br>
-                Fill out our <a class="help__link" href="https://edgethreesixty.co.uk/contact-us/">contact form</a>
+    </div>
+    <div class="pure-g">
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+                <i class="fa fa-paw" aria-hidden="true"></i>
+                Animal Lover
+            </h3>
+            <p>
+                I have about 9 pets all together, which include; 2 Dogs called Millie and Rosie,
+                2 Rabbits called Floppsy and Zoey, 2 Terrapins called Little and Big,
+                2 Degus called Joan and Jill and finally
+                1 Gerbill called Grey
             </p>
-            <p class="help__text">
-                Or continue exploring…
-            </p>
-            <div class="help__actions">
-                <div class="help__actions__button">
-                    <a class="button --border-color-4 --background-color-1 --text-color-7" href="https://edgethreesixty.co.uk/about-us/" data-text="About us">
-                        <i class="button__letter">A</i><i class="button__letter">b</i><i class="button__letter">o</i><i class="button__letter">u</i><i class="button__letter">t</i> <i class="button__letter">u</i><i class="button__letter">s</i>
-                    </a>
-                </div>
-                <div class="help__actions__button">
-                    <a class="button --border-color-4 --background-color-1 --text-color-7" href="https://edgethreesixty.co.uk/case-studies/" data-text="Case studies">
-                        <i class="button__letter">C</i><i class="button__letter">a</i><i class="button__letter">s</i><i class="button__letter">e</i> <i class="button__letter">s</i><i class="button__letter">t</i><i class="button__letter">u</i><i class="button__letter">d</i><i class="button__letter">i</i><i class="button__letter">e</i><i class="button__letter">s</i>
-                    </a>
-                </div>
-                <div class="help__actions__button">
-                    <a class="button --border-color-4 --background-color-1 --text-color-7" href="https://edgethreesixty.co.uk/blog/" data-text="Blog">
-                        <i class="button__letter">B</i><i class="button__letter">l</i><i class="button__letter">o</i><i class="button__letter">g</i>
-                    </a>
-                </div>
-            </div>
+            <br />
+            <br />
         </div>
-    </section>
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+                <i class="fa fa-music" aria-hidden="true"></i>
+                Interesting Hobbies
+            </h3>
+            <p>
+                Some of my favourite things to do include
+                Reading, Listening to music, Movies &amp; films and Sports
+            </p>
+        </div>
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+                <i class="fa fa-child" aria-hidden="true"></i>
+                Father
+            </h3>
+            <p>
+                Am a fairly new dad to my lovely daughter Summer Amelia Biggs. She is @summersAge . <br> and you know.. Her nappy needs to be changed alot.
+            </p>
+        </div>
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <h3 class="content-subhead">
+                <i class="fa fa-check-square-o"></i>
+                Plays Nice
+            </h3>
+            <p>
+                Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+            </p>
+        </div>
+    </div>
 </div>
+@Html.CachedPartial("SocialMediaStream", Model, 21600)
+@*@Html.CachedPartial("Modals", Model, 21600)*@

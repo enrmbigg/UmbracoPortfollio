@@ -2,26 +2,31 @@
 @using UmbracoPortfollio.App_Code.Helpers
 @using ClientDependency.Core.Mvc
 @{
-    var facebook = SocialMediaHelpers.GetLastestFacebookPosts(Model.Content.GetPropertyValue("facebookStream"));
-    var twitter = SocialMediaHelpers.GetLastestTwitterPosts(Model.Content.GetPropertyValue("twitterStream")).Where(x => !x.HasRetweeted);
-    var instagram = SocialMediaHelpers.GetLastestInstagramPosts(Model.Content.GetPropertyValue("instagramStream"));
-    var media = SocialMediaHelpers.ReturnSocialImage(twitter, instagram).Where(x => !string.IsNullOrWhiteSpace(x.Image)).OrderByDescending(x => x.Date).Take(10);
-}
-<div class="footer-insta">
-    <div class="owl-carousel">
-        @foreach (var post in media)
-        {
-            <div class="photo">
-                <div class="panel panel-blue">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">@Umbraco.Truncate(post.Caption, 100, true)</h3>
+        var facebook = SocialMediaHelpers.GetLastestFacebookPosts(Model.Content.GetPropertyValue("facebookStream"));
+        var twitter = SocialMediaHelpers.GetLastestTwitterPosts(Model.Content.GetPropertyValue("twitterStream"));
+        var instagram = SocialMediaHelpers.GetLastestInstagramPosts(Model.Content.GetPropertyValue("instagramStream"));
+    }
+    @if (twitter != null || instagram != null)
+    {
+        var media = SocialMediaHelpers.ReturnSocialImage(twitter.Where(x => !x.HasRetweeted), instagram).Where(x => !string.IsNullOrWhiteSpace(x.Image)).OrderByDescending(x => x.Date).Take(10);
+        <div class="footer-insta">
+            <div class="owl-carousel">
+                @foreach (var post in media)
+                {
+                    <div class="photo">
+                        <div class="panel panel-blue">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">@Umbraco.Truncate(post.Caption, 100, true)</h3>
+                            </div>
+                            <a href="@post.SocialLink" target="_blank">
+                                <div class="panel-body"><img src="@post.Image" height="330" /></div>
+                            </a>
+                            <div class="panel-footer">@post.Date</div>
+                        </div>
                     </div>
-                    <a href="@post.SocialLink" target="_blank">
-                        <div class="panel-body"><img src="@post.Image" height="330" /></div>
-                    </a>
-                    <div class="panel-footer">@post.Date</div>
-                </div>
+                }
             </div>
-        }
-    </div>
-</div>
+        </div>
+    }
+
+
