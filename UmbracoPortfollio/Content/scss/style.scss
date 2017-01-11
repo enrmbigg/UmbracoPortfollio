@@ -141,5 +141,22 @@ pre {
 }
 
 .callout.xl-large {
-    padding: 8rem;
+    padding: 2rem;
+}
+
+.header-text-center {
+  text-align: center; 
+  width:90%;
+}
+
+.section .tags{
+    float:left;
+    margin:0 4rem 4rem 0;
+    width: 90%;
+}
+
+.post{
+    padding-bottom: 1rem;
+    float: left;
+    margin: 1rem;
 }

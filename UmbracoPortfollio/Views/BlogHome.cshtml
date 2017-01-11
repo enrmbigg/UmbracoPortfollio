@@ -47,7 +47,7 @@
                         var date = post.GetPropertyValue<DateTime>("createTime");
                         var blogTags = post.GetPropertyValue<string>("tag").Split(',');
                         var desc = post.GetPropertyValue<string>("pageIntro");
-                        <div class="column">
+                        <div class="post column">
                             <a href="@post.UrlWithDomain()" itemprop="url">
                                 @if (image != null)
                 {
