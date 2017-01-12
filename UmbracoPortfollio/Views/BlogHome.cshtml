@@ -26,7 +26,7 @@
         <section class="section tags ">
             <div class="text-center row column">
                 <ul class="horizontal float-center menu menu-tags">
-                    @foreach (var tag in tags.Take(6))
+                    @foreach (var tag in tags.Take(5))
                     {
                         <li class="">
                             <a href="@Model.Content.Url?q=@tag.Text">@tag.Text</a>
@@ -40,7 +40,7 @@
                 <div class="row column text-center">
                     <h3>Latest posts</h3>
                 </div>
-                <div class="row medium-up-3 large-up-4">
+                <div class="row medium-up-3 large-up-3">
                     @foreach (var post in posts)
                     {
                         var image = post.GetHeaderImage();

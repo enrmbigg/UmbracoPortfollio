@@ -23,18 +23,24 @@
 	    @RenderSection("GoogleAnalytics", required: false)
     </head>
     <body id="page-top">           
-        <div class="document" role="document">
-            @Html.Partial("Naviagtion")
-            <main class="main" itemprop="mainContentOfPage">
-                @Html.Partial("Header")
-                @RenderBody()
-            </main>                       
+        <div class="document off-canvas-wrapper" role="document">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+                @Html.Partial("Naviagtion")
+                <div class="main off-canvas-content" data-off-canvas-content itemprop="mainContentOfPage">
+                    @Html.Partial("Header")
+                    @RenderBody()
+                    <div class="js-off-canvas-exit"></div>
+                </div>
+            </div>
+            <!-- Copyright Footer -->
+            @Html.Partial("Footer")
         </div>
-        <!-- Copyright Footer -->
-        @Html.Partial("Footer")
         <!--// Copyright Footer-->
         @Html.RenderJsHere()
         @Html.Partial("Scripts")
+        <script>
+      $(document).foundation();
+        </script>
         @RenderSection("Scripts", required: false)
     </body>		
 </html>

@@ -3887,6 +3887,11 @@ pre {
 .blog-card {
   padding-bottom: 25px; }
 
+.menu-tags {
+  margin-left: 33%;
+  margin-right: 33%;
+  width: 34%; }
+
 .menu-tags > li > a {
   display: inline;
   padding: .7rem 1rem; }
@@ -3913,6 +3918,19 @@ pre {
   width: 90%; }
 
 .post {
-  padding-bottom: 1rem;
-  float: left;
-  margin: 1rem; }
+  padding-bottom: 1rem; }
+
+.header {
+  height: 55vh; }
+
+.lead {
+  font-size: 1rem; }
+
+.sub-header {
+  margin-top: .2rem;
+  margin-bottom: .5rem;
+  line-height: 1.4;
+  font-weight: 400; }
+
+dl, ol, p, ul {
+  line-height: 1.3; }

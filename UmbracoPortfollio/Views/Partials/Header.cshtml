@@ -10,10 +10,10 @@
 }
 
 <!-- Header -->
-<div class="callout xl-large background-image" style="background-image: url('@image.Url');">
+<div class="callout xl-large background-image header" style="background-image: url('@image.Url');">
     <div class="row column header-text-center " style = "color:#@Umbraco.If(!string.IsNullOrWhiteSpace(colour),colour,"00000")">
         <h1>@title</h1>
-        <p class="lead">@description</p>
+        <p class="sub-header">@description</p>
         @if (!string.IsNullOrWhiteSpace(link.Url))
         {
         <a href="@link.Url" class="button large hollow">@link.Meta.Title</a>

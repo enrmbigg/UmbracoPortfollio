@@ -7,7 +7,7 @@
 @foreach (var section in sections)
 {
     var header = section.GetPropertyValue<IPublishedContent>("header");
-    var title = header.GetPropertyValue("title");
+    var title = header.GetPropertyValue("title", section.Name);
     var desc = header.GetPropertyValue("description");
     var image = header.ReturnImage("image");
     var side = i % 2 == 0;

@@ -2,7 +2,6 @@
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\UmbracoCms.7.5.7\build\UmbracoCms.props" Condition="Exists('..\packages\UmbracoCms.7.5.7\build\UmbracoCms.props')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
-  <Import Project="..\packages\uSync.3.2.1.740\build\uSync.props" Condition="Exists('..\packages\uSync.3.2.1.740\build\uSync.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -145,22 +144,6 @@
     </Reference>
     <Reference Include="interfaces, Version=1.0.6219.11988, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\UmbracoCms.Core.7.5.7\lib\interfaces.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Jumoo.uSync.BackOffice, Version=3.2.1.740, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uSync.3.2.1.740\lib\net45\Jumoo.uSync.BackOffice.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Jumoo.uSync.Content, Version=3.2.2.740, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uSync.ContentEdition.3.2.2.740\lib\net45\Jumoo.uSync.Content.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Jumoo.uSync.ContentMappers, Version=3.2.1.740, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uSync.ContentMappers.3.2.1.740\lib\net45\Jumoo.uSync.ContentMappers.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Jumoo.uSync.Core, Version=5.5.1.740, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\uSync.Core.5.5.1.740\lib\net45\Jumoo.uSync.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, processorArchitecture=MSIL">
@@ -494,10 +477,6 @@
       <HintPath>..\packages\Umbraco.ModelsBuilder.3.0.5\lib\Umbraco.ModelsBuilder.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Umbraco.ModelsBuilder.Api, Version=3.0.3.94, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Umbraco.ModelsBuilder.Api.3.0.3\lib\Umbraco.ModelsBuilder.Api.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="umbraco.providers, Version=1.0.6219.11996, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\UmbracoCms.Core.7.5.7\lib\umbraco.providers.dll</HintPath>
       <Private>True</Private>
@@ -656,12 +635,6 @@
     <Content Include="App_Plugins\UrlPreview\urlpreview.html" />
     <Content Include="App_Plugins\UrlPreview\urlpreview.interceptor.js" />
     <Content Include="App_Plugins\UrlPreview\urlpreview.resource.js" />
-    <Content Include="App_Plugins\uSync.Content\uSyncDashboardContent.html" />
-    <Content Include="App_Plugins\uSync.Content\uSyncDashboardContentController.js" />
-    <Content Include="App_Plugins\uSync\uSyncDashboard.css" />
-    <Content Include="App_Plugins\uSync\uSyncDashboard.html" />
-    <Content Include="App_Plugins\uSync\uSyncDashboardController.js" />
-    <Content Include="App_Plugins\uSync\uSyncDashboardService.js" />
     <Content Include="App_Plugins\YouTube\css\YouTube.css" />
     <Content Include="App_Plugins\YouTube\js\YouTube.js" />
     <Content Include="App_Plugins\YouTube\views\preValues\YouTube.ChannelInfo.html" />
@@ -792,6 +765,8 @@
     <Content Include="App_Plugins\DiploTraceLogViewer\package.manifest" />
     <Content Include="App_Plugins\DiploTraceLogViewer\backoffice\diplotracelog\ng-table\ng-table.map" />
     <Content Include="App_Plugins\TheDashboard\package.manifest" />
+    <Content Include="Scripts\Build\site.js" />
+    <Content Include="Scripts\foundation.js" />
     <Content Include="xslt\seochecker-notification.xslt" />
     <Content Include="xslt\seochecker-scheduledtask.xslt" />
     <Content Include="Images\icons\manifest.json" />
@@ -802,9 +777,6 @@
     <Content Include="Config\UrlRewriting.config" />
     <Content Include="Config\ClientDependency.config" />
     <Content Include="Config\uSyncCore.Config" />
-    <Content Include="Config\uSyncBackOffice.Config" />
-    <Content Include="App_Plugins\uSync\package.manifest" />
-    <Content Include="App_Plugins\uSync.Content\package.manifest" />
     <Content Include="App_Plugins\Analytics\package.manifest" />
     <Content Include="App_Plugins\NestedContent\package.manifest" />
     <Content Include="App_Code\RazorHelpers.cshtml" />
@@ -3768,6 +3740,7 @@
     <Content Include="Views\Partials\Grid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2.cshtml" />
     <Content Include="Views\Partials\Grid\Bootstrap2-Fluid.cshtml" />
+    <Content Include="Views\Service.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3887,12 +3860,9 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\uSync.3.2.1.740\build\uSync.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\uSync.3.2.1.740\build\uSync.props'))" />
-    <Error Condition="!Exists('..\packages\uSync.3.2.1.740\build\uSync.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\uSync.3.2.1.740\build\uSync.targets'))" />
     <Error Condition="!Exists('..\packages\UmbracoCms.7.5.7\build\UmbracoCms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\UmbracoCms.7.5.7\build\UmbracoCms.props'))" />
     <Error Condition="!Exists('..\packages\UmbracoCms.7.5.7\build\UmbracoCms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\UmbracoCms.7.5.7\build\UmbracoCms.targets'))" />
   </Target>
-  <Import Project="..\packages\uSync.3.2.1.740\build\uSync.targets" Condition="Exists('..\packages\uSync.3.2.1.740\build\uSync.targets')" />
   <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
   <Import Project="..\packages\UmbracoCms.7.5.7\build\UmbracoCms.targets" Condition="Exists('..\packages\UmbracoCms.7.5.7\build\UmbracoCms.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
