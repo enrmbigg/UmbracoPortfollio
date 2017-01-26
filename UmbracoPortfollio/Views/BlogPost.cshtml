@@ -1,34 +1,25 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<BlogPostViewModel>
+@using UmbracoPortfollio.Logic.Models.ViewModels
 @{
     Layout = "Root.cshtml";
-    var body = Model.Content.GetPropertyValue("bodyContent");
-    var recentPosts = Model.Content.Parent.Children.Where(x => x.IsVisible() && x.IsNotEqual(Model.Content)).OrderByDescending(x => x.UpdateDate).Take(5);
-    var title = Model.Content.GetPropertyValue("pageTitle");
-    var update = Model.Content.UpdateDate;
-    var date = Model.Content.GetPropertyValue<DateTime>("createTime");
-    var description = Model.Content.GetPropertyValue("pageIntro");
-    var markdown = Model.Content.GetPropertyValue("markdown");
-    var link = Model.Content.Url;
-    var tags = Model.Content.GetPropertyValue("tag");
 }
-
+@Html.Partial("Header", Model.Header)
 <div>
     <div class="row medium-up-3 large-up-4" itemprop="text">
         <div class="section__container post-content__container" itemid="@Model.Content.UrlWithDomain()" itemscope itemtype="http://schema.org/BlogPosting">
-            <meta itemprop="name headline" content="@title" />
-            <time itemprop="datePublished" datetime="@date" />
-            <time itemprop="dateModified" datetime="@update" />
-            <p itemprop="description">@description</p>
+            <meta itemprop="name headline" content="@Model.PageTitle" />
+            <time itemprop="datePublished" datetime="@Model.Content.UpdateDate" />
+            <time itemprop="dateModified" datetime="@Model.PostCreation" />
+            <p itemprop="description">@Model.Description</p>
             <div itemprop="articleBody mainEntityOfPage">
-                @markdown
-                @body
+                @Model.Markdown
+                @Model.BodyContent
             </div>  
             <div itemprop="author publisher" itemscope="" itemtype="http://schema.org/Person">
                 <meta itemprop="name" content="Michael Biggs" />
                 <meta itemprop="url" content="http://www.biggsy150.co.uk" />
             </div>          
-        </div>
-        
+        </div>        
     </div>
     <div class="row medium-up-3 large-up-4">
         @Html.Partial("Share")

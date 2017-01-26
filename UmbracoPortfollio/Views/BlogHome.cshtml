@@ -1,14 +1,10 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<BlogHomeViewModel>
+@using UmbracoPortfollio.Logic.Models
 @{
     Layout = "Root.cshtml";
     var q = Request.QueryString["q"];
-    var posts = q == null ?
-        Model.Content.Children.OrderByDescending(x => x.GetPropertyValue<DateTime>("createTime")).ToList()
-        : Umbraco.TagQuery.GetContentByTag(q).OrderByDescending(x => x.GetPropertyValue<DateTime>("createTime")).ToList();
-    var pageTitle = Model.Content.GetPropertyValue<string>("pageTitle");
-    var tags = Umbraco.TagQuery.GetAllContentTags().OrderByDescending(x => x.NodeCount);
     var page = 0; // The page we are viewing
-    var pageSize = 8; // How many items per page
+    var pageSize = 9; // How many items per page
     var postCount = 0;
     if (posts.Any())
     {
@@ -16,11 +12,10 @@
         {
             page = 1;
         }
-        postCount = posts.Count();
-        posts = posts.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+        
     }
 }
-
+@Html.Partial("Header", Model.Header)
 <div class="sections">
     <div>
         <section class="section tags ">

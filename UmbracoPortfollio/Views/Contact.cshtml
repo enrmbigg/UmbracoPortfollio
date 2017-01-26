@@ -1,8 +1,9 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
-@using UmbracoPortfollio.App_Code
+@using UmbracoPortfollio.Logic
 @{
 	Layout = "Root.cshtml";
 }
+@Html.Partial("Header", Model.Header)
 <div class="sections" itemprop="text" style="margin-top: 520px;">
     <section class="section contact-content contact">
     <div class="section__container contact-content__container">

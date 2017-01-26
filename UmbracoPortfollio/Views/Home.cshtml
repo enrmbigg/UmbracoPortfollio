@@ -1,81 +1,39 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<HomeViewModel>
+@using UmbracoPortfollio.Logic.Models
 @{
     Layout = "Root.cshtml";
-    var summersDOB = new DateTime(2015, 12, 10);
-    var summersAge = HtmlHelpers.CalculateAge(summersDOB);
-    var pNumber = Umbraco.Field("phoneNumber", recursive: true);
-    var skype = Umbraco.Field("skypeUsername", recursive: true);
-    var email = Umbraco.Field("email", recursive: true);
-    var posts = Model.Content.Descendants().Where(x => x.DocumentTypeAlias == "blogPost").OrderByDescending(x=> x.GetPropertyValue<DateTime>("createTime")).Take(8);
 } 
+@Html.Partial("Header", Model.Header)
 <div class="row intro">
     <div class="text-center row column">
         <h2>Who Am I?</h2>
     </div>
-    <div>
-        @Umbraco.Field("bodyContent")
+    <div class="row column about">
+        @Model.BodyContent
     </div>
 </div>
 <div class="latest-posts" itemscope="" itemtype="http://schema.org/Blog">
     <div class="text-center row column">
-        <h3>Latest posts</h3>
+        <h2>Latest posts</h2>
     </div>
     <div class="row small-up-2 large-up-4" >
-       @foreach (var post in posts)
+       @foreach (var post in Model.BlogPosts)
        {
-           var image = post.GetHeaderImage();
-           var date = post.GetPropertyValue<DateTime>("createTime");
-           var blogTags = post.GetPropertyValue<string>("tag").Split(',');
-           var desc = post.GetPropertyValue<string>("pageIntro");
         <div class="column blog-card">
-            <a href="@post.UrlWithDomain()" itemprop="url">
-                @if (image != null)
+            <a href="@post.Content.UrlWithDomain()" itemprop="url">
+                @if (post.Header != null)
                 {
-                <img class="thumbnail" src="@Url.GetCropUrl(image, "Thumbnail")" itemprop="image">
+                <img class="thumbnail" src="@post.Header.Image.ThumbnailUrl" itemprop="image">
                 }
-                <h4 itemprop="name headline">@post.Name</h4>
-                <time datetime="@date.ToString()" itemprop="datePublished">
-                    <span>@date.ToString()</span>
+                <h4 itemprop="name headline">@post.Content.Name</h4>
+                <time datetime="@post.ArticlePublishedDate" itemprop="datePublished">
+                    <span>@post.ArticlePublishedDate</span>
                 </time>
             </a>
         </div>
        }
-
     </div>
 </div>
-<div class="services">
-    <div class="text-center row column">
-        <h3>Services</h3>
-        <p>
-            I offer a tailored service, so you may want a bit of all three services or
-            feel free to get in contact if you don’t see what you’re looking for.
-        </p>
-    </div>
-    <div class="row">
-        <div class="large-4 columns">
-            <a class="float-center text-center" href="#" rel="nofollow">
-                <i class="fa fa-code"></i>
-                <h4>Umbraco consultancy</h4>
-            </a>
-            <p>Whether you want your current website reviewed, starting a new project, or something else, I have loads of experience and expert advice to assist you.</p>
 
-        </div>
-        <div class="large-4 columns">
-            <a class="float-center text-center" href="#" rel="nofollow">
-                <i class="fa fa-comments-o"></i>
-                <h4>Umbraco consultancy</h4>
-            </a>
-            <p>Whether you want your current website reviewed, starting a new project, or something else, I have loads of experience and expert advice to assist you.</p>
-
-        </div>
-        <div class="large-4 columns">
-            <a class="float-center text-center" href="#" rel="nofollow">
-                <i class="fa fa-graduation-cap"></i>
-                <h4>Umbraco training</h4>
-            </a>
-            <p>I can offer comprehensive training, specific to your website, that will ensure your staff have the confidence to get the most out of your website.</p>
-        </div>
-    </div>
-</div>
 
 

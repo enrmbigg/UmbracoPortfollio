@@ -1,5 +1,5 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
-@using UmbracoPortfollio.App_Code.Helpers
+@using UmbracoPortfollio.Logic.Helpers
 @using ClientDependency.Core.Mvc
 @{
         var facebook = SocialMediaHelpers.GetLastestFacebookPosts(Model.Content.GetPropertyValue("facebookStream"));

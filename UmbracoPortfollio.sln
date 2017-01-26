@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoPortfollio", "UmbracoPortfollio\UmbracoPortfollio.csproj", "{23F0FBAB-5D2F-42F7-A8BE-4324C511AEF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoPortfollio.Site", "UmbracoPortfollio\UmbracoPortfollio.Site.csproj", "{23F0FBAB-5D2F-42F7-A8BE-4324C511AEF3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoValidationAttributes", "UmbracoValidationAttributes\UmbracoValidationAttributes.csproj", "{4DCE2227-DDBF-4656-8E19-438D5B8569EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoPortfollio.Logic", "UmbracoPortfollio.Logic\UmbracoPortfollio.Logic.csproj", "{03FA7247-D711-427E-9FCA-6F667C69DAAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4DCE2227-DDBF-4656-8E19-438D5B8569EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DCE2227-DDBF-4656-8E19-438D5B8569EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DCE2227-DDBF-4656-8E19-438D5B8569EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03FA7247-D711-427E-9FCA-6F667C69DAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03FA7247-D711-427E-9FCA-6F667C69DAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03FA7247-D711-427E-9FCA-6F667C69DAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03FA7247-D711-427E-9FCA-6F667C69DAAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,14 +1,13 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<SitemapViewModel>
+@using UmbracoPortfollio.Logic.Models
 @{
     Layout = "Root.cshtml";
-    var homePage = CurrentPage.AncestorOrSelf(1);
-    var title = Model.Content.GetPropertyValue("pageTitle");
 }
 <section>
     <div class="container">
         <div class="row">
             <div class="col-lg-push-12 text-center">
-                <h2>@title</h2>
+                <h2>@Model.PageTitle</h2>
                 <hr>
             </div>
             <div class="col-md-12">
@@ -16,11 +15,8 @@
                     <article>
                         @* Render the sitemap by passing the root node to the traverse helper *@
                         <ul class="nav">
-                            <li>
-                                <a href="@homePage.Url">@homePage.Name</a>
-                            </li>
-                                @Traverse(homePage)
-                            
+                            <li><a href="@Model.Home.Content.Url">@Model.Home.PageTitle</a></li>
+                            @Traverse(Model.Home)                            
                         </ul>
                     </article>
                 </div>
@@ -31,27 +27,23 @@
 </section>
 
 @* Helper method to travers through all descendants *@
-@helper Traverse(IPublishedContent node)
+@helper Traverse(MasterViewModel parent)
 {
-    @* Update the level to reflect how deep you want the sitemap to go *@
-    var maxLevelForSitemap = 4;
-    @* Select visible children *@
-    var items = node.Children
-    .Where(x => x.IsVisible())
-    .Where(x => !x.GetPropertyValue<bool>("hideFromSitemap"))
-    .Where(x => x.Level <= maxLevelForSitemap);
-    @* If any items are returned, render a list *@
-    if (items.Count() > 0)
-    {
-        <ul>            
-            @foreach (var item in items)
+var subPages = parent.Content.Children.Select(x => new MasterViewModel(x))
+    .Where(x => x.Content.IsVisible() &&
+        !x.HideFromSitemap)
+    .OrderBy(x => x.Content.SortOrder);
+foreach (var page in subPages)
+{
+        <ul class="nav">
+            <li>
+                <a href="@page.Content.Url">@page.PageTitle</a>
+            </li>
+            @if (page.Content.Level <= 4 && page.Content.Children.Any())
             {
-                <li>
-                    <a href="@item.Url">@item.Name</a>
-                    @* Run the traverse helper again *@
-                    @Traverse(item)
-                </li>
+                @Traverse(page)
             }
         </ul>
+            
     }
 }

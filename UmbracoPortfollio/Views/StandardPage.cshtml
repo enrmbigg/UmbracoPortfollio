@@ -5,6 +5,7 @@
     var title = Model.Content.GetPropertyValue("pageTitle");
     var description = Model.Content.GetPropertyValue("pageIntro");
 }
+@Html.Partial("Header", Model.Header)
 <section>
     <div class="container">
         <div class="row">

@@ -1,22 +1,15 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
-@using UrlPickerExtensions
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<HeaderViewModel>
+@using UmbracoPortfollio.Logic.Models.ViewModels;
 @{ 
-    var header = Model.Content.GetPropertyValue<IPublishedContent>("header");
-    var image = Model.Content.GetHeaderImage();
-    var link = header.GetPropertyValue<UrlPicker>("link");
-    var title = header.GetPropertyValue<string>("title");
-    var description = header.GetPropertyValue<string>("description");
-    var colour = header.GetPropertyValue<string>("textColour");
 }
-
 <!-- Header -->
-<div class="callout xl-large background-image header" style="background-image: url('@image.Url');">
-    <div class="row column header-text-center " style = "color:#@Umbraco.If(!string.IsNullOrWhiteSpace(colour),colour,"00000")">
-        <h1>@title</h1>
-        <p class="sub-header">@description</p>
-        @if (!string.IsNullOrWhiteSpace(link.Url))
+<div class="callout xl-large background-image header" style="@Umbraco.If(Model.Image != null,"background-image: url('"+Model.Image.Url+"')");">
+    <div class="row column header-text-center " style = "color:#@Model.Colour;">
+        <h1>@Model.Title</h1>
+        <p class="sub-header">@Model.Description</p>
+        @if (!string.IsNullOrWhiteSpace(Model.Link.Url))
         {
-        <a href="@link.Url" class="button large hollow">@link.Meta.Title</a>
+        <a href="@Model.Link.Url" class="button large hollow">@Model.Link.Meta.Title</a>
         }
     </div>
 </div>

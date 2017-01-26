@@ -97,7 +97,7 @@ pre {
 	padding: 0.1em 0.5em 0.3em 0.7em;
 	border-left: 11px solid #ccc;
     background-color:black;
-    color:#FF2;
+    color:#FFF;
 	margin: 1.7em 0 1.7em 0.3em;
 	overflow: auto;
 	width: 93%;
@@ -153,6 +153,10 @@ pre {
 .header-text-center {
   text-align: center; 
   width:90%;
+  padding-top:25%;
+   @media only screen and (min-width: 768px) {
+   padding-top:3%;
+    }
 }
 
 .section .tags{
@@ -166,19 +170,70 @@ pre {
 }
 
 .header{
-    height:55vh;
+    height:90vh;
 }
 .lead{
     font-size: 1rem;
 }
 
 .sub-header {
-    margin-top: .2rem;
-    margin-bottom: .5rem;
+    margin: 15% 15% 15%;
     line-height: 1.4;
-    font-weight: 400;
+    font-weight: 400;    
+    @media only screen and (min-width: 768px) {
+        margin: 5%;
+        font-size:1.5rem;
+    }
 }
 
 dl, ol, p, ul {
     line-height: 1.3;
+}
+
+.rox{
+    padding: 2rem;
+}
+.about{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+h1 {
+    font-weight: lighter;
+    font-size:2.5rem;
+    @media only screen and (min-width: 768px) {
+    font-size:5rem;
+    }
+}
+.top-nav{ 
+    padding: 1vh;
+    background-color: #2980b9;
+    color: #fff;
+
+    ul{
+    background-color: #2980b9;
+    color: #fff;
+    }
+    a{
+        color:#fff;
+    }
+}
+.mob-nav{
+    background-color: #2980b9;
+    color: #fff;
+}
+.menu-icon::after {
+    background: #0a0a0a !important;
+    box-shadow: 0 7px 0 #0a0a0a, 0 14px 0 #0a0a0a !important;
+}
+
+.callout {
+    position: relative;
+    margin: 0 0 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    color: #0a0a0a;
+}
+.menu-icon::after {
+    background: #fff!important;
+    box-shadow: 0 7px 0 #fff,0 14px 0 #fff!important;
 }
